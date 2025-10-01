@@ -1,0 +1,897 @@
+{
+  "apps": [
+    {
+      "name": "nvm",
+      "description": "nvm (Node Version Manager) - Manages multiple active Node.js versions.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/nvm-sh\\/nvm\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/install\\.sh",
+      "valid_versions": [
+        ["v0.39.7"],
+        ["v0.39.6"],
+        ["v0.39.5"],
+        ["v0.39.4"],
+        ["v0.39.3"],
+        ["v0.39.2"],
+        ["v0.39.1"],
+        ["v0.38.0"]
+      ],
+      "repo_url": "https://github.com/nvm-sh/nvm",
+      "git_repo": "https://github.com/nvm-sh/nvm.git",
+      "website": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "rustup",
+      "description": "The installer for the Rust programming language and its toolchain manager, Cargo.",
+      "url_pattern": "https:\\/\\/sh\\.rustup\\.rs",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rust-lang/rustup",
+      "git_repo": "https://github.com/rust-lang/rustup.git",
+      "website": "https://rustup.rs/"
+    },
+    {
+      "name": "pyenv",
+      "description": "Manages multiple Python versions.",
+      "url_pattern": "https:\\/\\/pyenv\\.run",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pyenv/pyenv-installer",
+      "git_repo": "https://github.com/pyenv/pyenv-installer.git",
+      "website": "https://github.com/pyenv/pyenv"
+    },
+    {
+      "name": "sdkman",
+      "description": "Manages parallel versions of multiple Software Development Kits (SDKs) like Java, Groovy, etc.",
+      "url_pattern": "https:\\/\\/get\\.sdkman\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/sdkman/sdkman-cli",
+      "git_repo": "https://github.com/sdkman/sdkman-cli.git",
+      "website": "https://sdkman.io/"
+    },
+    {
+      "name": "Deno",
+      "description": "The installer for the Deno JavaScript/TypeScript runtime.",
+      "url_pattern": "https:\\/\\/deno\\.land\\/x\\/install\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/denoland/deno",
+      "git_repo": "https://github.com/denoland/deno.git",
+      "website": "https://deno.land/"
+    },
+    {
+      "name": "Bun",
+      "description": "Installer for the Bun JavaScript runtime and toolkit.",
+      "url_pattern": "https:\\/\\/bun\\.sh\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/oven-sh/bun",
+      "git_repo": "https://github.com/oven-sh/bun.git",
+      "website": "https://bun.sh/"
+    },
+    {
+      "name": "fnm",
+      "description": "A fast Node.js version manager, built in Rust.",
+      "url_pattern": "https:\\/\\/fnm\\.vercel\\.app\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Schniz/fnm",
+      "git_repo": "https://github.com/Schniz/fnm.git",
+      "website": "https://github.com/Schniz/fnm"
+    },
+    {
+      "name": "asdf-vm",
+      "description": "A single tool to manage multiple runtime versions of various languages.",
+      "url_pattern": "https:\\/\\/github\\.com\\/asdf-vm\\/asdf\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/asdf-vm/asdf",
+      "git_repo": "https://github.com/asdf-vm/asdf.git",
+      "website": "https://asdf-vm.com/"
+    },
+    {
+      "name": "ghcup",
+      "description": "The official installer for the Haskell toolchain (GHC, Cabal, Stack).",
+      "url_pattern": "https:\\/\\/get-ghcup\\.haskell\\.org",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/haskell/ghcup-hs",
+      "git_repo": "https://gitlab.haskell.org/haskell/ghcup-hs.git",
+      "website": "https://www.haskell.org/ghcup/"
+    },
+    {
+      "name": "dotnet-install",
+      "description": "Microsoft's scripts for installing the .NET SDK and runtime.",
+      "url_pattern": "https:\\/\\/dot\\.net\\/v1\\/dotnet-install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/dotnet/install-scripts",
+      "git_repo": "https://github.com/dotnet/install-scripts.git",
+      "website": "https://dotnet.microsoft.com/"
+    },
+    {
+      "name": "Volta",
+      "description": "A JavaScript tool manager that handles Node, npm, and Yarn versions seamlessly.",
+      "url_pattern": "https:\\/\\/get\\.volta\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/volta-cli/volta",
+      "git_repo": "https://github.com/volta-cli/volta.git",
+      "website": "https://volta.sh/"
+    },
+    {
+      "name": "Docker Engine",
+      "description": "The get.docker.com script for installing Docker Engine.",
+      "url_pattern": "https:\\/\\/get\\.docker\\.com",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/docker/docker-install",
+      "git_repo": "https://github.com/docker/docker-install.git",
+      "website": "https://www.docker.com/"
+    },
+    {
+      "name": "k3s",
+      "description": "The installer for k3s, a lightweight Kubernetes distribution.",
+      "url_pattern": "https:\\/\\/get\\.k3s\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/k3s-io/k3s",
+      "git_repo": "https://github.com/k3s-io/k3s.git",
+      "website": "https://k3s.io/"
+    },
+    {
+      "name": "k3d",
+      "description": "A utility to run k3s in Docker.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/k3d-io\\/k3d\\/main\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/k3d-io/k3d",
+      "git_repo": "https://github.com/k3d-io/k3d.git",
+      "website": "https://k3d.io/"
+    },
+    {
+      "name": "Dokku",
+      "description": "A Docker-powered PaaS that helps you build and manage the lifecycle of applications.",
+      "url_pattern": "https:\\/\\/dokku\\.com\\/bootstrap\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/dokku/dokku",
+      "git_repo": "https://github.com/dokku/dokku.git",
+      "website": "https://dokku.com/"
+    },
+    {
+      "name": "Coolify",
+      "description": "An open-source and self-hostable Heroku/Netlify alternative.",
+      "url_pattern": "https:\\/\\/cdn\\.coollabs\\.io\\/coolify\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/coollabsio/coolify",
+      "git_repo": "https://github.com/coollabsio/coolify.git",
+      "website": "https://coolify.io/"
+    },
+    {
+      "name": "flyctl",
+      "description": "The CLI installer for the Fly.io application platform.",
+      "url_pattern": "https:\\/\\/fly\\.io\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/superfly/flyctl",
+      "git_repo": "https://github.com/superfly/flyctl.git",
+      "website": "https://fly.io/"
+    },
+    {
+      "name": "Azure CLI",
+      "description": "Microsoft's command-line interface for managing Azure resources.",
+      "url_pattern": "https:\\/\\/aka\\.ms\\/InstallAzureCLIDeb",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Azure/azure-cli",
+      "git_repo": "https://github.com/Azure/azure-cli.git",
+      "website": "https://docs.microsoft.com/en-us/cli/azure/"
+    },
+    {
+      "name": "gcloud CLI",
+      "description": "The installer script for the Google Cloud SDK.",
+      "url_pattern": "https:\\/\\/sdk\\.cloud\\.google\\.com",
+      "valid_versions": [[]],
+      "repo_url": "",
+      "git_repo": "",
+      "website": "https://cloud.google.com/sdk/docs/install"
+    },
+    {
+      "name": "Datadog Agent",
+      "description": "The installer for the Datadog monitoring agent.",
+      "url_pattern": "https:\\/\\/s3\\.amazonaws\\.com\\/dd-agent\\/scripts\\/install_script_agent7\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/DataDog/datadog-agent",
+      "git_repo": "https://github.com/DataDog/datadog-agent.git",
+      "website": "https://www.datadoghq.com/"
+    },
+    {
+      "name": "Helm",
+      "description": "The package manager for Kubernetes.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/helm\\/helm\\/main\\/scripts\\/get-helm-3",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/helm/helm",
+      "git_repo": "https://github.com/helm/helm.git",
+      "website": "https://helm.sh/"
+    },
+    {
+      "name": "Chef Infra Client",
+      "description": "The install.sh script from Chef for bootstrapping nodes.",
+      "url_pattern": "https:\\/\\/omnitruck\\.chef\\.io\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/chef/chef",
+      "git_repo": "https://github.com/chef/chef.git",
+      "website": "https://www.chef.io/"
+    },
+    {
+      "name": "tfenv",
+      "description": "A Terraform version manager.",
+      "url_pattern": "https:\\/\\/github\\.com\\/tfutils\\/tfenv\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/tfutils/tfenv",
+      "git_repo": "https://github.com/tfutils/tfenv.git",
+      "website": "https://github.com/tfutils/tfenv"
+    },
+    {
+      "name": "Starship",
+      "description": "A minimal, blazing-fast, and infinitely customizable prompt for any shell.",
+      "url_pattern": "https:\\/\\/starship\\.rs\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/starship/starship",
+      "git_repo": "https://github.com/starship/starship.git",
+      "website": "https://starship.rs/"
+    },
+    {
+      "name": "Oh My Zsh",
+      "description": "A hugely popular framework for managing your Zsh configuration.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/ohmyzsh\\/ohmyzsh\\/(master)\\/tools\\/install\\.sh",
+      "valid_versions": [["master"]],
+      "repo_url": "https://github.com/ohmyzsh/ohmyzsh",
+      "git_repo": "https://github.com/ohmyzsh/ohmyzsh.git",
+      "website": "https://ohmyz.sh/"
+    },
+    {
+      "name": "zsh-autosuggestions",
+      "description": "Fish-like autosuggestions for Zsh.",
+      "url_pattern": "https:\\/\\/github\\.com\\/zsh-users\\/zsh-autosuggestions\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/zsh-users/zsh-autosuggestions",
+      "git_repo": "https://github.com/zsh-users/zsh-autosuggestions.git",
+      "website": "https://github.com/zsh-users/zsh-autosuggestions"
+    },
+    {
+      "name": "zsh-syntax-highlighting",
+      "description": "Provides command syntax highlighting for Zsh.",
+      "url_pattern": "https:\\/\\/github\\.com\\/zsh-users\\/zsh-syntax-highlighting\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/zsh-users/zsh-syntax-highlighting",
+      "git_repo": "https://github.com/zsh-users/zsh-syntax-highlighting.git",
+      "website": "https://github.com/zsh-users/zsh-syntax-highlighting"
+    },
+    {
+      "name": "Fisher",
+      "description": "A plugin manager for the Fish shell.",
+      "url_pattern": "https:\\/\\/git\\.io\\/fisher",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/jorgebucaran/fisher",
+      "git_repo": "https://github.com/jorgebucaran/fisher.git",
+      "website": "https://git.io/fisher"
+    },
+    {
+      "name": "Oh My Fish",
+      "description": "A framework for the Fish shell, inspired by Oh My Zsh.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/oh-my-fish\\/oh-my-fish\\/master\\/bin\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/oh-my-fish/oh-my-fish",
+      "git_repo": "https://github.com/oh-my-fish/oh-my-fish.git",
+      "website": "https://github.com/oh-my-fish/oh-my-fish"
+    },
+    {
+      "name": "Fig",
+      "description": "Adds IDE-style autocomplete to your terminal.",
+      "url_pattern": "https:\\/\\/fig\\.io\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/withfig/fig",
+      "git_repo": "https://github.com/withfig/fig.git",
+      "website": "https://fig.io/"
+    },
+    {
+      "name": "Pi-hole",
+      "description": "A DNS sinkhole to block ads and trackers on your entire network.",
+      "url_pattern": "https:\\/\\/install\\.pi-hole\\.net",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pi-hole/pi-hole",
+      "git_repo": "https://github.com/pi-hole/pi-hole.git",
+      "website": "https://pi-hole.net/"
+    },
+    {
+      "name": "Home Assistant Supervised",
+      "description": "The supervised installer for the open-source home automation platform.",
+      "url_pattern": "https:\\/\\/github\\.com\\/home-assistant\\/supervised-installer\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/home-assistant/supervised-installer",
+      "git_repo": "https://github.com/home-assistant/supervised-installer.git",
+      "website": "https://www.home-assistant.io/"
+    },
+    {
+      "name": "Pterodactyl Panel",
+      "description": "A free, open-source game server management panel.",
+      "url_pattern": "https:\\/\\/pterodactyl-installer\\.se\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pterodactyl/panel",
+      "git_repo": "https://github.com/pterodactyl/panel.git",
+      "website": "https://pterodactyl.io/"
+    },
+    {
+      "name": "Homebrew on Linux",
+      "description": "A port of the macOS package manager to Linux (formerly Linuxbrew).",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Homebrew\\/install\\/HEAD\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Homebrew/brew",
+      "git_repo": "https://github.com/Homebrew/brew.git",
+      "website": "https://brew.sh/"
+    },
+    {
+      "name": "Nix Package Manager",
+      "description": "The installer for the purely functional Nix package manager.",
+      "url_pattern": "https:\\/\\/nixos\\.org\\/nix\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/NixOS/nix",
+      "git_repo": "https://github.com/NixOS/nix.git",
+      "website": "https://nixos.org/"
+    },
+    {
+      "name": "Poetry",
+      "description": "A Python dependency management and packaging tool.",
+      "url_pattern": "https:\\/\\/install\\.python-poetry\\.org",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/python-poetry/poetry",
+      "git_repo": "https://github.com/python-poetry/poetry.git",
+      "website": "https://python-poetry.org/"
+    },
+    {
+      "name": "pipx",
+      "description": "A tool to install and run Python applications in isolated environments.",
+      "url_pattern": "https:\\/\\/github\\.com\\/pypa\\/pipx\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pypa/pipx",
+      "git_repo": "https://github.com/pypa/pipx.git",
+      "website": "https://pypa.github.io/pipx/"
+    },
+    {
+      "name": "Tailscale",
+      "description": "A zero-config VPN; its installer script sets up repositories and keys.",
+      "url_pattern": "https:\\/\\/tailscale\\.com\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/tailscale/tailscale",
+      "git_repo": "https://github.com/tailscale/tailscale.git",
+      "website": "https://tailscale.com/"
+    },
+    {
+      "name": "Metasploit Framework",
+      "description": "The open-source installer provided by Rapid7.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/rapid7\\/metasploit-omnibus\\/master\\/config\\/templates\\/metasploit-framework-wrappers\\/msfupdate\\.erb",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rapid7/metasploit-framework",
+      "git_repo": "https://github.com/rapid7/metasploit-framework.git",
+      "website": "https://www.metasploit.com/"
+    },
+    {
+      "name": "OpenVPN Installer",
+      "description": "A very popular community script for setting up an OpenVPN server.",
+      "url_pattern": "https:\\/\\/git\\.io\\/vpn",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Nyr/openvpn-install",
+      "git_repo": "https://github.com/Nyr/openvpn-install.git",
+      "website": "https://github.com/Nyr/openvpn-install"
+    },
+    {
+      "name": "WireGuard Installer",
+      "description": "A popular one-line installer script to automate WireGuard server setup.",
+      "url_pattern": "https:\\/\\/git\\.io\\/wireguard",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Nyr/wireguard-install",
+      "git_repo": "https://github.com/Nyr/wireguard-install.git",
+      "website": "https://github.com/Nyr/wireguard-install"
+    },
+    {
+      "name": "rvm",
+      "description": "RVM (Ruby Version Manager) - A feature-rich manager for Ruby versions.",
+      "url_pattern": "https:\\/\\/get\\.rvm\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rvm/rvm",
+      "git_repo": "https://github.com/rvm/rvm.git",
+      "website": "https://rvm.io/"
+    },
+    {
+      "name": "gvm",
+      "description": "Go Version Manager - A tool for managing Go language installations.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/moovweb\\/gvm\\/master\\/binscripts\\/gvm-installer",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/moovweb/gvm",
+      "git_repo": "https://github.com/moovweb/gvm.git",
+      "website": "https://github.com/moovweb/gvm"
+    },
+    {
+      "name": "Minikube",
+      "description": "A tool that lets you run Kubernetes locally.",
+      "url_pattern": "https:\\/\\/storage\\.googleapis\\.com\\/minikube\\/releases\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/minikube-linux-amd64",
+      "valid_versions": [
+        ["v1.33.1"],
+        ["v1.33.0"],
+        ["v1.32.0"],
+        ["v1.31.2"],
+        ["v1.30.1"]
+      ],
+      "repo_url": "https://github.com/kubernetes/minikube",
+      "git_repo": "https://github.com/kubernetes/minikube.git",
+      "website": "https://minikube.sigs.k8s.io/"
+    },
+    {
+      "name": "GitLab Runner",
+      "description": "Installs the agent that runs CI/CD jobs for GitLab.",
+      "url_pattern": "https:\\/\\/packages\\.gitlab\\.com\\/install\\/repositories\\/runner\\/gitlab-runner\\/script\\.deb\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://gitlab.com/gitlab-org/gitlab-runner",
+      "git_repo": "https://gitlab.com/gitlab-org/gitlab-runner.git",
+      "website": "https://docs.gitlab.com/runner/"
+    },
+    {
+      "name": "Tilt",
+      "description": "A toolkit for multi-service development on Kubernetes.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/tilt-dev\\/tilt\\/master\\/scripts\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/tilt-dev/tilt",
+      "git_repo": "https://github.com/tilt-dev/tilt.git",
+      "website": "https://tilt.dev/"
+    },
+    {
+      "name": "zoxide",
+      "description": "A smarter cd command that learns your habits.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/ajeetdsouza\\/zoxide\\/main\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/ajeetdsouza/zoxide",
+      "git_repo": "https://github.com/ajeetdsouza/zoxide.git",
+      "website": "https://github.com/ajeetdsouza/zoxide"
+    },
+    {
+      "name": "micro",
+      "description": "A modern and intuitive terminal-based text editor.",
+      "url_pattern": "https:\\/\\/getmic\\.ro",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/zyedidia/micro",
+      "git_repo": "https://github.com/zyedidia/micro.git",
+      "website": "https://micro-editor.github.io/"
+    },
+    {
+      "name": "gh",
+      "description": "GitHub's official command-line tool.",
+      "url_pattern": "https:\\/\\/cli\\.github\\.com\\/packages\\/githubcli-archive-keyring\\.gpg",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/cli/cli",
+      "git_repo": "https://github.com/cli/cli.git",
+      "website": "https://cli.github.com/"
+    },
+    {
+      "name": "Bash-it",
+      "description": "A community-driven framework for Bash.",
+      "url_pattern": "https:\\/\\/github\\.com\\/Bash-it\\/bash-it\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Bash-it/bash-it",
+      "git_repo": "https://github.com/Bash-it/bash-it.git",
+      "website": "https://bash-it.github.io/bash-it/"
+    },
+    {
+      "name": "Umbrel",
+      "description": "A personal server OS for self-hosting.",
+      "url_pattern": "https:\\/\\/umbrel\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/getumbrel/umbrel",
+      "git_repo": "https://github.com/getumbrel/umbrel.git",
+      "website": "https://umbrel.com/"
+    },
+    {
+      "name": "Conda / Miniforge",
+      "description": "Installer for the Conda package management system, focused on Miniforge.",
+      "url_pattern": "https:\\/\\/github\\.com\\/conda-forge\\/miniforge\\/releases\\/latest\\/download\\/Miniforge3-Linux-x86_64\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/conda-forge/miniforge",
+      "git_repo": "https://github.com/conda-forge/miniforge.git",
+      "website": "https://github.com/conda-forge/miniforge"
+    },
+    {
+      "name": "ngrok",
+      "description": "The secure tunneling service; its agent can be installed with a script.",
+      "url_pattern": "https:\\/\\/ngrok-agent\\.s3\\.amazonaws\\.com\\/ngrok\\.asc",
+      "valid_versions": [[]],
+      "repo_url": "",
+      "git_repo": "",
+      "website": "https://ngrok.com/"
+    },
+    {
+      "name": "Mailcow",
+      "description": "An easy-to-use Dockerized email server suite.",
+      "url_pattern": "https:\\/\\/github\\.com\\/mailcow\\/mailcow-dockerized\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/mailcow/mailcow-dockerized",
+      "git_repo": "https://github.com/mailcow/mailcow-dockerized.git",
+      "website": "https://mailcow.email/"
+    },
+    {
+      "name": "Hestia Control Panel",
+      "description": "An open-source web hosting control panel.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/hestiacp\\/hestiacp\\/release\\/install\\/hst-install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/hestiacp/hestiacp",
+      "git_repo": "https://github.com/hestiacp/hestiacp.git",
+      "website": "https://hestiacp.com/"
+    },
+    {
+      "name": "Trivy",
+      "description": "A popular open-source security scanner for containers and other artifacts.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/aquasecurity\\/trivy\\/main\\/contrib\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/aquasecurity/trivy",
+      "git_repo": "https://github.com/aquasecurity/trivy.git",
+      "website": "https://aquasecurity.github.io/trivy/"
+    },
+    {
+      "name": "kubectl",
+      "description": "The command line tool for controlling Kubernetes clusters.",
+      "url_pattern": "https:\\/\\/dl\\.k8s\\.io\\/release\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/bin\\/linux\\/amd64\\/kubectl",
+      "valid_versions": [
+        ["v1.30.2"],
+        ["v1.30.1"],
+        ["v1.29.6"],
+        ["v1.29.5"],
+        ["v1.28.11"],
+        ["v1.27.15"]
+      ],
+      "repo_url": "https://github.com/kubernetes/kubectl",
+      "git_repo": "https://github.com/kubernetes/kubectl.git",
+      "website": "https://kubernetes.io/docs/reference/kubectl/"
+    },
+    {
+      "name": "kind",
+      "description": "A tool for running local Kubernetes clusters using Docker container 'nodes'.",
+      "url_pattern": "https:\\/\\/kind\\.sigs\\.k8s\\.io\\/dl\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/kind-linux-amd64",
+      "valid_versions": [
+        ["v0.23.0"],
+        ["v0.22.0"],
+        ["v0.21.0"],
+        ["v0.20.0"]
+      ],
+      "repo_url": "https://github.com/kubernetes-sigs/kind",
+      "git_repo": "https://github.com/kubernetes-sigs/kind.git",
+      "website": "https://kind.sigs.k8s.io/"
+    },
+    {
+      "name": "k9s",
+      "description": "A terminal-based UI to manage Kubernetes clusters.",
+      "url_pattern": "https:\\/\\/github\\.com\\/derailed\\/k9s\\/releases\\/download\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/k9s_Linux_amd64\\.tar\\.gz",
+      "valid_versions": [
+        ["v0.32.5"],
+        ["v0.32.4"],
+        ["v0.31.7"],
+        ["v0.30.8"]
+      ],
+      "repo_url": "https://github.com/derailed/k9s",
+      "git_repo": "https://github.com/derailed/k9s.git",
+      "website": "https://k9scli.io/"
+    },
+    {
+      "name": "fzf",
+      "description": "A general-purpose command-line fuzzy finder.",
+      "url_pattern": "https:\\/\\/github\\.com\\/junegunn\\/fzf\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/junegunn/fzf",
+      "git_repo": "https://github.com/junegunn/fzf.git",
+      "website": "https://github.com/junegunn/fzf"
+    },
+    {
+      "name": "neofetch",
+      "description": "A command-line system information tool.",
+      "url_pattern": "https:\\/\\/github\\.com\\/dylanaraps\\/neofetch\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/dylanaraps/neofetch",
+      "git_repo": "https://github.com/dylanaraps/neofetch.git",
+      "website": "https://github.com/dylanaraps/neofetch"
+    },
+    {
+      "name": "btop",
+      "description": "A resource monitor that shows usage and stats for processors, memory, disks, network, and processes.",
+      "url_pattern": "https:\\/\\/github\\.com\\/aristocratos\\/btop\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/btop-x86_64-linux-musl\\.tbz",
+      "valid_versions": [
+        ["1.3.2"],
+        ["1.3.1"],
+        ["1.3.0"]
+      ],
+      "repo_url": "https://github.com/aristocratos/btop",
+      "git_repo": "https://github.com/aristocratos/btop.git",
+      "website": "https://github.com/aristocratos/btop"
+    },
+    {
+      "name": "yq",
+      "description": "A lightweight and portable command-line YAML, JSON and XML processor.",
+      "url_pattern": "https:\\/\\/github\\.com\\/mikefarah\\/yq\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/yq_linux_amd64",
+      "valid_versions": [
+        ["4.44.2"],
+        ["4.44.1"],
+        ["4.43.1"]
+      ],
+      "repo_url": "https://github.com/mikefarah/yq",
+      "git_repo": "https://github.com/mikefarah/yq.git",
+      "website": "https://mikefarah.gitbook.io/yq/"
+    },
+    {
+      "name": "gum",
+      "description": "A tool for creating glamorous shell scripts.",
+      "url_pattern": "https:\\/\\/github\\.com\\/charmbracelet\\/gum\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/gum_([0-9]+\\.[0-9]+\\.[0-9]+)_linux_x86_64\\.tar\\.gz",
+      "valid_versions": [
+        ["0.14.1", "0.14.1"],
+        ["0.14.0", "0.14.0"],
+        ["0.13.0", "0.13.0"]
+      ],
+      "repo_url": "https://github.com/charmbracelet/gum",
+      "git_repo": "https://github.com/charmbracelet/gum.git",
+      "website": "https://github.com/charmbracelet/gum"
+    },
+    {
+      "name": "rbenv",
+      "description": "Manages multiple Ruby environments.",
+      "url_pattern": "https:\\/\\/github\\.com\\/rbenv\\/rbenv-installer\\.git",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rbenv/rbenv",
+      "git_repo": "https://github.com/rbenv/rbenv.git",
+      "website": "https://github.com/rbenv/rbenv"
+    },
+    
+    {
+      "name": "Yunohost",
+      "description": "A server operating system aiming to make self-hosting accessible to everyone.",
+      "url_pattern": "https:\\/\\/install\\.yunohost\\.org",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/YunoHost/yunohost",
+      "git_repo": "https://github.com/YunoHost/yunohost.git",
+      "website": "https://yunohost.org/"
+    },
+    {
+      "name": "1Password CLI",
+      "description": "Command-line tool for 1Password.",
+      "url_pattern": "https:\\/\\/downloads\\.1password\\.com\\/linux\\/keys\\/1password\\.asc",
+      "valid_versions": [[]],
+      "repo_url": "",
+      "git_repo": "",
+      "website": "https://1password.com/downloads/command-line/"
+    },
+    {
+      "name": "Appwrite",
+      "description": "Open-source backend platform for web, mobile, and flutter developers.",
+      "url_pattern": "https:\\/\\/appwrite\\.io\\/cli\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/appwrite/appwrite",
+      "git_repo": "https://github.com/appwrite/appwrite.git",
+      "website": "https://appwrite.io/"
+    },
+    {
+      "name": "Brave Browser",
+      "description": "Installer script for Brave Browser on Linux.",
+      "url_pattern": "https:\\/\\/brave-browser-apt-release\\.s3\\.brave\\.com\\/brave-browser-archive-keyring\\.gpg",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/brave/brave-browser",
+      "git_repo": "https://github.com/brave/brave-browser.git",
+      "website": "https://brave.com/"
+    },
+    {
+      "name": "CockroachDB",
+      "description": "Cloud-native, distributed SQL database.",
+      "url_pattern": "https:\\/\\/binaries\\.cockroachdb\\.com\\/cockroach-v([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux-amd64.tgz",
+      "valid_versions": [
+        ["24.1.2"],
+        ["23.2.5"],
+        ["23.1.18"]
+      ],
+      "repo_url": "https://github.com/cockroachdb/cockroach",
+      "git_repo": "https://github.com/cockroachdb/cockroach.git",
+      "website": "https://www.cockroachlabs.com/"
+    },
+    {
+      "name": "Code-Server",
+      "description": "Run VS Code on any machine anywhere and access it in the browser.",
+      "url_pattern": "https:\\/\\/code-server\\.dev\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/coder/code-server",
+      "git_repo": "https://github.com/coder/code-server.git",
+      "website": "https://github.com/coder/code-server"
+    },
+    {
+      "name": "Flux",
+      "description": "Installer script for Flux, the GitOps family of projects.",
+      "url_pattern": "https:\\/\\/fluxcd\\.io\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/fluxcd/flux2",
+      "git_repo": "https://github.com/fluxcd/flux2.git",
+      "website": "https://fluxcd.io/"
+    },
+    {
+      "name": "Gitea",
+      "description": "Git with a cup of tea, a painless self-hosted Git service.",
+      "url_pattern": "https:\\/\\/dl\\.gitea\\.com\\/gitea\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/gitea-([0-9]+\\.[0-9]+\\.[0-9]+)-linux-amd64",
+      "valid_versions": [
+        ["1.22.1", "1.22.1"],
+        ["1.22.0", "1.22.0"],
+        ["1.21.11", "1.21.11"]
+      ],
+      "repo_url": "https://github.com/go-gitea/gitea",
+      "git_repo": "https://github.com/go-gitea/gitea.git",
+      "website": "https://gitea.com/"
+    },
+    {
+      "name": "Hugo",
+      "description": "The world's fastest framework for building websites.",
+      "url_pattern": "https:\\/\\/github\\.com\\/gohugoio\\/hugo\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/hugo_extended_([0-9]+\\.[0-9]+\\.[0-9]+)_linux-amd64\\.deb",
+      "valid_versions": [
+        ["0.128.2", "0.128.2"],
+        ["0.128.1", "0.128.1"],
+        ["0.128.0", "0.128.0"]
+      ],
+      "repo_url": "https://github.com/gohugoio/hugo",
+      "git_repo": "https://github.com/gohugoio/hugo.git",
+      "website": "https://gohugo.io/"
+    },
+    {
+      "name": "Infracost",
+      "description": "Cloud cost estimates for Terraform in your CLI and pull requests.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/infracost\\/infracost\\/master\\/scripts\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/infracost/infracost",
+      "git_repo": "https://github.com/infracost/infracost.git",
+      "website": "https://www.infracost.io/"
+    },
+    {
+      "name": "istio",
+      "description": "An open platform to connect, manage, and secure microservices.",
+      "url_pattern": "https:\\/\\/istio\\.io\\/downloadIstio",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/istio/istio",
+      "git_repo": "https://github.com/istio/istio.git",
+      "website": "https://istio.io/"
+    },
+    {
+      "name": "Jellyfin",
+      "description": "The Free Software Media System.",
+      "url_pattern": "https:\\/\\/repo\\.jellyfin\\.org\\/install-debuntu\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/jellyfin/jellyfin",
+      "git_repo": "https://github.com/jellyfin/jellyfin.git",
+      "website": "https://jellyfin.org/"
+    },
+    {
+      "name": "Linkerd",
+      "description": "Ultralight, security-first service mesh for Kubernetes.",
+      "url_pattern": "https:\\/\\/run\\.linkerd\\.io\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/linkerd/linkerd2",
+      "git_repo": "https://github.com/linkerd/linkerd2.git",
+      "website": "https://linkerd.io/"
+    },
+    {
+      "name": "Mattermost",
+      "description": "Open source platform for developer collaboration.",
+      "url_pattern": "https:\\/\\/deb\\.packages\\.mattermost\\.com\\/repo-setup\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/mattermost/mattermost",
+      "git_repo": "https://github.com/mattermost/mattermost.git",
+      "website": "https://mattermost.com/"
+    },
+    {
+      "name": "Netdata",
+      "description": "Real-time performance monitoring, done right!",
+      "url_pattern": "https:\\/\\/my-netdata\\.io\\/kickstart\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/netdata/netdata",
+      "git_repo": "https://github.com/netdata/netdata.git",
+      "website": "https://www.netdata.cloud/"
+    },
+    {
+      "name": "Portainer Agent",
+      "description": "Agent for the Portainer container management UI.",
+      "url_pattern": "https:\\/\\/downloads\\.portainer\\.io\\/portainer-agent-stack\\.yml",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/portainer/portainer",
+      "git_repo": "https://github.com/portainer/portainer.git",
+      "website": "https://www.portainer.io/"
+    },
+    {
+      "name": "Prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "url_pattern": "https:\\/\\/github\\.com\\/prometheus\\/prometheus\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/prometheus-([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux-amd64\\.tar\\.gz",
+      "valid_versions": [
+        ["2.53.0", "2.53.0"],
+        ["2.52.0", "2.52.0"],
+        ["2.51.2", "2.51.2"]
+      ],
+      "repo_url": "https://github.com/prometheus/prometheus",
+      "git_repo": "https://github.com/prometheus/prometheus.git",
+      "website": "https://prometheus.io/"
+    },
+    {
+      "name": "RabbitMQ",
+      "description": "Open source multi-protocol message broker.",
+      "url_pattern": "https:\\/\\/github\\.com\\/rabbitmq\\/rabbitmq-server\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/rabbitmq-server-generic-unix-([0-9]+\\.[0-9]+\\.[0-9]+)\\.tar\\.xz",
+      "valid_versions": [
+        ["3.13.3", "3.13.3"],
+        ["3.12.14", "3.12.14"]
+      ],
+      "repo_url": "https://github.com/rabbitmq/rabbitmq-server",
+      "git_repo": "https://github.com/rabbitmq/rabbitmq-server.git",
+      "website": "https://www.rabbitmq.com/"
+    },
+    {
+      "name": "RKE",
+      "description": "Rancher Kubernetes Engine, a CNCF-certified Kubernetes distribution.",
+      "url_pattern": "https:\\/\\/github\\.com\\/rancher\\/rke\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/rke_linux-amd64",
+      "valid_versions": [
+        ["1.5.12", "1.5.12"],
+        ["1.4.16", "1.4.16"]
+      ],
+      "repo_url": "https://github.com/rancher/rke",
+      "git_repo": "https://github.com/rancher/rke.git",
+      "website": "https://rancher.com/products/rke"
+    },
+    {
+      "name": "Rocket.Chat",
+      "description": "The ultimate Free, Open Source, and Self-Hosted Communication Platform.",
+      "url_pattern": "https:\\/\\/go\\.rocket\\.chat\\/i\\/docker",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/RocketChat/Rocket.Chat",
+      "git_repo": "https://github.com/RocketChat/Rocket.Chat.git",
+      "website": "https://www.rocket.chat/"
+    },
+    {
+      "name": "Salt",
+      "description": "Software to automate the management and configuration of any infrastructure or application at scale.",
+      "url_pattern": "https:\\/\\/bootstrap\\.saltstack\\.com",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/saltstack/salt",
+      "git_repo": "https://github.com/saltstack/salt.git",
+      "website": "https://saltproject.io/"
+    },
+    {
+      "name": "Sentry CLI",
+      "description": "A command-line interface to Sentry.",
+      "url_pattern": "https:\\/\\/sentry\\.io\\/get-cli\\/",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/getsentry/sentry-cli",
+      "git_repo": "https://github.com/getsentry/sentry-cli.git",
+      "website": "https://sentry.io/"
+    },
+    {
+      "name": "ShellCheck",
+      "description": "A static analysis tool for shell scripts.",
+      "url_pattern": "https:\\/\\/github\\.com\\/koalaman\\/shellcheck\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/shellcheck-v([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux\\.x86_64\\.tar\\.xz",
+      "valid_versions": [
+        ["0.10.0", "0.10.0"],
+        ["0.9.0", "0.9.0"]
+      ],
+      "repo_url": "https://github.com/koalaman/shellcheck",
+      "git_repo": "https://github.com/koalaman/shellcheck.git",
+      "website": "https://www.shellcheck.net/"
+    },
+    {
+      "name": "Syncthing",
+      "description": "Open Source Continuous File Synchronization.",
+      "url_pattern": "https:\\/\\/syncthing\\.net\\/release-key\\.gpg",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/syncthing/syncthing",
+      "git_repo": "https://github.com/syncthing/syncthing.git",
+      "website": "https://syncthing.net/"
+    },
+    {
+      "name": "Terraform",
+      "description": "Infrastructure as Code software tool.",
+      "url_pattern": "https:\\/\\/releases\\.hashicorp\\.com\\/terraform\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/terraform_([0-9]+\\.[0-9]+\\.[0-9]+)_linux_amd64\\.zip",
+      "valid_versions": [
+        ["1.9.1", "1.9.1"],
+        ["1.9.0", "1.9.0"],
+        ["1.8.5", "1.8.5"]
+      ],
+      "repo_url": "https://github.com/hashicorp/terraform",
+      "git_repo": "https://github.com/hashicorp/terraform.git",
+      "website": "https://www.terraform.io/"
+    },
+    {
+      "name": "Vercel CLI",
+      "description": "Command-line interface for Vercel.",
+      "url_pattern": "https:\\/\\/vercel\\.com\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/vercel/vercel",
+      "git_repo": "https://github.com/vercel/vercel.git",
+      "website": "https://vercel.com/"
+    }
+  ]
+}
