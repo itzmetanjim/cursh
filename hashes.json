@@ -1,37 +1,37 @@
 {
     "nvm": {
-        "name": "880a874af4aeaef61965fc0ea4f40e6b08d94ad51c6ba251a9576a8b66d380dc",
-        "url_pattern": "bab06bf91d8b70d0e5f4d4872a5bc30d195f83e1e98bcdcee781e81b16954e13",
-        "description": "1afc7d331883a34b4f1dad4d646e75c4825cde87ccf817d5469580036f1eb485",
+        "name": "nvm",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/nvm-sh\\/nvm\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/install\\.sh",
+        "description": "nvm (Node Version Manager) - Manages multiple active Node.js versions.",
         "valid_versions": [
             [
-                "fbb547e997b5494a52bb4ae04f7300005888a4a9597dc1cc02306a2e26a11491"
+                "v0.39.7"
             ],
             [
-                "25789ecdef16eea11060685eca66de50cbf402a991b019085eaf05b98e6c966f"
+                "v0.39.6"
             ],
             [
-                "0e2cfb70fb405c3c3120b4abee00bc80b20784b0163ab54825a26e3f35b57150"
+                "v0.39.5"
             ],
             [
-                "306349662dbf5a78e3c1f4bfaae1655035c9f45ee28e0ec3dc1fac57f4af621d"
+                "v0.39.4"
             ],
             [
-                "c9640f54ff84c8050882eece74212c5a6383d825ed8e1fa61431066c3a71dde5"
+                "v0.39.3"
             ],
             [
-                "55c02714e42f4c7c385f270cdbff04dc92ce7def1cb8c01db285f0e39b489dbd"
+                "v0.39.2"
             ],
             [
-                "5c4f37b95e317276801f628d1cbf09e914ceec2432a0883101c212f2924f74a3"
+                "v0.39.1"
             ],
             [
-                "2d0d761c9ebfa8056f745599ca52df25eadce6180dfd868807182f742d4d2148"
+                "v0.38.0"
             ]
         ],
-        "repo_url": "d7a7c92597439df6619083e61bfdc1e73aa77843a7280cc3acc8c5a750e58684",
-        "git_repo": "556c369057b5458e622e13e4b318b40e67b18a3993502bc46ded3b686cabb865",
-        "website": "d7a7c92597439df6619083e61bfdc1e73aa77843a7280cc3acc8c5a750e58684",
+        "repo_url": "https://github.com/nvm-sh/nvm",
+        "git_repo": "https://github.com/nvm-sh/nvm.git",
+        "website": "https://github.com/nvm-sh/nvm",
         "hashes": {
             "v0.39.7": "8e45fa547f428e9196a5613efad3bfa4d4608b74ca870f930090598f5af5f643",
             "v0.39.6": "aa291974d26fb291de1373a3758da59e66bdd920952aabb9d8d18b149054342c",
@@ -44,537 +44,619 @@
         }
     },
     "rustup": {
-        "name": "4d4240a2162a3fa435078c60eac770175d6179a28dcac8972411336997b361a2",
-        "url_pattern": "6499ac572ef9ee1a28335d03a1f4833c65e0297638b065cf53a8b1ddbfd470bb",
-        "description": "8ffdbae7f923baef842538728a95c55c384afcb192314dd39443ceae96a8e3ed",
+        "name": "rustup",
+        "url_pattern": "https:\\/\\/sh\\.rustup\\.rs",
+        "description": "The installer for the Rust programming language and its toolchain manager, Cargo.",
         "valid_versions": [
             []
         ],
-        "repo_url": "8362925b962be8b3f5d7409a3686ea482fc19cdb3cf401cd0136c85efaa4716a",
-        "git_repo": "5b8993142d59dfb8053715bc3259c394f4c2c134fd5e9ff75d9c7985c7c86b34",
-        "website": "0664673797aa721a6c78f0aa3676a785b80ef0a5a82f1272def892b04843da70",
-        "hashes": {}
+        "repo_url": "https://github.com/rust-lang/rustup",
+        "git_repo": "https://github.com/rust-lang/rustup.git",
+        "website": "https://rustup.rs/",
+        "hashes": {
+            "": "17247e4bcacf6027ec2e11c79a72c494c9af69ac8d1abcc1b271fa4375a106c2"
+        }
     },
     "pyenv": {
-        "name": "4489a2360680c50b19196efa18cbccdfb5132b3f8e0f643e4effdb5d3367530d",
-        "url_pattern": "fa047694991eed2d8c829c6365f4ec2be316d442f46b2f6798eba5c58d7751e3",
-        "description": "1beb6883d027a9c946cad83214d76b7a68e9d6f5feabd7c0de1c323dba884c60",
+        "name": "pyenv",
+        "url_pattern": "https:\\/\\/pyenv\\.run",
+        "description": "Manages multiple Python versions.",
         "valid_versions": [
             []
         ],
-        "repo_url": "d692e6cc91fda847db81d331509f29cc58c61b8ff51427c98f925dbc63b02015",
-        "git_repo": "f1fae1be71513d632e55a7b408c5fdbc817dd251d641223e11d258eb67cf8050",
-        "website": "ddcef63afdc90bf3e59732308001ddd191c75f4837a99ee59540443027e4badd",
-        "hashes": {}
+        "repo_url": "https://github.com/pyenv/pyenv-installer",
+        "git_repo": "https://github.com/pyenv/pyenv-installer.git",
+        "website": "https://github.com/pyenv/pyenv",
+        "hashes": {
+            "": "1065197a9fff657e0e2941e4ca8c8b6e72833833466b777b9eddd0fff335ec41"
+        }
     },
     "sdkman": {
-        "name": "a3953b84cdf5dac72a67e7c15a0cefe35bb3149588829d109f017aafd640a22d",
-        "url_pattern": "10208f20cd408765bfb64cd0d2203ea52136f31e97a1af4c83e68b143b1f975b",
-        "description": "e38acb8bc2424875ed7a0c4a2576045383aca3bc2e1118348aec7e333faff795",
+        "name": "sdkman",
+        "url_pattern": "https:\\/\\/get\\.sdkman\\.io",
+        "description": "Manages parallel versions of multiple Software Development Kits (SDKs) like Java, Groovy, etc.",
         "valid_versions": [
             []
         ],
-        "repo_url": "217963dbb3b56fbe5af0e641fd581a625b29afadc054fb1fad3b465c69eaa48b",
-        "git_repo": "9c31baf472b8f549d9ac461c058ac5e1f741fc67d9bf057b1543686dd02acc5a",
-        "website": "5e77d12b157acaa37925befa180f073891b0b232dd3a602f326dd30082e70273",
-        "hashes": {}
+        "repo_url": "https://github.com/sdkman/sdkman-cli",
+        "git_repo": "https://github.com/sdkman/sdkman-cli.git",
+        "website": "https://sdkman.io/",
+        "hashes": {
+            "": "ad5de2f3e29160f985ee80cd94f612aeb747a399d1cead283e28af0a911304db"
+        }
     },
     "Deno": {
-        "name": "2a4500443c6c2c1e609f4f7195e71e8b02efd60bbc671b4f1e5f00a8b0673025",
-        "url_pattern": "53fcd16ee3bda737f3df238eab74b5d0922f653fb05933d11c6d0cb3672a9ff4",
-        "description": "a259a00e8760c87866392c6f2533438f234f01ce20e7e69e343978e106f367d7",
+        "name": "Deno",
+        "url_pattern": "https:\\/\\/deno\\.land\\/x\\/install\\/install\\.sh",
+        "description": "The installer for the Deno JavaScript/TypeScript runtime.",
         "valid_versions": [
             []
         ],
-        "repo_url": "0dc082de2306e07e991822ae564909a2dc5b956278d82f42135ea383f8a70243",
-        "git_repo": "8b49a5ba76f37880499f43b3df64bfde3d23e4bd95c55b9773ea4cf4615d49c4",
-        "website": "491d1c5f8d5eaa49d0ee3166c5aca7fbf9af5c466365713577ab3c739342712c",
-        "hashes": {}
+        "repo_url": "https://github.com/denoland/deno",
+        "git_repo": "https://github.com/denoland/deno.git",
+        "website": "https://deno.land/",
+        "hashes": {
+            "": "83f19ea13f6d7884f4dc0e2f92e7e08e7589204138d9b6edfcd53c3f07b3273b"
+        }
     },
     "Bun": {
-        "name": "d504195d7cd7b2d7b5e47fb16cdc482607e08285caedf5a61cb6fc234f2c791c",
-        "url_pattern": "4d2b4904647def5200725c88ff0b267fd3a606d662dfafdb6a6d27514591df46",
-        "description": "c7d8f6694617a21115f2bab230738c98bd25731476a38954eb0b149331a84a84",
+        "name": "Bun",
+        "url_pattern": "https:\\/\\/bun\\.sh\\/install",
+        "description": "Installer for the Bun JavaScript runtime and toolkit.",
         "valid_versions": [
             []
         ],
-        "repo_url": "1f8d61fe04f2cb529ec10ff1bba92daa49a22242aa93f84c4f89824abd95056f",
-        "git_repo": "288183bc25b3132bcd8071e04ea90b4cbc954d44e23364ac7c95b34be1b9dc7d",
-        "website": "57c1f1097c960c03ba5d346d859cabd176a7b7ccede60aab9355107529accaa6",
-        "hashes": {}
+        "repo_url": "https://github.com/oven-sh/bun",
+        "git_repo": "https://github.com/oven-sh/bun.git",
+        "website": "https://bun.sh/",
+        "hashes": {
+            "": "d245e61a9441c55500248cf948029cb0b9dff772285da19481a153de0e539184"
+        }
     },
     "fnm": {
-        "name": "8e9d0608d96debfe7cd44e00bb0e50190b58062aced3b51be657f03626629809",
-        "url_pattern": "d01a08a0052fec96a3c693027f965b6792f2749db674af65fadd331b899853e4",
-        "description": "a5b2b0066500f363e9eaca07661e9742f4be68ef739759f0c87e14bf8d4e23fc",
+        "name": "fnm",
+        "url_pattern": "https:\\/\\/fnm\\.vercel\\.app\\/install",
+        "description": "A fast Node.js version manager, built in Rust.",
         "valid_versions": [
             []
         ],
-        "repo_url": "1bdb4d7948cfb68c3d78ee158943b416a7cea0ae196f64095f5fb3a49347513d",
-        "git_repo": "c4ff80a59119bd423d95c41632dab608f94388c3a9bd5575055fc1d76fe3c420",
-        "website": "1bdb4d7948cfb68c3d78ee158943b416a7cea0ae196f64095f5fb3a49347513d",
-        "hashes": {}
+        "repo_url": "https://github.com/Schniz/fnm",
+        "git_repo": "https://github.com/Schniz/fnm.git",
+        "website": "https://github.com/Schniz/fnm",
+        "hashes": {
+            "": "a732195fcf0e69199a21043b9e987a0240d4b12488850c6b13abf2b3b517b522"
+        }
     },
     "asdf-vm": {
-        "name": "ce3b109abb463dfbb1dd50d7e2395a8b43930fe3191a74ff26ce87946c7439a1",
-        "url_pattern": "b89fc1da457f15659a3b2093b67146880b59e3fb388a87ebf4ac82d2b27df8c2",
-        "description": "54140c2085e49c30d38bd37f3f9f1efed5e0f0a06616f228b35ee502c5b2201b",
+        "name": "asdf-vm",
+        "url_pattern": "https:\\/\\/github\\.com\\/asdf-vm\\/asdf\\.git",
+        "description": "A single tool to manage multiple runtime versions of various languages.",
         "valid_versions": [
             []
         ],
-        "repo_url": "3e38b585728a1e660ee8aab452029cddd1ef39adf7fc3cec492e58780d889d56",
-        "git_repo": "e9f7603cf62c7e8603585d5d7239df16c7303891f64e4bcf7a15b07960f3d489",
-        "website": "4c8460b6b0775bf89ab193545d571b0bf361feb7769c55eafd59601aa293fbcf",
-        "hashes": {}
+        "repo_url": "https://github.com/asdf-vm/asdf",
+        "git_repo": "https://github.com/asdf-vm/asdf.git",
+        "website": "https://asdf-vm.com/",
+        "hashes": {
+            "": "8fbe972a725ddb8cf48b9b94b0cbb38d2fe62f9654f1d98ff91862086a872692"
+        }
     },
     "ghcup": {
-        "name": "e02e8f0702b125da99592bbb7d1824f2a8e6101d9c640bee84848b33be358d38",
-        "url_pattern": "f0d2114661f966103b2860ea4c034711a3b1c8bae226dd3562433d835cb812fa",
-        "description": "5ece7ce4c14dabc116d807be964db7d7c93b8dca3d3344b0bc8c4db773d4a901",
+        "name": "ghcup",
+        "url_pattern": "https:\\/\\/get-ghcup\\.haskell\\.org",
+        "description": "The official installer for the Haskell toolchain (GHC, Cabal, Stack).",
         "valid_versions": [
             []
         ],
-        "repo_url": "7bb256bb32041d8c32799022875f90e1d1c1c26cef526430db84ae6b29cee44b",
-        "git_repo": "f04b91e9d6bacf76d06b6ff6ee7e4db5783da7d475a7f402205f32b210d281d9",
-        "website": "20e8d0ccdae7f60c653380bcae35538b5c6ef3607bac0e6420c53839b5406b54",
-        "hashes": {}
+        "repo_url": "https://github.com/haskell/ghcup-hs",
+        "git_repo": "https://gitlab.haskell.org/haskell/ghcup-hs.git",
+        "website": "https://www.haskell.org/ghcup/",
+        "hashes": {
+            "": "ff6e96495125d481a278a142d7828148cc39a42d8601def89d804073e3e2d5ba"
+        }
     },
     "dotnet-install": {
-        "name": "187914434794d180bc02dbc237e540912abf0195ee3356158353c683b09cd5d5",
-        "url_pattern": "d837d8237b2c191aee7d5ebe21840ef0f96c0000c1df7aeff3b7a1afd13ce6ea",
-        "description": "a66c5839c176fde87b85b4d43c48edb52ddbce93144bbf0713ed3c6e9f8ff8e3",
+        "name": "dotnet-install",
+        "url_pattern": "https:\\/\\/dot\\.net\\/v1\\/dotnet-install\\.sh",
+        "description": "Microsoft's scripts for installing the .NET SDK and runtime.",
         "valid_versions": [
             []
         ],
-        "repo_url": "a58cf4892709038b61a28f61edfc03569ac134af848c19c1dc075dc04142f3d4",
-        "git_repo": "c3010dc0b0c2c8004f13e4b48132a8fce0f2810b69abc6afc20c082349c52f90",
-        "website": "4d957931f29a454df8f537017901e364c99ca2babfc1121e4d28e9912be1deff",
-        "hashes": {}
+        "repo_url": "https://github.com/dotnet/install-scripts",
+        "git_repo": "https://github.com/dotnet/install-scripts.git",
+        "website": "https://dotnet.microsoft.com/",
+        "hashes": {
+            "": "16142ad5999ffdb168a578f5f74d7c76dd72f13ce2e914e8e9eb87f5fcc63629"
+        }
     },
     "Volta": {
-        "name": "eaea120fe93f43de2ea2c99b6d3880248cac2f425ce3ddfd7daf6f9442727ecb",
-        "url_pattern": "aa4446e309ba5d4d660e4590c0d7ff1ebba7022e0ef9b7dfa7725ed3c70095df",
-        "description": "9684d0a870c944c708d571767a751910e057a73f7bf7b47c1e365c5e7b39a59c",
+        "name": "Volta",
+        "url_pattern": "https:\\/\\/get\\.volta\\.sh",
+        "description": "A JavaScript tool manager that handles Node, npm, and Yarn versions seamlessly.",
         "valid_versions": [
             []
         ],
-        "repo_url": "b7c471eb8641b30be7c332578c5aadac9b9678c3ec55452d9dd079a0ec3dede0",
-        "git_repo": "aa0258844c27e53d3ef3fc8d0a2e87e97b1b5433dbe30dc83767ddb59f3849ed",
-        "website": "486e418560bfd7bafabdfa41be3b71ee68009b77057046109d46c2cbb26c3e25",
-        "hashes": {}
+        "repo_url": "https://github.com/volta-cli/volta",
+        "git_repo": "https://github.com/volta-cli/volta.git",
+        "website": "https://volta.sh/",
+        "hashes": {
+            "": "fbdc4b8cb33fb6d19e5f07b22423265943d34e7e5c3d5a1efcecc9621854f9cb"
+        }
     },
     "Docker Engine": {
-        "name": "f9e99f319b2aaa4b41002ddc48dca7d3b881930cd8fba6ceb46081b047c25635",
-        "url_pattern": "5392c1d4daa82f4e8968162da059dee9a0b5d8ac6e0883bdeb67cc0c50370703",
-        "description": "6f68bb039974b83ed24cb97e6ac57c3e78b1b58d909de5112e8f3916433fdceb",
+        "name": "Docker Engine",
+        "url_pattern": "https:\\/\\/get\\.docker\\.com",
+        "description": "The get.docker.com script for installing Docker Engine.",
         "valid_versions": [
             []
         ],
-        "repo_url": "9044ba1b6f06c12e2b4c5dca595483a6bfe99b496a88a00858d75b4c1be231eb",
-        "git_repo": "8b81e11feca960922fb7a969955f0c77175e56e4be5a5962bb21db1bf376c422",
-        "website": "c54944ac30ee3982ff793b0d26c1aa4a246da27def49487e4a9c90888a9d9001",
-        "hashes": {}
+        "repo_url": "https://github.com/docker/docker-install",
+        "git_repo": "https://github.com/docker/docker-install.git",
+        "website": "https://www.docker.com/",
+        "hashes": {
+            "": "6964c5d5696a4f991707882d4675d61c9b071a3709d7bcb859ffa21800819597"
+        }
     },
     "k3s": {
-        "name": "86bd33ebf64e01aaafb7dab419436ac025d04abd933bbbb124ddb25c30b59dd7",
-        "url_pattern": "bc51e018ec974551d6eef2b834babbae00d91788400dbb3dad711bfcc8302bee",
-        "description": "d3b3c2aa1442a7d5f957eca64008e27ec469282c2542214f6d56d3a7caefc25e",
+        "name": "k3s",
+        "url_pattern": "https:\\/\\/get\\.k3s\\.io",
+        "description": "The installer for k3s, a lightweight Kubernetes distribution.",
         "valid_versions": [
             []
         ],
-        "repo_url": "2a443d6ba23d02ffcab03e8e82645719f185a1692dcccc81a8af95acc73c7058",
-        "git_repo": "d0800d947c4fa458869d82f89752a9631a9b98517660195ad217c1326de66a2f",
-        "website": "0d23484ba45fe96d56f4727102ad2eac66555adec5510bacd69029a9869611fd",
-        "hashes": {}
+        "repo_url": "https://github.com/k3s-io/k3s",
+        "git_repo": "https://github.com/k3s-io/k3s.git",
+        "website": "https://k3s.io/",
+        "hashes": {
+            "": "08ffd92c47a886edd56ce97734f3d67e7f6115f07295dcdcdc6df7ea2c0bee1a"
+        }
     },
     "k3d": {
-        "name": "90ea02d07bbae6740376774f67dc5b0a71bb32ca80f41a076d216f62baff7965",
-        "url_pattern": "c4db41c3a8446212b2b91a940214b4d334054ef19fb4206a5d5f34c02c859ac4",
-        "description": "b9c3a7c1aac9f1b664f5ce3af232487691f8aa84dfd5ddcf04065e1700f2d787",
+        "name": "k3d",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/k3d-io\\/k3d\\/main\\/install\\.sh",
+        "description": "A utility to run k3s in Docker.",
         "valid_versions": [
             []
         ],
-        "repo_url": "cfa2c0c6b8e37e090fb85529866f1556ca85334b5d13dee063827356dcd8ecd1",
-        "git_repo": "6de1e13e5b54e82ccab8a9e8609f5cd1e8d870249e42d089b4cd835166be979f",
-        "website": "965a06b65e1bf8e2396a91faa30280be73de7ed0e7e5cb5e8b3a3dc413c162d4",
-        "hashes": {}
+        "repo_url": "https://github.com/k3d-io/k3d",
+        "git_repo": "https://github.com/k3d-io/k3d.git",
+        "website": "https://k3d.io/",
+        "hashes": {
+            "": "0f6bd9a3ab8ea8625843b21657a6538f117975bb2823b73200dc8b92ccc626de"
+        }
     },
     "Dokku": {
-        "name": "70bb97fe2376faf6df861d963a2c75f0d22c8ea21afb751701be3a657adfdc90",
-        "url_pattern": "f2cc2cefaaf184d3ac14c3ef838bc0fffd70125e35767fb81e8bb20fa3282496",
-        "description": "87f8ce988ab856e815fe2a4bf840ac6c31687fcf2b69d4d2b8732e9650709168",
+        "name": "Dokku",
+        "url_pattern": "https:\\/\\/dokku\\.com\\/bootstrap\\.sh",
+        "description": "A Docker-powered PaaS that helps you build and manage the lifecycle of applications.",
         "valid_versions": [
             []
         ],
-        "repo_url": "99eee07e9b2717bb4b0daac8ce535ad501ca26b78e5a72854e6b441b384ef0fb",
-        "git_repo": "7ff6b7cecf2d7e64da878b38eaf057437d404e95bd6d4f05eacae37a9acfb2b3",
-        "website": "75bb69a1be568f39048a0e825adcfebe6c5c9aef72f0ff12c8246e35a4a2a51c",
-        "hashes": {}
+        "repo_url": "https://github.com/dokku/dokku",
+        "git_repo": "https://github.com/dokku/dokku.git",
+        "website": "https://dokku.com/",
+        "hashes": {
+            "": "e9c4d78e0ff5f0831ab66d9cff8da3548353ffcfb0cffa119530103f821c1556"
+        }
     },
     "Coolify": {
-        "name": "df9a9413e05990ff104dfd78b49f096a8f1a9a3cff8044f69bc7c9d1895052d6",
-        "url_pattern": "83917bb92c7485c5deaf4a05e91060d0cf5679cae5549d6f8a7061a5f7930795",
-        "description": "3cbc3202fa0e2d9fc29c35e45980a142b7df791787951a2dcd4b3d7706d4bfaa",
+        "name": "Coolify",
+        "url_pattern": "https:\\/\\/cdn\\.coollabs\\.io\\/coolify\\/install\\.sh",
+        "description": "An open-source and self-hostable Heroku/Netlify alternative.",
         "valid_versions": [
             []
         ],
-        "repo_url": "d9575f3020769f3b284b7b55104b4ae6facfb68a0e3c6e8b2c2f37f877f39088",
-        "git_repo": "201a8ddb5401bc54541d81568760464781543ebdffd2b9fbb6588a241caf69c6",
-        "website": "8adb6cd229225f3089022eda32c5ae6c0d5b1a4b17b5b55bfabbb1493a916eb5",
-        "hashes": {}
+        "repo_url": "https://github.com/coollabsio/coolify",
+        "git_repo": "https://github.com/coollabsio/coolify.git",
+        "website": "https://coolify.io/",
+        "hashes": {
+            "": "5bb4ab6c9ae2ffdac9ec658630984e8ef77b205499b23be75bf528fe7a3e01c1"
+        }
     },
     "flyctl": {
-        "name": "e1e8bb0d89cf07e596849172067ff36e38edb81430f86d314b9da9ce73e511d2",
-        "url_pattern": "24b29c6312d5f9b6d36f1132c37616a775bfec38d12097e49c7ab81731d7636d",
-        "description": "228fc23210e77370d53663e955f7861ae2cb76c66a853582906f62fc64593157",
+        "name": "flyctl",
+        "url_pattern": "https:\\/\\/fly\\.io\\/install\\.sh",
+        "description": "The CLI installer for the Fly.io application platform.",
         "valid_versions": [
             []
         ],
-        "repo_url": "f93596f83647400a2dbdf1d15172098aa2e617adef8facd31fc62dbba07d1f21",
-        "git_repo": "dbbe61d02e7bba57305a923ca1eea9908a78c35bec642f7d3672292b4db89940",
-        "website": "26076624b6b7fb56dd7f5358abdf8551e8a8956db5cde6cbd4ccd9909d5a5550",
-        "hashes": {}
+        "repo_url": "https://github.com/superfly/flyctl",
+        "git_repo": "https://github.com/superfly/flyctl.git",
+        "website": "https://fly.io/",
+        "hashes": {
+            "": "c6018aeef71e11a3d475481587d1b6b6bd1ee3b0f8f76442e80d82496bbe85ec"
+        }
     },
     "Azure CLI": {
-        "name": "24cc69d481f9c042bbf436c9f7879248cb97e96841272bd75c22f5dd2f90fe7e",
-        "url_pattern": "2e4b05090dbdae767c438f5108dc3d9f5ec709a9418bab5a40ca6a943925bd1e",
-        "description": "132165b2fced88d25d3f0ab958aa1aa96981de0ad40871edc6119f15708dd7a3",
+        "name": "Azure CLI",
+        "url_pattern": "https:\\/\\/aka\\.ms\\/InstallAzureCLIDeb",
+        "description": "Microsoft's command-line interface for managing Azure resources.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e9f617490f90d2c0864b6d29b2b16f86ac3b641567a9a6d81f2bcf5cf30c165f",
-        "git_repo": "8976a9eea0c8ce98b0efd7fe759bcdce149b325c5665480fa9fc746887ed8b5e",
-        "website": "d02ffd321d86ea53d8b6561a3035a633f75e30390249570b72315da48f9f7a4b",
-        "hashes": {}
+        "repo_url": "https://github.com/Azure/azure-cli",
+        "git_repo": "https://github.com/Azure/azure-cli.git",
+        "website": "https://docs.microsoft.com/en-us/cli/azure/",
+        "hashes": {
+            "": "01fada4dafe903fa6edae138d3e3ca2e6e4295d7c8a35e48632bba4aa9dbe9d9"
+        }
     },
     "gcloud CLI": {
-        "name": "d0f52605bdbe177ef7794e7d9001b0c5c6ef1d8cab3a25b1411aa6812e9490cc",
-        "url_pattern": "a81264a73db27f748c4b069d9800c70b36e9e647a8cb63665d6247b32b1ad26c",
-        "description": "3441f603a118b26e9dec33b90027be8fb65753aad527c93cf50afeae66c2e314",
+        "name": "gcloud CLI",
+        "url_pattern": "https:\\/\\/sdk\\.cloud\\.google\\.com",
+        "description": "The installer script for the Google Cloud SDK.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "git_repo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "website": "94a7f6ffc3117e7a534cba08c89e00240ec7ddaba6fde0870b86b8c6a8a19451",
-        "hashes": {}
+        "repo_url": "",
+        "git_repo": "",
+        "website": "https://cloud.google.com/sdk/docs/install",
+        "hashes": {
+            "": "7a518bd002e7f7f36605fdfd244e3d5c78638e40bfb17102ab8139ef687ea6c6"
+        }
     },
     "Datadog Agent": {
-        "name": "439d33befc71ba53440815ef191a0d71f0b6c669a519ebbc2b427d089b544ec7",
-        "url_pattern": "450f670c17bb9a814a4a0ac16f0142f7b46fc24045c39fd251a5067db1525309",
-        "description": "899a74f82279877611d5337faa14fd1b275cce4ee65a338f4c11f5c77895aafb",
+        "name": "Datadog Agent",
+        "url_pattern": "https:\\/\\/s3\\.amazonaws\\.com\\/dd-agent\\/scripts\\/install_script_agent7\\.sh",
+        "description": "The installer for the Datadog monitoring agent.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6e5106776ddc1c1f5ab520f9f9cba9b202355bb398df63efa8c25cb23b302f87",
-        "git_repo": "affdfa3659f43907f2eeed79e13d0845c4ede41a62f20c6127f68e316b279ae8",
-        "website": "2850f31e276b1d5ea84ab307c491a60a1ef46ea3c2986ceb55e478fa3cafd145",
-        "hashes": {}
+        "repo_url": "https://github.com/DataDog/datadog-agent",
+        "git_repo": "https://github.com/DataDog/datadog-agent.git",
+        "website": "https://www.datadoghq.com/",
+        "hashes": {
+            "": "3e2702e095ed4c2daf904d0d5a1fba4d5d78b7c25ad9605b8673773aeb982674"
+        }
     },
     "Helm": {
-        "name": "7e94675ff2dea1166207244f07f92ed60b6e72bda7c1e68e92374eeb98516973",
-        "url_pattern": "33ad5c097d16bc148e6c80ea9232a636824a9540472281a4ec84d16966cd9db1",
-        "description": "83b5bac1807239e6757b206910c7400a5f0fe2e0d0c0f4f77bb9ab6b54c8d336",
+        "name": "Helm",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/helm\\/helm\\/main\\/scripts\\/get-helm-3",
+        "description": "The package manager for Kubernetes.",
         "valid_versions": [
             []
         ],
-        "repo_url": "de82663542a7f45116ef9923444a895b29e35512684101d4424f5e10e416801d",
-        "git_repo": "a9ab1529976de1f3c08e0dd6cb3933390388e133073ff455c4d855219e0680d0",
-        "website": "25f30a2887e8c3b2773ba16a8a4151b989da59484d011f30b59e3284ed366bbd",
-        "hashes": {}
+        "repo_url": "https://github.com/helm/helm",
+        "git_repo": "https://github.com/helm/helm.git",
+        "website": "https://helm.sh/",
+        "hashes": {
+            "": "17799e1dddef4d63aa8bfd84ba58715f6668f099f738e02af094c8db2c148005"
+        }
     },
     "Chef Infra Client": {
-        "name": "ec03401efd70bf3135a31b20a04e880da77aa569f44b7c3a0d26a8ed27fc0734",
-        "url_pattern": "92a32c1afa0412b7746b1c8a232ff39c8dad316a13c49c2335933c6d1f603a45",
-        "description": "78ef3daa7b39e3fed25f30f453a16f56105da871e5455485a7a73a778665d8c9",
+        "name": "Chef Infra Client",
+        "url_pattern": "https:\\/\\/omnitruck\\.chef\\.io\\/install\\.sh",
+        "description": "The install.sh script from Chef for bootstrapping nodes.",
         "valid_versions": [
             []
         ],
-        "repo_url": "47ec9413069fbb7d9e26d23caf49bb8caf6e2abb8af79e6506f03e6eba2f13a4",
-        "git_repo": "f53009463d9e5fe099d21a86919068c6d9ac63280fd135e5f6ea336bd19c6b2a",
-        "website": "5f8255dd9e404621b189355e0bddb57489e43e26e522e083736d471d8bd59a99",
-        "hashes": {}
+        "repo_url": "https://github.com/chef/chef",
+        "git_repo": "https://github.com/chef/chef.git",
+        "website": "https://www.chef.io/",
+        "hashes": {
+            "": "9511909878c201452331e546b1c1ece0f1fbd5ed199655358c6338dab8391114"
+        }
     },
     "tfenv": {
-        "name": "f51875a5e28733afa22cf444d45bac10dc206f5950d89e975bdd81c17e64bd95",
-        "url_pattern": "ad3df0825612bd545724023aae057ba7b46cbf254f1f222f71efebc4404eb802",
-        "description": "2494fc7b91a059dbfb18437ffef6ccfa9a1984c297b3fd1e2e9c86ad2bf85534",
+        "name": "tfenv",
+        "url_pattern": "https:\\/\\/github\\.com\\/tfutils\\/tfenv\\.git",
+        "description": "A Terraform version manager.",
         "valid_versions": [
             []
         ],
-        "repo_url": "3bdab4fc6ef8c840716766e9f96ff84f85718f972f9a0a564eda05b74a700c64",
-        "git_repo": "a1e8e387dfb3d55551979143ce53b73cceed48647da630bd7f6e2e598e590a0e",
-        "website": "3bdab4fc6ef8c840716766e9f96ff84f85718f972f9a0a564eda05b74a700c64",
-        "hashes": {}
+        "repo_url": "https://github.com/tfutils/tfenv",
+        "git_repo": "https://github.com/tfutils/tfenv.git",
+        "website": "https://github.com/tfutils/tfenv",
+        "hashes": {
+            "": "4c654e7a3f1750fa65cdac1845fea52695a5c63752b7a3932e55ed883656cbf3"
+        }
     },
     "Starship": {
-        "name": "4e50bc54648eb8cc2fe0b59a3fe501199d634f87ed97c0d19f7840d2122ef821",
-        "url_pattern": "c64a296c2b1345bca31ceb5c368aeb7cd8815f7384c4729c8d530ea57d375287",
-        "description": "3fb4fc9000114bffea1f62866820b5e557664dc7349b17ccd75880194dbea812",
+        "name": "Starship",
+        "url_pattern": "https:\\/\\/starship\\.rs\\/install\\.sh",
+        "description": "A minimal, blazing-fast, and infinitely customizable prompt for any shell.",
         "valid_versions": [
             []
         ],
-        "repo_url": "28029a2140443bcb3e44692323492f37a895b42f522684a293f93f579b78bbe9",
-        "git_repo": "d9890a867ee7cc2a74d44df7bf508f757e64c8dd731863c653b05368d4b5e291",
-        "website": "6fd184ada2fd01719e534a6e8135dd299e3daa45b08dcc08fc14afe3355db625",
-        "hashes": {}
+        "repo_url": "https://github.com/starship/starship",
+        "git_repo": "https://github.com/starship/starship.git",
+        "website": "https://starship.rs/",
+        "hashes": {
+            "": "56da063be2d93348b6181275b235108ad6dd39bc2c2faee053889f57666ac30a"
+        }
     },
     "Oh My Zsh": {
-        "name": "86aed1dbd5a25d9b0059d02ecd5ea05b329c52aba090c6d36cb8ee7d7e22b007",
-        "url_pattern": "849aaf56679101d28c67743044c8aa820647b66518a48e62f52cd986a93dbb9c",
-        "description": "97f7b804f55be4d85709e1a089c99bbb0d6ab651a3ed19a6873d3e4380a0ca81",
+        "name": "Oh My Zsh",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/ohmyzsh\\/ohmyzsh\\/(master)\\/tools\\/install\\.sh",
+        "description": "A hugely popular framework for managing your Zsh configuration.",
         "valid_versions": [
             [
-                "fc613b4dfd6736a7bd268c8a0e74ed0d1c04a959f59dd74ef2874983fd443fc9"
+                "master"
             ]
         ],
-        "repo_url": "bd34242fe4d287db35ec656490dd5fe0264bdeb117ebc20b39f86a20e46a9752",
-        "git_repo": "01c3dd668b6b5f0f10e7c7d34ce24cbdd905d4f9c1d55da2359d0837818a28a5",
-        "website": "977a44a674532d558c30e598c232e0461614dad2dde42071c68e1473db4a61c7",
+        "repo_url": "https://github.com/ohmyzsh/ohmyzsh",
+        "git_repo": "https://github.com/ohmyzsh/ohmyzsh.git",
+        "website": "https://ohmyz.sh/",
         "hashes": {
             "master": "1ee651bb76c52ad11aa818577d72d6ddb9659008f258212d0b02f6ccaede6cff"
         }
     },
     "zsh-autosuggestions": {
-        "name": "f556b6b163ea26802d8991cb05588797878a147b5a2c3735d1089ff98f16411b",
-        "url_pattern": "02c03b5a600f705e6d18ef8d34737434c62cb1583df26294f6b1d756e2d63ac9",
-        "description": "60dd8f88b8bc61ecf82d2e5e90e5ef02a007e7fb713877cb8f30b2f8db64eb34",
+        "name": "zsh-autosuggestions",
+        "url_pattern": "https:\\/\\/github\\.com\\/zsh-users\\/zsh-autosuggestions\\.git",
+        "description": "Fish-like autosuggestions for Zsh.",
         "valid_versions": [
             []
         ],
-        "repo_url": "b7205c2e3750c8a3265953650468dae52b3bab02bd6a0465cef943cf9af312bf",
-        "git_repo": "64556d9fe78358169ffd3af90b542f0436c0a5921175b4cede4fa3d9af6665d9",
-        "website": "b7205c2e3750c8a3265953650468dae52b3bab02bd6a0465cef943cf9af312bf",
-        "hashes": {}
+        "repo_url": "https://github.com/zsh-users/zsh-autosuggestions",
+        "git_repo": "https://github.com/zsh-users/zsh-autosuggestions.git",
+        "website": "https://github.com/zsh-users/zsh-autosuggestions",
+        "hashes": {
+            "": "f897c94b5bc8492a47eaaf19abeec5013e8df9757ce7b601b3e85c786999b5a4"
+        }
     },
     "zsh-syntax-highlighting": {
-        "name": "44ee5f1ad5a7f70fc7d70551989a4793dfa89e28ac5bc95f6160a5c63f96ef18",
-        "url_pattern": "53627cb1fef61a4978e912d3fcec2765ecbb0a5b9e12c8953839ffa3f71482db",
-        "description": "414e89bc4f1eb381aec485fb63a53d3228b3f5b610932aadb332e475a4abbc2d",
+        "name": "zsh-syntax-highlighting",
+        "url_pattern": "https:\\/\\/github\\.com\\/zsh-users\\/zsh-syntax-highlighting\\.git",
+        "description": "Provides command syntax highlighting for Zsh.",
         "valid_versions": [
             []
         ],
-        "repo_url": "1f04d00130b0ed991b9890b8db17062958273a00a199538d350f51d8067c5850",
-        "git_repo": "ef75b8323c75590a5f6f0fc3b3231616b9891e09349257981877b282e1428560",
-        "website": "1f04d00130b0ed991b9890b8db17062958273a00a199538d350f51d8067c5850",
-        "hashes": {}
+        "repo_url": "https://github.com/zsh-users/zsh-syntax-highlighting",
+        "git_repo": "https://github.com/zsh-users/zsh-syntax-highlighting.git",
+        "website": "https://github.com/zsh-users/zsh-syntax-highlighting",
+        "hashes": {
+            "": "f4d68374e638dac5cfe8e500b8e2a737142b38263a6b86760657042c716e2287"
+        }
     },
     "Fisher": {
-        "name": "ea49f5ee27409740ce7f74997ccf0184f3bbe9a72a86c0faa76db872d9a741f1",
-        "url_pattern": "1949aef143266d53923125a7df61045812624588ff12c4b427242683340ca473",
-        "description": "34bc5f8775fe6e99f540289535913a712cc0bfd5e99ff04f6ddc2cdda48b0838",
+        "name": "Fisher",
+        "url_pattern": "https:\\/\\/git\\.io\\/fisher",
+        "description": "A plugin manager for the Fish shell.",
         "valid_versions": [
             []
         ],
-        "repo_url": "f088a597de4dd1edbe9b495152a3289ffb604661fa373e21c6b064846a850853",
-        "git_repo": "5d459c6b2ba557263aaa3d15fefbd3a177da447b2e0f61e57a9c45d6351b75ec",
-        "website": "38d17bf549381f8c8700fe2191e43480033826a2575c30d1c71db40b36c299d9",
-        "hashes": {}
+        "repo_url": "https://github.com/jorgebucaran/fisher",
+        "git_repo": "https://github.com/jorgebucaran/fisher.git",
+        "website": "https://git.io/fisher",
+        "hashes": {
+            "": "59640d07bda182f2ad0fdfe9dc8a799fb79f46e6e5fc460354ffe2e21f759688"
+        }
     },
     "Oh My Fish": {
-        "name": "06c5b63c224fce42158e391d971b629f04893fe13103b19aa476dfd693dab497",
-        "url_pattern": "3d1932cc557023a996d6a42bcccebb2b2ac89ebe2ce5656eb747c44d8ff26bbb",
-        "description": "181ca06ad591ef38caf7317c9e281dc5025e367a28aaf9d7d7afb7df5d8c7cc1",
+        "name": "Oh My Fish",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/oh-my-fish\\/oh-my-fish\\/master\\/bin\\/install",
+        "description": "A framework for the Fish shell, inspired by Oh My Zsh.",
         "valid_versions": [
             []
         ],
-        "repo_url": "981fbc8d460b9655986d635108c3b0ccb0a1b22b5fecae1baedcccab7a611cc5",
-        "git_repo": "47e503e64373bd372f64cfdef45c545e101c144a4475b7d36eb0a4dfeda443c2",
-        "website": "981fbc8d460b9655986d635108c3b0ccb0a1b22b5fecae1baedcccab7a611cc5",
-        "hashes": {}
+        "repo_url": "https://github.com/oh-my-fish/oh-my-fish",
+        "git_repo": "https://github.com/oh-my-fish/oh-my-fish.git",
+        "website": "https://github.com/oh-my-fish/oh-my-fish",
+        "hashes": {
+            "": "1464a0163257e729579735955a834ccff4c3eb2e91d015e96e459382acaab2b7"
+        }
     },
     "Fig": {
-        "name": "80c5f7f3bb0ba9e9a5da803bfee916a2328243d9cbf4b936a8ce4acb0dd09a84",
-        "url_pattern": "4fe8b97241da84facb1c3f1f2787c35b75936d7b5da0c2c2fbe4cd3e9b6d312f",
-        "description": "c840b5cdf03b39db7b162162d6bbd84428151438103a225cacaf014442cb22bd",
+        "name": "Fig",
+        "url_pattern": "https:\\/\\/fig\\.io\\/install",
+        "description": "Adds IDE-style autocomplete to your terminal.",
         "valid_versions": [
             []
         ],
-        "repo_url": "c8fb5adb2b8520132d9ce9cc8df8dd29ef6342615d02465f0a443f1b21e3132d",
-        "git_repo": "14bd54c31edf6ab126a2529eacfb31cb938b7353ad6c2a84a638da094d6e2897",
-        "website": "7a724e9bb81f9ca9b791640d3d39157ab9e05607b5ff447a6b180c0b22f03531",
-        "hashes": {}
+        "repo_url": "https://github.com/withfig/fig",
+        "git_repo": "https://github.com/withfig/fig.git",
+        "website": "https://fig.io/",
+        "hashes": {
+            "": "ff89232fe6728903e1b66d6dcec21834e39e092224397e18b9c4f61c66f107ec"
+        }
     },
     "Pi-hole": {
-        "name": "9e8f280a53085a3d1f77b7fe6756a06aa8c983bb617629b379625f8ff060cb2a",
-        "url_pattern": "3b8b841da11d5851ba62932ff97855fac8e5f9340bde5f686a38d467cf405351",
-        "description": "cdb30b2527e18d78abe39a6ccd316d2a850e63903d54729b1f9fd228630456f4",
+        "name": "Pi-hole",
+        "url_pattern": "https:\\/\\/install\\.pi-hole\\.net",
+        "description": "A DNS sinkhole to block ads and trackers on your entire network.",
         "valid_versions": [
             []
         ],
-        "repo_url": "09b51a05b9faaf76169804dcc4eb78e741c202974afa33bec22264c630e5c070",
-        "git_repo": "84d1c6894e6615cc986259d0cc57395214ed7e921d49fa49e2befc87e2021564",
-        "website": "51e53f8f6b5f33363c88a8e77a3f4407fdb91da74923000a711cae5c18c0cae4",
-        "hashes": {}
+        "repo_url": "https://github.com/pi-hole/pi-hole",
+        "git_repo": "https://github.com/pi-hole/pi-hole.git",
+        "website": "https://pi-hole.net/",
+        "hashes": {
+            "": "6d9edfc85ec8dfe36aa1e3db6694cd970809c4d0cda4952a932e28f9c92c7150"
+        }
     },
     "Home Assistant Supervised": {
-        "name": "9089e4075fe07d5cca9fc1b3fe1d84b8fc5f438768e61e6ecaab026fbec0e111",
-        "url_pattern": "365d0340a660adc2f739122112d68610673e1d98f3587d52a4f4c936c8e8848f",
-        "description": "5f6c24a0233f2d09d63a55cc08660b1b05f5ac19804ff1b96113c062f7c4ada9",
+        "name": "Home Assistant Supervised",
+        "url_pattern": "https:\\/\\/github\\.com\\/home-assistant\\/supervised-installer\\.git",
+        "description": "The supervised installer for the open-source home automation platform.",
         "valid_versions": [
             []
         ],
-        "repo_url": "90d706bea787f35cd938b8168a5079b4ce842323e7719e8ec97cdcbe66a9b0a5",
-        "git_repo": "46d32c40b17ff3f01c90609e4b4d6e195b5a9d8901a8df58232ec852fdf44931",
-        "website": "a8b86b6be305ebcf88a0727ef75c74cdec0ce1ecdec3549e3284d42642d09435",
-        "hashes": {}
+        "repo_url": "https://github.com/home-assistant/supervised-installer",
+        "git_repo": "https://github.com/home-assistant/supervised-installer.git",
+        "website": "https://www.home-assistant.io/",
+        "hashes": {
+            "": "4708f76e683700b6b793a3813747c97fb687f9bc2bde4b320c24e406ceb0d685"
+        }
     },
     "Pterodactyl Panel": {
-        "name": "471b2c45af7831c1624212bd1f2445595ac4e3b23799c980c39d034b3918c34c",
-        "url_pattern": "c597634090bd826895f4fb18794713129ff366566dbf6462c7238d65b1442efd",
-        "description": "e2fad190f84fe57aa06a43f439cbf84ba24a1041bd76e5475a76dce29fddf9ce",
+        "name": "Pterodactyl Panel",
+        "url_pattern": "https:\\/\\/pterodactyl-installer\\.se\\/install\\.sh",
+        "description": "A free, open-source game server management panel.",
         "valid_versions": [
             []
         ],
-        "repo_url": "8c88a63d379655cf2958f479b1e4f1d4a553adee50cbf13d019e4de6d9f8c72a",
-        "git_repo": "c452f3f0623d8ea9c04f0eb27813cef64f0b0056a6c4d79d8cac498e768e1c7b",
-        "website": "4e56fd0a1d25e3849cc5bb0ec2c8c2af61f8df7695189b18a1ad8a1b1d5ded1f",
-        "hashes": {}
+        "repo_url": "https://github.com/pterodactyl/panel",
+        "git_repo": "https://github.com/pterodactyl/panel.git",
+        "website": "https://pterodactyl.io/",
+        "hashes": {
+            "": "f01ad06dd9e9baf2a787ef733ddc02988db54c83288f2ef498a04a7b3f088225"
+        }
     },
     "Homebrew on Linux": {
-        "name": "2f4273c2b2ec58e266589e55a3d51d32409907182a2a53acf7ab65fd3e229ed0",
-        "url_pattern": "f39357c35308d2fbd451ff36e15286860f1371e0aca25031b0f11d8946bbbf0d",
-        "description": "7e86ce96573c45137063f9aac8638ec542426cd23c00a8c99a0044549d6d17cf",
+        "name": "Homebrew on Linux",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Homebrew\\/install\\/HEAD\\/install\\.sh",
+        "description": "A port of the macOS package manager to Linux (formerly Linuxbrew).",
         "valid_versions": [
             []
         ],
-        "repo_url": "eca184117446c49800ceb0ae9e6ff55764f6add15497eea418b78ee62d54a82d",
-        "git_repo": "d27ab93693014231792decf266cf6506ad6dfcf4ad2e58b8264ec15618ddb5d4",
-        "website": "fea617439e19357bfe0e6404897583535935265b1301c5e3c5bdc8313fa7e697",
-        "hashes": {}
+        "repo_url": "https://github.com/Homebrew/brew",
+        "git_repo": "https://github.com/Homebrew/brew.git",
+        "website": "https://brew.sh/",
+        "hashes": {
+            "": "2a7bfdb2a2e747ea60fc15cc7f128b4a9c3e2333f414c367abb6d6ebb45d3f4e"
+        }
     },
     "Nix Package Manager": {
-        "name": "245829f7fbe8d9d75894af311e093cb8f976e0508b50800eaadadf89c9ca9b78",
-        "url_pattern": "fe9b0cafecb93b0f9b1b7c64a6ff433c52924809e0537ce42002384b251e0423",
-        "description": "c9ec2e1dfa0a13c0944e742fcc542437b61c85eb7908db46866365270c305e01",
+        "name": "Nix Package Manager",
+        "url_pattern": "https:\\/\\/nixos\\.org\\/nix\\/install",
+        "description": "The installer for the purely functional Nix package manager.",
         "valid_versions": [
             []
         ],
-        "repo_url": "a0ce087a7653dff57f1d7600afbb1313dd28208eae6d90b626ed2096842ff417",
-        "git_repo": "17cf65b359d93fe8e0a55a0c381fb5f6b78213830b03d86947934206947cb667",
-        "website": "4041f675b5c36b224d0ba51ee1f6c4bf5f2dbfb056d525f35fb967e41ebe3ffa",
-        "hashes": {}
+        "repo_url": "https://github.com/NixOS/nix",
+        "git_repo": "https://github.com/NixOS/nix.git",
+        "website": "https://nixos.org/",
+        "hashes": {
+            "": "078e2ffeddf6a9c1f22adf41458ccc46a58bb26911a9e01579645314f9982994"
+        }
     },
     "Poetry": {
-        "name": "a6f10bde1cb3b4d0c3a51b3bf3746c41920093f27b8c5a9f438e31903810099e",
-        "url_pattern": "5df365ec56cb42325c253a5a71c1fe28e49bf82d7db0abef9b505abe5a02864a",
-        "description": "c95ac965fb377a70b1326b6264df93159fa9a84439deffe89099c78d161f2298",
+        "name": "Poetry",
+        "url_pattern": "https:\\/\\/install\\.python-poetry\\.org",
+        "description": "A Python dependency management and packaging tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "f9fac150be5083bba391158eba2944f829f5a5ee7697a90f303be12f8ea9e603",
-        "git_repo": "a3b567cd06f050a00ecfe0305d481611361786c5b7ac02cf4bb73e0ec83351c0",
-        "website": "5314e5546d91f244dcc8d2b518704e8a83a0f3c472930e3d4e741e460a1201b5",
-        "hashes": {}
+        "repo_url": "https://github.com/python-poetry/poetry",
+        "git_repo": "https://github.com/python-poetry/poetry.git",
+        "website": "https://python-poetry.org/",
+        "hashes": {
+            "": "963d56703976ce9cdc6ff460c44a4f8fbad64c110dc447b86eeabb4a47ec2160"
+        }
     },
     "pipx": {
-        "name": "1e4ab8abb8b720c2e01cfa62e24649628f22c4a57c789e10456efbb7d1dc5e86",
-        "url_pattern": "68179328f8ab191b3f561335113ebe1651745b027dec208b9fb87fe43326a6da",
-        "description": "2e70b8362a607384880991cf90a1625e67dc470b2f2717fba4c2017325dbf34a",
+        "name": "pipx",
+        "url_pattern": "https:\\/\\/github\\.com\\/pypa\\/pipx\\.git",
+        "description": "A tool to install and run Python applications in isolated environments.",
         "valid_versions": [
             []
         ],
-        "repo_url": "924a25868acfc450621d40b3658fb6743714c68ed1a01e3c4adbff9b5f7057d9",
-        "git_repo": "ca95bcfac4ff8a1711a0155be41c1a4e2df89cc9664226750ce6b0b952b37e98",
-        "website": "7b4e9217d0042dd009525a363a6025d96e7a79f56fab5a787cf036add531ad9c",
-        "hashes": {}
+        "repo_url": "https://github.com/pypa/pipx",
+        "git_repo": "https://github.com/pypa/pipx.git",
+        "website": "https://pypa.github.io/pipx/",
+        "hashes": {
+            "": "f25151209f10c8ff0f9aa8e0803a96f2ba2003bedad56e7d06cd8b4c33e6531f"
+        }
     },
     "Tailscale": {
-        "name": "88d90e2eef3374ce1a7b5e7fbd3b1159364b26a8ceb2493d6e546d4444b03cda",
-        "url_pattern": "0a5b4e6ae4a289d82d8ef9fe0a3d0a7a9e5d4d173c0acb0d3d83e6e3d8bb1f18",
-        "description": "e00c8fcc3b012660a7ad5a1a14c21d06683e392dad57cf68a692028693355e6e",
+        "name": "Tailscale",
+        "url_pattern": "https:\\/\\/tailscale\\.com\\/install\\.sh",
+        "description": "A zero-config VPN; its installer script sets up repositories and keys.",
         "valid_versions": [
             []
         ],
-        "repo_url": "fdc09468aa7c3169df988493f9cf1ef4e059bd03718430a29bb971a7010eb65d",
-        "git_repo": "f3febfbc32ed5e895846314e189e7727da350c913d280e22ccec7f41117e98cd",
-        "website": "04fdaa1e2144440e5be1e4f62731c2b281631effc78b7d40bc4ddbc6e8233d14",
-        "hashes": {}
+        "repo_url": "https://github.com/tailscale/tailscale",
+        "git_repo": "https://github.com/tailscale/tailscale.git",
+        "website": "https://tailscale.com/",
+        "hashes": {
+            "": "97f6dffa0a16858cab47010f25e86c7d40e1336125e54c3f660d312171f83b7b"
+        }
     },
     "Metasploit Framework": {
-        "name": "53400435ba19a47a519dee51eda994f6c43f7a20e1902a76db66a1768370c649",
-        "url_pattern": "35a17fec9a4f943ea32e755400b36527003c7df6754b4c358f5a27945bee91d2",
-        "description": "bf0abe069447850c944cbec796d6c3bfc4c50558f7c05aedee24dc7a9d27a256",
+        "name": "Metasploit Framework",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/rapid7\\/metasploit-omnibus\\/master\\/config\\/templates\\/metasploit-framework-wrappers\\/msfupdate\\.erb",
+        "description": "The open-source installer provided by Rapid7.",
         "valid_versions": [
             []
         ],
-        "repo_url": "bcd16f553c8e4254f3b4f87352aafba951713f9c5c45c9bd3acd76d0fd2b62e5",
-        "git_repo": "24a960e4a8fb5710b2f18503f1bf904ec227cc48d5a055c3f89fd87a18859b1f",
-        "website": "6a0dd240c07f8164fe9e8360b8d4d4f4d7a1b5c5c722db90c84c9a805ba04f37",
-        "hashes": {}
+        "repo_url": "https://github.com/rapid7/metasploit-framework",
+        "git_repo": "https://github.com/rapid7/metasploit-framework.git",
+        "website": "https://www.metasploit.com/",
+        "hashes": {
+            "": "d12fea4d1339ebecb09d8cc36920d9f5e5e7e9fffbe092b1e1cd09255cc16825"
+        }
     },
     "OpenVPN Installer": {
-        "name": "d3a3833c2723cdc31e5a4940e093776659020ea170486a43dab9b658d7c9fefe",
-        "url_pattern": "13059739c5bd6b79f2411516924dc014ce15870616caee6d78e490c18059fcb1",
-        "description": "c5c1d8d6d29dc6a2b02e1061ff529b17fc48ef9cc9f7fa6a9d7aae8d9f616592",
+        "name": "OpenVPN Installer",
+        "url_pattern": "https:\\/\\/git\\.io\\/vpn",
+        "description": "A very popular community script for setting up an OpenVPN server.",
         "valid_versions": [
             []
         ],
-        "repo_url": "82b2a0f7efb5d15deee915a06b35455aad3c10fdc3ab906750900c8916302e72",
-        "git_repo": "718eabb34e4227f95ff2e37d6a9b21192dc4dbd110953eba78e2fa0e1f363e22",
-        "website": "82b2a0f7efb5d15deee915a06b35455aad3c10fdc3ab906750900c8916302e72",
-        "hashes": {}
+        "repo_url": "https://github.com/Nyr/openvpn-install",
+        "git_repo": "https://github.com/Nyr/openvpn-install.git",
+        "website": "https://github.com/Nyr/openvpn-install",
+        "hashes": {
+            "": "03ebe12ab86f494f1c019bd5b14af4805ba99693db72a396ce5789d8b0419eb0"
+        }
     },
     "WireGuard Installer": {
-        "name": "fb6c8a85ba633026b4ccda153e6a79918200d85d7999b363848d51a7de03b716",
-        "url_pattern": "2b977f66549ff23ec7c95167c946e4081d0d802ba31a929a8d7f90f704bbd21b",
-        "description": "03ddd6cc66080851f6b656da92385cee4765aba4fd4fb6fc7a6af1f5751bbeda",
+        "name": "WireGuard Installer",
+        "url_pattern": "https:\\/\\/git\\.io\\/wireguard",
+        "description": "A popular one-line installer script to automate WireGuard server setup.",
         "valid_versions": [
             []
         ],
-        "repo_url": "930f3bd84ab5d40c75a711721ed46ca0e59dbeefd4002aadf525b36edaad919e",
-        "git_repo": "0cd1c79f4c11cc1130d04ad8bec8824c6ecc260c72f0b848ffff1e022f5e916a",
-        "website": "930f3bd84ab5d40c75a711721ed46ca0e59dbeefd4002aadf525b36edaad919e",
-        "hashes": {}
+        "repo_url": "https://github.com/Nyr/wireguard-install",
+        "git_repo": "https://github.com/Nyr/wireguard-install.git",
+        "website": "https://github.com/Nyr/wireguard-install",
+        "hashes": {
+            "": "7c4a5f80112bbc665c832c44f76f578cf6c7ba8214771f3c5409a2461e9433aa"
+        }
     },
     "rvm": {
-        "name": "1391d70e214eb319c0789ffd57b88ec6a10569e3ce39ca9c1438c2bf96fe1aae",
-        "url_pattern": "5d7b71d6547ed1ccc231cee5ca19159d04d88dcbf9cf9be46e5608c8a076f42a",
-        "description": "f6a4c0c0de6154a53815bdcdb4a2e56301122853ec0d977ff1823532419f995e",
+        "name": "rvm",
+        "url_pattern": "https:\\/\\/get\\.rvm\\.io",
+        "description": "RVM (Ruby Version Manager) - A feature-rich manager for Ruby versions.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e2fac7c63d35c6bdd57d42abad0668042354013cf2b790353fa8593285d17dd5",
-        "git_repo": "f280f1cf92c9df4c9c582fa11ca98f3ef3e56375eb98859ced6ff5be0242d35e",
-        "website": "3a55ad4bcc9cdf5e7ebcf560bf7c84b77a3b47ee41f6875db998b4de39fca257",
-        "hashes": {}
+        "repo_url": "https://github.com/rvm/rvm",
+        "git_repo": "https://github.com/rvm/rvm.git",
+        "website": "https://rvm.io/",
+        "hashes": {
+            "": "7bbf79be95e516f72945e558a4290b40ff8714158140a00991d42172ff78e209"
+        }
     },
     "gvm": {
-        "name": "d94ef097d3acbc5b90f68e714583158f1d9cb1dbc53a4dc95248c0afa65db0cb",
-        "url_pattern": "6a71ef0c416fe7312943c37f1485c7045d4a14a98ce7d184efd6a9586385773f",
-        "description": "801afc6934662cd8addbbc39992f25abcf27dd81c2d98b65f03d6680bdd5d416",
+        "name": "gvm",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/moovweb\\/gvm\\/master\\/binscripts\\/gvm-installer",
+        "description": "Go Version Manager - A tool for managing Go language installations.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6b5c119695737844f0644484ccc80d3628e0dff7ff113bdc64321fe967e2a90a",
-        "git_repo": "867af08c868992e35ed6dce40532154e8b81416da7944018605009cd3d57a634",
-        "website": "6b5c119695737844f0644484ccc80d3628e0dff7ff113bdc64321fe967e2a90a",
-        "hashes": {}
+        "repo_url": "https://github.com/moovweb/gvm",
+        "git_repo": "https://github.com/moovweb/gvm.git",
+        "website": "https://github.com/moovweb/gvm",
+        "hashes": {
+            "": "45553fe3f3cff3f7766a79f3a2f4a962cf623c984d3b960574a9ab9524ad1905"
+        }
     },
     "Minikube": {
-        "name": "ce3292f87571dc4169a8e2ad96c9bf6a564ddd9ab39a7bb5ae90e3291f238137",
-        "url_pattern": "12fd8710f5bad3230174a55108b2b3776687b02d631239358363aa16c63b1289",
-        "description": "36d9d858dfef3e4d2cb680fb9a78a2746c32f9f60983406c52d9f3063afb0d67",
+        "name": "Minikube",
+        "url_pattern": "https:\\/\\/storage\\.googleapis\\.com\\/minikube\\/releases\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/minikube-linux-amd64",
+        "description": "A tool that lets you run Kubernetes locally.",
         "valid_versions": [
             [
-                "0d5eb8b8e96007e5d1ac97bc29ae4b859d64feef1ae388673bad3bf6840b42ed"
+                "v1.33.1"
             ],
             [
-                "9bbbe4a42a973f1e9b00189d5ce292830e9de721d536f1470257a8794e249235"
+                "v1.33.0"
             ],
             [
-                "9be62382dc382cf6f47034bfd033da98e6eac98e8b722b6379dd457d17e62a31"
+                "v1.32.0"
             ],
             [
-                "0d2a9c5daac03989218ee755eb81493b3060f1e71eb4e7471e1eb1dd9e7dc8e3"
+                "v1.31.2"
             ],
             [
-                "be35bfd1717a8c34d1778f7fee5f208421d1a7fb27597ed2fb94c47b7e5d8107"
+                "v1.30.1"
             ]
         ],
-        "repo_url": "712ae2e8ab70555465625e365e24ef123ba9f83b101fb32c0a2f14cdde265bf3",
-        "git_repo": "a0b6b76ae2b91e27a926e29b84994e5962a2c32f53b895fbd10aa369a528ddd5",
-        "website": "fa4b1be7e24cbf7abe78d331187fb48d0dc1ea019be7283db6cda32f3e9a247c",
+        "repo_url": "https://github.com/kubernetes/minikube",
+        "git_repo": "https://github.com/kubernetes/minikube.git",
+        "website": "https://minikube.sigs.k8s.io/",
         "hashes": {
             "v1.33.1": "e3d94b98534dd442d07089c7524aafe0d5f471c7eab3667a60ef7f9fa2cebc48",
             "v1.33.0": "6066c076e4d47d103606a6963f8cf7f7db4c10f6dce38a54e7265c3f0b2cedf4",
@@ -584,176 +666,200 @@
         }
     },
     "GitLab Runner": {
-        "name": "a34f753b28fcff4f155ad9003a18448688390d8c5d2acb20721b7cccccff6e3a",
-        "url_pattern": "7717f14afee5fa9ad3c812f06a9bb7479f477502a18ea99a8bc15ba1c4b382a8",
-        "description": "719146b0825ff1c3594d0a529eb33c3913175e4fde62ef6754ddd332fdcbb53d",
+        "name": "GitLab Runner",
+        "url_pattern": "https:\\/\\/packages\\.gitlab\\.com\\/install\\/repositories\\/runner\\/gitlab-runner\\/script\\.deb\\.sh",
+        "description": "Installs the agent that runs CI/CD jobs for GitLab.",
         "valid_versions": [
             []
         ],
-        "repo_url": "80febd3e30f4367dcd35dd0dc8f56d94dcf8935062485c63a605c815dae36e9c",
-        "git_repo": "12c7d67374a81e758f72cf254cada80ab33bdf428becfd041b491ce4b01f3e6f",
-        "website": "a1199be34ec37a22b7465790b79cb4cb4c2610c9b4bc674124b5792032618ace",
-        "hashes": {}
+        "repo_url": "https://gitlab.com/gitlab-org/gitlab-runner",
+        "git_repo": "https://gitlab.com/gitlab-org/gitlab-runner.git",
+        "website": "https://docs.gitlab.com/runner/",
+        "hashes": {
+            "": "f4089aa316f7a1d35f5dfa52a4124486bbb74a0c94d2633c1f1f1fde6f58ff76"
+        }
     },
     "Tilt": {
-        "name": "9498a18774830c62bdda63968143fd44a3ad3e61e3e3f7df8c577b25c92eb04b",
-        "url_pattern": "4fa8d008dc20dd70f0028686aece378562317fa5afc3997400b4a00eb718f683",
-        "description": "0bbb9b8851de4580da656554a998442610234d82e3d160985caf0fb4de619136",
+        "name": "Tilt",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/tilt-dev\\/tilt\\/master\\/scripts\\/install\\.sh",
+        "description": "A toolkit for multi-service development on Kubernetes.",
         "valid_versions": [
             []
         ],
-        "repo_url": "a73acce4de0cd0cb2f9e9be2d3f5d20f7fd47ef457784c892c721e5c49e54362",
-        "git_repo": "7338189ee43f4b20a408546853a50d1ad12692e3b4f619908ba8476d043694fe",
-        "website": "c5a87685c79c9afa41eca7e09d70ec7b105019f3af30954dbe191f3efa34e19e",
-        "hashes": {}
+        "repo_url": "https://github.com/tilt-dev/tilt",
+        "git_repo": "https://github.com/tilt-dev/tilt.git",
+        "website": "https://tilt.dev/",
+        "hashes": {
+            "": "edc67d8bc7ce6aa57294942ef01f6a7cf1735d7aa86debb59a555c92c54b01bf"
+        }
     },
     "zoxide": {
-        "name": "653a3a416472f3501a202135730e19dbf43b1708896fa85401e77cee8a5ccf75",
-        "url_pattern": "4f240f224c8e085c048c596b6acd639aa7e535c9015bc6c5890fc8c3e4f4ed0f",
-        "description": "be0362f3cecd5913c08a7104b952913cfd8f5f4b4eb3a1f35de133e54487c4e9",
+        "name": "zoxide",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/ajeetdsouza\\/zoxide\\/main\\/install\\.sh",
+        "description": "A smarter cd command that learns your habits.",
         "valid_versions": [
             []
         ],
-        "repo_url": "9d9e4135a8b865d4cbbb3d5f201764f00e74d0e8686e79c00d297a378db646ef",
-        "git_repo": "747205fd46d53dec90cf42425f0474a74b395e3a67231b41a4f254ad9b1b6200",
-        "website": "9d9e4135a8b865d4cbbb3d5f201764f00e74d0e8686e79c00d297a378db646ef",
-        "hashes": {}
+        "repo_url": "https://github.com/ajeetdsouza/zoxide",
+        "git_repo": "https://github.com/ajeetdsouza/zoxide.git",
+        "website": "https://github.com/ajeetdsouza/zoxide",
+        "hashes": {
+            "": "cdc6ded8f43affe28293b3e3ed1060492534401b13a629e17fdb7f43bf9924d1"
+        }
     },
     "micro": {
-        "name": "186641861d6d9f2fc590cc66b89e9d8c8b99c3e63df2c7ebe81c96a322a51782",
-        "url_pattern": "31bbf5b633e28cba9021ee3ce3db824032c920ade6167b4860795d9aa72af944",
-        "description": "0509c64eadf257728a5360c45c303ace0a06bce2a8c59e40829d94e8e8663742",
+        "name": "micro",
+        "url_pattern": "https:\\/\\/getmic\\.ro",
+        "description": "A modern and intuitive terminal-based text editor.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6fea6ea37b6f8543c116431bc53557ec1278ee55408f3d40c6a736cc5cdb21c5",
-        "git_repo": "c44242b24ec8f35b885e227612ad339b352dbe92d313f9c6f0d306acebbab3bb",
-        "website": "ebe1c48dfe4e43f5003417411b0727f2ae41b64d2ae72914f1a34c1b387518cc",
-        "hashes": {}
+        "repo_url": "https://github.com/zyedidia/micro",
+        "git_repo": "https://github.com/zyedidia/micro.git",
+        "website": "https://micro-editor.github.io/",
+        "hashes": {
+            "": "60ef856d3c2bd1b2ffdbc150340595095f10913d3e2bd1543950fb6fe150380e"
+        }
     },
     "gh": {
-        "name": "fb2b7fce0940161406a6aa3e4d8b4aa6104014774ffa665743f8d9704f0eb0ec",
-        "url_pattern": "79bcc0528aff7b0d77bd7708f3174205bd3b6d62b942db86e604ae2fbc982154",
-        "description": "41095313d36a3402b41e289041418c092d568ad444c96bfaa14689021f5e8570",
+        "name": "gh",
+        "url_pattern": "https:\\/\\/cli\\.github\\.com\\/packages\\/githubcli-archive-keyring\\.gpg",
+        "description": "GitHub's official command-line tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "440ac9df5ef1fbd34f2904a5fb7c8e53d963800a4a52b7f07905c6eea04b59ae",
-        "git_repo": "f19af48b77e458bbc96cd1192c5f64d217130389fdf63248824b8ab13ec83c69",
-        "website": "187ac61954b33e80d72c3464b8a579f50286c4ac89c36b21f9c142e9fce7afd1",
-        "hashes": {}
+        "repo_url": "https://github.com/cli/cli",
+        "git_repo": "https://github.com/cli/cli.git",
+        "website": "https://cli.github.com/",
+        "hashes": {
+            "": "2f05311dc66741a6b36e5a34175f4f38014a918210d063934845458c2cd48198"
+        }
     },
     "Bash-it": {
-        "name": "25e67b4cfab857ddc8f48cb862b1dffa88eb3773e114d8825abeca45632d6028",
-        "url_pattern": "196de79e9e1bb02c69d9391a429aeec1e02c7ce01803468e3d6a4ae94a678bbd",
-        "description": "e1bc688d65f4fa0a377cb75292e8871547400d418df554b42164d74bef6acd93",
+        "name": "Bash-it",
+        "url_pattern": "https:\\/\\/github\\.com\\/Bash-it\\/bash-it\\.git",
+        "description": "A community-driven framework for Bash.",
         "valid_versions": [
             []
         ],
-        "repo_url": "585f2d71cdbce8a974aad0ae807b1667a55dd33932153b94c49782116b5bb6e1",
-        "git_repo": "127c0bc7c78be9c62eed6d752f90872076116c28249f6b3166b75d8a3c0674b4",
-        "website": "940c2e948a33149a680de9daa8c7cbdc1ddf9d232ff3c835352bef24b9530b93",
-        "hashes": {}
+        "repo_url": "https://github.com/Bash-it/bash-it",
+        "git_repo": "https://github.com/Bash-it/bash-it.git",
+        "website": "https://bash-it.github.io/bash-it/",
+        "hashes": {
+            "": "1c71fc85b09c625a0f3b0ad218b0a3216150dbc34e84222b0dc69f99d6b7578f"
+        }
     },
     "Umbrel": {
-        "name": "173be698d6e05dd36582b3095b362c820ba69c1ff372c2a6e0d4364f375dae5f",
-        "url_pattern": "8cf74638acbf1ce3b9923753bf784136a839fda3b25f3070618426a2ca1cb647",
-        "description": "ce58cbcecdd66d572ce8ba9b7205687f984e908f0ba27979be73d369fc86fc52",
+        "name": "Umbrel",
+        "url_pattern": "https:\\/\\/umbrel\\.sh",
+        "description": "A personal server OS for self-hosting.",
         "valid_versions": [
             []
         ],
-        "repo_url": "2cbd9aba6698c4f739ff2d794ca822125dcfb261537dfcf306e028e7ebecf042",
-        "git_repo": "2012628c502900f9a14848c8a2c755972f9cc4315f6bc7f5b15bfdd78464549f",
-        "website": "93ef8daf02be87eec836c321b8301eb401c591fca2e6e7d0f7d8322b626fd0ac",
-        "hashes": {}
+        "repo_url": "https://github.com/getumbrel/umbrel",
+        "git_repo": "https://github.com/getumbrel/umbrel.git",
+        "website": "https://umbrel.com/",
+        "hashes": {
+            "": "0c0454322b28073f9490f1e951cb6ffb03fbb9b96a0bfc2411a2508a87397472"
+        }
     },
     "Conda / Miniforge": {
-        "name": "09c667f6b26118386a5436d598dc2329fe1ff0f880b44040e9057cafbf5ff98f",
-        "url_pattern": "116fd7ab7bbfd1d75b587863bc93e52104649b1dbf949f9705d324e1423634b3",
-        "description": "feb0033c95bb11e5ae2ec2801f4e7d7922bfe1e0623ae40952c1371b6f1ae9a5",
+        "name": "Conda / Miniforge",
+        "url_pattern": "https:\\/\\/github\\.com\\/conda-forge\\/miniforge\\/releases\\/latest\\/download\\/Miniforge3-Linux-x86_64\\.sh",
+        "description": "Installer for the Conda package management system, focused on Miniforge.",
         "valid_versions": [
             []
         ],
-        "repo_url": "1633b59a37909b9ecc2ca28fec69b8896989bc274c7c0afceaadfa409c8189cc",
-        "git_repo": "89019fb78811724283def2edb23b0907a8ad5645e5fb3f739ec2714ca3c13e28",
-        "website": "1633b59a37909b9ecc2ca28fec69b8896989bc274c7c0afceaadfa409c8189cc",
-        "hashes": {}
+        "repo_url": "https://github.com/conda-forge/miniforge",
+        "git_repo": "https://github.com/conda-forge/miniforge.git",
+        "website": "https://github.com/conda-forge/miniforge",
+        "hashes": {
+            "": "59411efeda8af6ae6f1bcdab3a5c90a6cd4e5026e80902e21ee05962dfe7161d"
+        }
     },
     "ngrok": {
-        "name": "84b6f03ebe1a75941beef705415e235b0dbd9fd23eb2939f4738bbe8839f78ea",
-        "url_pattern": "1da3df1bba57c305f407e63ed1ad222f9cd4e83c64cb63ac77fe2460b2d09a89",
-        "description": "b6fd504eb7963459b756625944561fd6c950d919b580b2f5c570d2ecff5284ad",
+        "name": "ngrok",
+        "url_pattern": "https:\\/\\/ngrok-agent\\.s3\\.amazonaws\\.com\\/ngrok\\.asc",
+        "description": "The secure tunneling service; its agent can be installed with a script.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "git_repo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "website": "bbc842f2d46c62717d28f26b87a26eb113070d07847eb3ac202abb875b2d5636",
-        "hashes": {}
+        "repo_url": "",
+        "git_repo": "",
+        "website": "https://ngrok.com/",
+        "hashes": {
+            "": "8a57c28e1779e2a8e5bba3865fffd6805e15898988c235eae862f3069c3f2c28"
+        }
     },
     "Mailcow": {
-        "name": "f0575a25a3b77863600cea95d7d8305df6af577eafcd2d3db3e248c734dcc556",
-        "url_pattern": "99a28814fe44ff31b77476cf871675ce758636e28d3a495bba07e9c72aaf3d99",
-        "description": "5c70dcc588d267003e4ba84689627ff0305d2ea4ca830a532a0573583d41d429",
+        "name": "Mailcow",
+        "url_pattern": "https:\\/\\/github\\.com\\/mailcow\\/mailcow-dockerized\\.git",
+        "description": "An easy-to-use Dockerized email server suite.",
         "valid_versions": [
             []
         ],
-        "repo_url": "f9f25a22ad4d57196172912c986fee8ca8f1e18e2c4d92f3efb06bb83020542b",
-        "git_repo": "b06b7be7abe4bba0a0eb639e9ca37a04a31b5cac5a68262aa3121ec22cd44d2b",
-        "website": "056e23f8e10477edd0c32e74189ce88572b7eee75658a5ebad2629f85df6c513",
-        "hashes": {}
+        "repo_url": "https://github.com/mailcow/mailcow-dockerized",
+        "git_repo": "https://github.com/mailcow/mailcow-dockerized.git",
+        "website": "https://mailcow.email/",
+        "hashes": {
+            "": "d0aeb4205f10112e1f9438ed94a508b5abd6a2b0380ac6f3c1bb85ea81c1bbb5"
+        }
     },
     "Hestia Control Panel": {
-        "name": "a4ce8db5b50192d84637bcebb25466ad444246a7558a5cb707466786d356b2fe",
-        "url_pattern": "5058587c6bbd8acca052a7a07c06619a76be8f653e56ba6359d5edfa74605990",
-        "description": "443484c4ce06293720a4b35828a821080166200dceaa41edf7990b8b8ddb5662",
+        "name": "Hestia Control Panel",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/hestiacp\\/hestiacp\\/release\\/install\\/hst-install\\.sh",
+        "description": "An open-source web hosting control panel.",
         "valid_versions": [
             []
         ],
-        "repo_url": "599a3699b01b0deb461a646900f14f569cd028106d31748eba38be9f0daaaf40",
-        "git_repo": "dcbb0594afa49093671946788f1a052bfaa381d853b64f79be5e11552a51442c",
-        "website": "052bbd253fa99fd3951647e665212e234daa74f5907570314992c1eb0267cd1e",
-        "hashes": {}
+        "repo_url": "https://github.com/hestiacp/hestiacp",
+        "git_repo": "https://github.com/hestiacp/hestiacp.git",
+        "website": "https://hestiacp.com/",
+        "hashes": {
+            "": "3802180b092c7491987682649417e6e39f26052691848fdbc7c37a8f35620bdb"
+        }
     },
     "Trivy": {
-        "name": "a093422585a8a4cb763d89a0fa8e76744a80830fe24724c7e7943a50ec479240",
-        "url_pattern": "50b19457f31964614a6c965a79ea71957e3369a80c17eda0f3803347a3940321",
-        "description": "fce1fd1e825b5c98dcce9020f217f64e29eadc4c27df4a6c9977aaaf1f6066fe",
+        "name": "Trivy",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/aquasecurity\\/trivy\\/main\\/contrib\\/install\\.sh",
+        "description": "A popular open-source security scanner for containers and other artifacts.",
         "valid_versions": [
             []
         ],
-        "repo_url": "2303616314696cdd541cab71fef7ef0b1af31db858cce4d7f03a53cd72b96331",
-        "git_repo": "380dcae815d5691d37a0183ebfb3100bd1e8a8d8e2b1f12a481a5f01342505f0",
-        "website": "6b80e32687e01695b5959e77bb23295b3a0999cf49c5c2bd3b8ed3acde1ea54c",
-        "hashes": {}
+        "repo_url": "https://github.com/aquasecurity/trivy",
+        "git_repo": "https://github.com/aquasecurity/trivy.git",
+        "website": "https://aquasecurity.github.io/trivy/",
+        "hashes": {
+            "": "2304dcc0c1883e802d376eae1b514c923b7427a7d88091dfcaf83967e6f55a7c"
+        }
     },
     "kubectl": {
-        "name": "7a7f09de08e3dc01c5bbf90657ecc83d5c2da9f5791f1ebe84132b95422878dc",
-        "url_pattern": "3e8fd60d7ebd684e0a599912fe83d2d26a0b034d7a8329b20c95cb3c35b3a43b",
-        "description": "f526c80c95712147efbb9285015e3f449d9f9f625d426f4de6e2550f11839152",
+        "name": "kubectl",
+        "url_pattern": "https:\\/\\/dl\\.k8s\\.io\\/release\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/bin\\/linux\\/amd64\\/kubectl",
+        "description": "The command line tool for controlling Kubernetes clusters.",
         "valid_versions": [
             [
-                "5e34d90248f4bdf271a942cf960407e399c2bd2b7c7e34061e62e0c127ce3944"
+                "v1.30.2"
             ],
             [
-                "be35bfd1717a8c34d1778f7fee5f208421d1a7fb27597ed2fb94c47b7e5d8107"
+                "v1.30.1"
             ],
             [
-                "1d7095be14d4d9cc44ae2ca4a340f74f465f4d2073e97b0c056b1f0b9ba72e3a"
+                "v1.29.6"
             ],
             [
-                "7b69995d912ea861efc98eae6ad46dbe11de9aa8f1516acfc4a57a5876a866de"
+                "v1.29.5"
             ],
             [
-                "9eb5fd19ee40d48b55434c4f0f7cdff529038ea2c4606044736b6bc2fbd4044a"
+                "v1.28.11"
             ],
             [
-                "39a0f56a7f481caa72b44b05cbd8b0e89125a21f1bb13ceeee79771cb74d1704"
+                "v1.27.15"
             ]
         ],
-        "repo_url": "38eb2f764744d645900935a8603022f56cdd654edc12d6936a98a8be5534475f",
-        "git_repo": "6cdeab952f5489b2a08f60ca99aa1152d7f964e3073d5f68bde6ac4ea05666f1",
-        "website": "4b270f77a1d2aa26be3c5c36883fc4a1af0a01165062c4e7a399a9546a12db9e",
+        "repo_url": "https://github.com/kubernetes/kubectl",
+        "git_repo": "https://github.com/kubernetes/kubectl.git",
+        "website": "https://kubernetes.io/docs/reference/kubectl/",
         "hashes": {
             "v1.30.2": "a841eb9c236d1217ea5cc864cd8d99888ee8abf7f9fde041fcbf52082b2a59f1",
             "v1.30.1": "3820a1105e2ff77d55c26e45351d4eb84ad03779e301ea8ea114f9af99303a47",
@@ -764,26 +870,26 @@
         }
     },
     "kind": {
-        "name": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
-        "url_pattern": "5a5a113fe45b66c864e8e003dfe2d5800245e907eb473a2f3da5b2fc95590f01",
-        "description": "b268b2248b247e4b52defb086accfc0f14ef584ee53f631b70fa6fa232544292",
+        "name": "kind",
+        "url_pattern": "https:\\/\\/kind\\.sigs\\.k8s\\.io\\/dl\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/kind-linux-amd64",
+        "description": "A tool for running local Kubernetes clusters using Docker container 'nodes'.",
         "valid_versions": [
             [
-                "2b09d15c30186577aa07166706a9fd85e705730e0a07713d1806955a667cf48f"
+                "v0.23.0"
             ],
             [
-                "c23f360f035f875dae3e488fe37a299d1833dc15a1571b030e1045ade1969678"
+                "v0.22.0"
             ],
             [
-                "220c03f615f3081eb70949c6727689bcde653415615c37112636bd90d563adc8"
+                "v0.21.0"
             ],
             [
-                "f8385526da05bdcc76869d8c973d0903aa37865660439f9dd95d9dfc95e48c96"
+                "v0.20.0"
             ]
         ],
-        "repo_url": "8a13cf5f0c798e05d11d203f574c0a523cd7ad1ce37dfff1c44560d1cdb3a8f5",
-        "git_repo": "73154b50c232008cc22486fd6bb390a52007bab99894b5cf15119c2252e1cfb5",
-        "website": "3915996eff6217597cab78f8c8419fe1c547a32a5bdb4a639e7ec646265cc690",
+        "repo_url": "https://github.com/kubernetes-sigs/kind",
+        "git_repo": "https://github.com/kubernetes-sigs/kind.git",
+        "website": "https://kind.sigs.k8s.io/",
         "hashes": {
             "v0.23.0": "e6a2b6eca8a16dd6b7b1022643432c154734941270de70f2b0039d49f866b033",
             "v0.22.0": "02c220eec5fa69a60fa60e5997bfa4048c591e6f18ea7405622a64e3d9f39914",
@@ -792,26 +898,26 @@
         }
     },
     "k9s": {
-        "name": "030c9a692e7a01e1d14a77b6538fbee61cb5f9848530d171f4088698c3c472bd",
-        "url_pattern": "5b6893434e0110f90bcc8a445e3a4ad205b5f2bfe4fdcd1acfdbc59bfe3907cb",
-        "description": "1f0f166da7a95afcefec43bde7a901ae7be17d38e5b83ca286c8501e555b2022",
+        "name": "k9s",
+        "url_pattern": "https:\\/\\/github\\.com\\/derailed\\/k9s\\/releases\\/download\\/(v[0-9]+\\.[0-9]+\\.[0-9]+)\\/k9s_Linux_amd64\\.tar\\.gz",
+        "description": "A terminal-based UI to manage Kubernetes clusters.",
         "valid_versions": [
             [
-                "daf8f83181111c480c6144c48fee5cf330332c0e06898b53d6ff1ae38ba1ae87"
+                "v0.32.5"
             ],
             [
-                "51545eef77c148fed51c5b15426f271d42bf4a01744bc8933060da41fc0a3531"
+                "v0.32.4"
             ],
             [
-                "92a3849acd567a1bbe647a727f77c02eea06c67710dd6831510019e72dcb2424"
+                "v0.31.7"
             ],
             [
-                "b35af8a893535b6a1e61719357eea49499b0b1ea46c7c47f73ddb431897885e2"
+                "v0.30.8"
             ]
         ],
-        "repo_url": "c2104f0aba86baf291d7d63b67f650c16cb55df291ce9952708e289259833fa2",
-        "git_repo": "0d9c9c621baf9409fe26e752e8e194c396af6bb247ae7428d3ca084a77a5b441",
-        "website": "6ad28a4648a2d09643cca1ebd3afc7f93e33538854038b449495e8a8fe457d37",
+        "repo_url": "https://github.com/derailed/k9s",
+        "git_repo": "https://github.com/derailed/k9s.git",
+        "website": "https://k9scli.io/",
         "hashes": {
             "v0.32.5": "b6d8a2b727184ffc7b9f339558b6f5a741cc6b6230ebec7c2d3fba42977d3716",
             "v0.32.4": "843a6d1b666324f00cc1b108006269eca5e86ab6a3b074b65fa8189a5e3020f3",
@@ -820,47 +926,51 @@
         }
     },
     "fzf": {
-        "name": "efdb464cc861e35a08b50147b5499a17f5e4e28e6a6e4798a2840e671c6049ba",
-        "url_pattern": "a198e10056b84dfc6ddd0f10c5d74c183a32361909f539aec0cec26c17ab7957",
-        "description": "fab3e8c2d6ff5819d258f4158b95705356e2acf5bc657f3e7d2e64ad0d21e285",
+        "name": "fzf",
+        "url_pattern": "https:\\/\\/github\\.com\\/junegunn\\/fzf\\.git",
+        "description": "A general-purpose command-line fuzzy finder.",
         "valid_versions": [
             []
         ],
-        "repo_url": "7c881fd189f1ece84c8b4dcf5a6f347025954329974cdd2ebbe23064974bb188",
-        "git_repo": "5df4a2233c54629eeb8d1a53f9833dd932c0e2eda12721cb9bf885180a57d59e",
-        "website": "7c881fd189f1ece84c8b4dcf5a6f347025954329974cdd2ebbe23064974bb188",
-        "hashes": {}
+        "repo_url": "https://github.com/junegunn/fzf",
+        "git_repo": "https://github.com/junegunn/fzf.git",
+        "website": "https://github.com/junegunn/fzf",
+        "hashes": {
+            "": "357b3f83e5c87bbd8eedbd82946f150e9354b7ed309f481e0c1c663e58a8b9ab"
+        }
     },
     "neofetch": {
-        "name": "62525f2e54a361dd7ebe40d819c3c1ccdd52af7a954f7d72e59c4bde3a4ea135",
-        "url_pattern": "ffc19c40d77e20f49b5646c17772d482ae8dcdf3471cf77c51d1fe324021d538",
-        "description": "a48590e4be1ee36bd8c5bccc00d78a50b7982e59c828e8158a8416d186ccc1cd",
+        "name": "neofetch",
+        "url_pattern": "https:\\/\\/github\\.com\\/dylanaraps\\/neofetch\\.git",
+        "description": "A command-line system information tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "37f6cc4c62e9fab5aa51c813816956ebc692cea1642058ab3713062f1f42b728",
-        "git_repo": "dfebe151fe58dcaca620b706d22ebc3fe6ed17840a17b1baf1ff8c85ab1d8635",
-        "website": "37f6cc4c62e9fab5aa51c813816956ebc692cea1642058ab3713062f1f42b728",
-        "hashes": {}
+        "repo_url": "https://github.com/dylanaraps/neofetch",
+        "git_repo": "https://github.com/dylanaraps/neofetch.git",
+        "website": "https://github.com/dylanaraps/neofetch",
+        "hashes": {
+            "": "ea86694f457d2699e37b8d3a46d4758730d1fd1466870757e1b118c4b8e75b7f"
+        }
     },
     "btop": {
-        "name": "e7fcf220b1d437f0cf23445ad69a97f04765360dfa17ad6dfccb6887f854f588",
-        "url_pattern": "6a83af95052abcdfecea31572110cd95fa0d76a8c8760952aa5c2c19bec83e22",
-        "description": "7ca79a60680e17d054d81288580d586fa12955f5e0d41300bb81900585f56a7f",
+        "name": "btop",
+        "url_pattern": "https:\\/\\/github\\.com\\/aristocratos\\/btop\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/btop-x86_64-linux-musl\\.tbz",
+        "description": "A resource monitor that shows usage and stats for processors, memory, disks, network, and processes.",
         "valid_versions": [
             [
-                "7b13d2af3b6479080c67c5530c51b06fc7fecfc4ff35bb6fb663ad9bb222aaf0"
+                "1.3.2"
             ],
             [
-                "05c64cb6a9476411f5c1be2445cb7e163b575262cf76c1c116348335d4f9686e"
+                "1.3.1"
             ],
             [
-                "59296d23d623ce0adf7675d22156e83b1248c8508135a65dd8a9e38c497e94a8"
+                "1.3.0"
             ]
         ],
-        "repo_url": "370c9dfab057804ce51af480e8f645d65edc190e0beb093a66e29acc5540ebb3",
-        "git_repo": "e5ffb0e46cf2d556b8d5100a7f4878a577ba577bd155554daba16180f5380b3b",
-        "website": "370c9dfab057804ce51af480e8f645d65edc190e0beb093a66e29acc5540ebb3",
+        "repo_url": "https://github.com/aristocratos/btop",
+        "git_repo": "https://github.com/aristocratos/btop.git",
+        "website": "https://github.com/aristocratos/btop",
         "hashes": {
             "1.3.2": "186842744194421831cee17b7f6867b6d2631dc9ad857075fa234c5cea6fa0d9",
             "1.3.1": "4684a21e25c30114431fa43e3dc694a8f6b598c19140e92adfa896021088daec",
@@ -868,23 +978,23 @@
         }
     },
     "yq": {
-        "name": "c156061b47b0361d24e96c61eafdd435086fa7b8b0c5345c16460c846418f99a",
-        "url_pattern": "92de3caeabde92f1d8612fb5974a19d74fb284e4989ed18f48fe46545cbe8fa6",
-        "description": "79f3153bf972b2cfc33d97fe85bb855244771d1359e5a7421eaa266f4bf5cdf7",
+        "name": "yq",
+        "url_pattern": "https:\\/\\/github\\.com\\/mikefarah\\/yq\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/yq_linux_amd64",
+        "description": "A lightweight and portable command-line YAML, JSON and XML processor.",
         "valid_versions": [
             [
-                "92d05c515fc5bca17abe1e95b412d23bc9ced3bc1696e4ad9959717d7fad4f5f"
+                "4.44.2"
             ],
             [
-                "9ed2f89a33fe166731799cd593d19d9ca4033f18b8ccb27ae93697b9dde2c964"
+                "4.44.1"
             ],
             [
-                "0faddf8fe29fd9688eefcf774928da2268b69f3a26baa4f1119e5fd24935ad2a"
+                "4.43.1"
             ]
         ],
-        "repo_url": "e7158b3362042e574da9f4254612c72cd1909d5165750e28ae95c6aa4a721117",
-        "git_repo": "639cdefb0524d2fd9673a394719e45a011366a2296ec1266cdf024a200d30697",
-        "website": "790171f956f91e647ca655707c8af2f0b64b26a941ac2139b740a1698dbda215",
+        "repo_url": "https://github.com/mikefarah/yq",
+        "git_repo": "https://github.com/mikefarah/yq.git",
+        "website": "https://mikefarah.gitbook.io/yq/",
         "hashes": {
             "4.44.2": "58d9109800d4bf9d332733d0c4e82012ae92da3d2be16967531fd223a09335ac",
             "4.44.1": "6225344111c15568e1c5ba42f44cce75c724bb717e75b86e89a682bbc96e2b2d",
@@ -892,26 +1002,26 @@
         }
     },
     "gum": {
-        "name": "3e46c8846ec5016c238d9f68c89c5efaeea89d565399881ba15b36ece1d699af",
-        "url_pattern": "05f294dfbf6e0f4b028480e88ed5d9d5837cbc8e26f4c181ed914b9ef5eb8349",
-        "description": "48ffa004d123663c0e7a4be11576a59ed087f59acd21ac144e6ebcf731a5f068",
+        "name": "gum",
+        "url_pattern": "https:\\/\\/github\\.com\\/charmbracelet\\/gum\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/gum_([0-9]+\\.[0-9]+\\.[0-9]+)_linux_x86_64\\.tar\\.gz",
+        "description": "A tool for creating glamorous shell scripts.",
         "valid_versions": [
             [
-                "43806f317ec11e3f7908f75455e18400ad8aea9cf3f8c935f83e80e59910a76a",
-                "43806f317ec11e3f7908f75455e18400ad8aea9cf3f8c935f83e80e59910a76a"
+                "0.14.1",
+                "0.14.1"
             ],
             [
-                "514f2a7b05a1ef2ad45a3b4321cf452aee6fe7b50d0be86fd33ffe9a1990db1d",
-                "514f2a7b05a1ef2ad45a3b4321cf452aee6fe7b50d0be86fd33ffe9a1990db1d"
+                "0.14.0",
+                "0.14.0"
             ],
             [
-                "d4fabbf73758512562f5c3b6a3b77456c94ac424b7443f9aee6c61b7919cc2df",
-                "d4fabbf73758512562f5c3b6a3b77456c94ac424b7443f9aee6c61b7919cc2df"
+                "0.13.0",
+                "0.13.0"
             ]
         ],
-        "repo_url": "d847c018aba313e0e6f7d4f6931b7f8c6ee133093cf410c418b8d8bcc0d82d20",
-        "git_repo": "9d19b99bf92ab6f01898b4f5ed92890aae15d51eea03824d90470c2f35035f60",
-        "website": "d847c018aba313e0e6f7d4f6931b7f8c6ee133093cf410c418b8d8bcc0d82d20",
+        "repo_url": "https://github.com/charmbracelet/gum",
+        "git_repo": "https://github.com/charmbracelet/gum.git",
+        "website": "https://github.com/charmbracelet/gum",
         "hashes": {
             "0.14.1,0.14.1": "1bb712f69f876f8da3510420040482f27a34da6b3011c4235ede790c3f99353d",
             "0.14.0,0.14.0": "50142d6590fc77d581cf7b054346194831401e10cd7d42f976f3455afbba60aa",
@@ -919,83 +1029,93 @@
         }
     },
     "rbenv": {
-        "name": "34818f24772e38629d16c3d6c78266fd5b629bdcd5010b135bd09185e0fe0f43",
-        "url_pattern": "d67ab0950d840a6cfd10429d4b04220d5c69b147756802ffd0b5f49ff04a70b5",
-        "description": "eb54ce938b8dd0af9f57d09cf38841c01d816dfe55248b8580da34555c1d26e0",
+        "name": "rbenv",
+        "url_pattern": "https:\\/\\/github\\.com\\/rbenv\\/rbenv-installer\\.git",
+        "description": "Manages multiple Ruby environments.",
         "valid_versions": [
             []
         ],
-        "repo_url": "d83eb0981a39f096da40c310950b7ffc6ad28db588073f293e869557d0d35bd3",
-        "git_repo": "24d80eb625c8ad08a8f26d39f8c9412385369f737d35669ae65679e552e0d4ce",
-        "website": "d83eb0981a39f096da40c310950b7ffc6ad28db588073f293e869557d0d35bd3",
-        "hashes": {}
+        "repo_url": "https://github.com/rbenv/rbenv",
+        "git_repo": "https://github.com/rbenv/rbenv.git",
+        "website": "https://github.com/rbenv/rbenv",
+        "hashes": {
+            "": "4c324769a17107c3b6ad6f4e2ebbc92c45aeb51ad95e32f567882099eb018e01"
+        }
     },
     "Yunohost": {
-        "name": "4c4ae3e87306bb52e53215d33391ab7c3cb45f4ec09cc7fd8bea46f7572635b2",
-        "url_pattern": "5d18fdd98c1a506694e95d2d614be918685d558de0e2fdb764bb15b08256e213",
-        "description": "7540f05083fb7622873cb2a737f12402dfe9d158018fae6ec5d574f3f10c2132",
+        "name": "Yunohost",
+        "url_pattern": "https:\\/\\/install\\.yunohost\\.org",
+        "description": "A server operating system aiming to make self-hosting accessible to everyone.",
         "valid_versions": [
             []
         ],
-        "repo_url": "5f37a127620be06c9e523bb4de69775960717b130fa7efc9a47d6bb0c8a582ba",
-        "git_repo": "9f2cb8e2abde2225ff7bb9ae350d54bd70b164d25dc90fc8e5d54168f8a70782",
-        "website": "4290ba1258ae2e8445dfbe61e7196fe102cc862608999fb235b3b03063f1f72e",
-        "hashes": {}
+        "repo_url": "https://github.com/YunoHost/yunohost",
+        "git_repo": "https://github.com/YunoHost/yunohost.git",
+        "website": "https://yunohost.org/",
+        "hashes": {
+            "": "656e56d33d6e03e36628ba4c23deea6e0570f99567806fdb4453bc11daf6387c"
+        }
     },
     "1Password CLI": {
-        "name": "480b239a56ad121aed58d7558f0d2b548b56b8356396197a1286e9bad9eadc6c",
-        "url_pattern": "1eab60df3f6296ea8f48b4604f69941a95c5927420559c9a8d64f614902f5698",
-        "description": "86091229394fd87b15eb301aa7b5b015b260ca8db16fde208286bf7f03ae3e2b",
+        "name": "1Password CLI",
+        "url_pattern": "https:\\/\\/downloads\\.1password\\.com\\/linux\\/keys\\/1password\\.asc",
+        "description": "Command-line tool for 1Password.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "git_repo": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "website": "868af061e6830fc64ee0347301493d3fa9679dfa1bd2b7badccbe2272e3d72e7",
-        "hashes": {}
+        "repo_url": "",
+        "git_repo": "",
+        "website": "https://1password.com/downloads/command-line/",
+        "hashes": {
+            "": "f39e7dd9dedc581ced85732832f217e0de5860a3b80279b5af4bc7c6d8157bae"
+        }
     },
     "Appwrite": {
-        "name": "2a1d89576dd47c00236dd561c9a678ef18ebbfa8b2de9ca72ba0536bad8f20b4",
-        "url_pattern": "2481cfd7987f4669de1afd54c105b8c838a0ea2f3070c66af3833cf7ce1d3706",
-        "description": "e1ebd7313f5ff963c4a92a060ea420af4e0a4a11ceda986ed76d468cd66c6021",
+        "name": "Appwrite",
+        "url_pattern": "https:\\/\\/appwrite\\.io\\/cli\\/install\\.sh",
+        "description": "Open-source backend platform for web, mobile, and flutter developers.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6968183a54d9012013f1c4c4aafd6830b6190e2ecba81e35827bc3978850a6f1",
-        "git_repo": "57410b3ec57e29b52ad90b20edc5b452c31c5d88f1e74a468e146376028f8d9c",
-        "website": "4bc89ea2cf3727d5ed6efc61a76901746056b65ede9671b6a9a703d554349443",
-        "hashes": {}
+        "repo_url": "https://github.com/appwrite/appwrite",
+        "git_repo": "https://github.com/appwrite/appwrite.git",
+        "website": "https://appwrite.io/",
+        "hashes": {
+            "": "03a3050f790a8dc5ed6a56e0d64100c715c61ec59d18211d76ed171c7db1a38d"
+        }
     },
     "Brave Browser": {
-        "name": "898ce59ad1dbe24c1c9a88e4abd21064a863cfea9242fce9f4c005783e3090e6",
-        "url_pattern": "6c684bca649d21ca366aaa6163296fcf26df0595a8d59bf90f8c6cbf3c51a016",
-        "description": "feed69e91f54670f302ba7b0490b1bbb90b6273bcbeb234f6519ee86ea64512d",
+        "name": "Brave Browser",
+        "url_pattern": "https:\\/\\/brave-browser-apt-release\\.s3\\.brave\\.com\\/brave-browser-archive-keyring\\.gpg",
+        "description": "Installer script for Brave Browser on Linux.",
         "valid_versions": [
             []
         ],
-        "repo_url": "280ed606ee228ae01abbba8ce3fe5883b5b3591f03b73bf737be2923a68d410c",
-        "git_repo": "5f8c811d23ed44144740d300782dce86e5dbe419a6ecfb12ab90a03c82dff6b6",
-        "website": "9f119e082bdda57b4d98204db217fe50f001a5ee7e588a0f8cdd776d698865f5",
-        "hashes": {}
+        "repo_url": "https://github.com/brave/brave-browser",
+        "git_repo": "https://github.com/brave/brave-browser.git",
+        "website": "https://brave.com/",
+        "hashes": {
+            "": "a55eb7ddf66e408e263612e4d4d4beafd1b2cb3bf029d03bca3c794eed719ab8"
+        }
     },
     "CockroachDB": {
-        "name": "7faf392b79c10428ff23593b33b8ae0f44f6da2a77b62ba661b06964d2e13fcf",
-        "url_pattern": "43ab564d89ac6511ac416a111fea074682dad841607aca701a4a3bc8cd0c92f6",
-        "description": "ab24dc2cae4233b7510d3dcc985a7a3cb6e5021d3f026e74fd4c3a62d4c9d19a",
+        "name": "CockroachDB",
+        "url_pattern": "https:\\/\\/binaries\\.cockroachdb\\.com\\/cockroach-v([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux-amd64.tgz",
+        "description": "Cloud-native, distributed SQL database.",
         "valid_versions": [
             [
-                "530c9f7fc6700c12a1c7224133e6c48a6c6cd8a3167096552bc7ffc900e85241"
+                "24.1.2"
             ],
             [
-                "c108811dd19c9752e96183dd80bdf92ce37cb8ad42207c71edb15fbafde2e34b"
+                "23.2.5"
             ],
             [
-                "c2bbb8c9d86d33f3c15e94faba183725d3ebfca1291f40c8d9479603103a7486"
+                "23.1.18"
             ]
         ],
-        "repo_url": "059b42607687d8834105fc2021436739808b1506034cd860467fc809e98a654b",
-        "git_repo": "902090a01fbf94ddf4afd1b390da1a2d118a9717520b88a2772b6d53989a338d",
-        "website": "168e0e7ed12c026d714a2feb0498c068e07c6fd2a101f0104d6903ba1a9154db",
+        "repo_url": "https://github.com/cockroachdb/cockroach",
+        "git_repo": "https://github.com/cockroachdb/cockroach.git",
+        "website": "https://www.cockroachlabs.com/",
         "hashes": {
             "24.1.2": "b121d0ffb4c73e669516c817311886a39cd24356e3ae75283b1805b2a9e8703a",
             "23.2.5": "1d63b6e693b173fc3d6823ceaa54f88188603cce74d6629b8e418d6d899947e2",
@@ -1003,50 +1123,54 @@
         }
     },
     "Code-Server": {
-        "name": "aa627b272ed1db8e89514846596bd4086ca7710070ea80ca3a729139fe2e7ca8",
-        "url_pattern": "de623dda3bb292c3756f0c99b620b179e4a78f00017b1d6102769bea2ba813e7",
-        "description": "b8d7cb84498e4b6699404bce6241c0ad3aa66c04a50ca8ed676ed752689a6b14",
+        "name": "Code-Server",
+        "url_pattern": "https:\\/\\/code-server\\.dev\\/install\\.sh",
+        "description": "Run VS Code on any machine anywhere and access it in the browser.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e3c30d76280dd5064587dc21c64c9d1c772e738f2e85a6fab67bc9daf8364ed7",
-        "git_repo": "bb47a0600bd47b67be7e2bb2a19b526a22fc3a7cfdf352c6c4336980b9932a82",
-        "website": "e3c30d76280dd5064587dc21c64c9d1c772e738f2e85a6fab67bc9daf8364ed7",
-        "hashes": {}
+        "repo_url": "https://github.com/coder/code-server",
+        "git_repo": "https://github.com/coder/code-server.git",
+        "website": "https://github.com/coder/code-server",
+        "hashes": {
+            "": "e86784e9fec81106c74941e55dbbcb85dc963a06ad6c3f1a870d4a22cf432e1d"
+        }
     },
     "Flux": {
-        "name": "f5edfb1fdf449300af6a0e1a089a2fece6de4649f3b7c9df885abf7662fe31e3",
-        "url_pattern": "8f6c8c5a3f2ab099cd9d2a6c8726537b01d7d3600a97eb8947a3b6bafff85791",
-        "description": "d106883d046697f76d1d24ff30493b03029d872ab95ff6a44b00d6ac6debaa78",
+        "name": "Flux",
+        "url_pattern": "https:\\/\\/fluxcd\\.io\\/install\\.sh",
+        "description": "Installer script for Flux, the GitOps family of projects.",
         "valid_versions": [
             []
         ],
-        "repo_url": "dd199a68fa584ae46c56627453d47a9beaeabef4a0fd37aa7a067adc0de189b9",
-        "git_repo": "9db710198daf014083fc923c66eca5e3d63fd07bc5b3b34785303549c5909eef",
-        "website": "77a7dc45d8994d686612579650c592b4cc947c4315a309378e1880831d138518",
-        "hashes": {}
+        "repo_url": "https://github.com/fluxcd/flux2",
+        "git_repo": "https://github.com/fluxcd/flux2.git",
+        "website": "https://fluxcd.io/",
+        "hashes": {
+            "": "bd7765225b731a1df952456eced0abb5dbbf5e11bc70cf6ab5fddd1476088b7e"
+        }
     },
     "Gitea": {
-        "name": "94cb57646c54a297c9807697e80a30946f79a4b82cb079d2606847825b1812cc",
-        "url_pattern": "1cbaaa93d0b3c61c9a07c230ad6df37a44f14fd368dfd44a0172cc7a0fcb1df8",
-        "description": "5c84f97c2778aca3f21a03c818d5ad133ab419cb13954821e8b41ac840f20174",
+        "name": "Gitea",
+        "url_pattern": "https:\\/\\/dl\\.gitea\\.com\\/gitea\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/gitea-([0-9]+\\.[0-9]+\\.[0-9]+)-linux-amd64",
+        "description": "Git with a cup of tea, a painless self-hosted Git service.",
         "valid_versions": [
             [
-                "40d5da202a5d6bf3da3e14728cf54d150aa47899a3005aeb97ce024bf8ed6bd6",
-                "40d5da202a5d6bf3da3e14728cf54d150aa47899a3005aeb97ce024bf8ed6bd6"
+                "1.22.1",
+                "1.22.1"
             ],
             [
-                "408c4fc45bb701945d3c37c5dc37f536d59dee245cf4f829d9766612521895f6",
-                "408c4fc45bb701945d3c37c5dc37f536d59dee245cf4f829d9766612521895f6"
+                "1.22.0",
+                "1.22.0"
             ],
             [
-                "3eb21ebd40917e87474070ab39f29731384fcc9bc9af5fcdeaa4f2c1a86d54e2",
-                "3eb21ebd40917e87474070ab39f29731384fcc9bc9af5fcdeaa4f2c1a86d54e2"
+                "1.21.11",
+                "1.21.11"
             ]
         ],
-        "repo_url": "a07cdc31f367a52bf9e337d44c862c900dc4b5da476b3df16a0c37e438efbb27",
-        "git_repo": "ad2a9f490bb325a32e45e09e2ff75f1ca489bf813fbaf51e71d038c95f49e789",
-        "website": "cc3da516a4247de42ba72c8118737c496575afc62b603998371e6060dbcbd3fb",
+        "repo_url": "https://github.com/go-gitea/gitea",
+        "git_repo": "https://github.com/go-gitea/gitea.git",
+        "website": "https://gitea.com/",
         "hashes": {
             "1.22.1,1.22.1": "e6490c2f283b8965e756433f2bd19efba542a99ec9e6e1a07788345e3de971de",
             "1.22.0,1.22.0": "2e1125c731532a09f70bbb0789e7639bc9af7fc0ba94cb723aefff5e9b3b9056",
@@ -1054,26 +1178,26 @@
         }
     },
     "Hugo": {
-        "name": "d70b489bb97ec09dbafa72e461c8320d04e13ad160dd74c8e69a60ea62dc8ffd",
-        "url_pattern": "9500f0b10f341a50e46c6c72c66cfb2377f2f85c94242572641415cb68a8ef35",
-        "description": "09bd2f205f69eee964c89fbe528833b88cb4ac382572a33ea1613b175c6534a6",
+        "name": "Hugo",
+        "url_pattern": "https:\\/\\/github\\.com\\/gohugoio\\/hugo\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/hugo_extended_([0-9]+\\.[0-9]+\\.[0-9]+)_linux-amd64\\.deb",
+        "description": "The world's fastest framework for building websites.",
         "valid_versions": [
             [
-                "db26b3b599a48aa8cb3fd3506e9300c2b35eb4cfe8a9ea0dc94eaaf6fc015ca4",
-                "db26b3b599a48aa8cb3fd3506e9300c2b35eb4cfe8a9ea0dc94eaaf6fc015ca4"
+                "0.128.2",
+                "0.128.2"
             ],
             [
-                "8633996022d932b21d0fd4eb98c60ee6d674dc75f86274a27ed158d721cdcf4c",
-                "8633996022d932b21d0fd4eb98c60ee6d674dc75f86274a27ed158d721cdcf4c"
+                "0.128.1",
+                "0.128.1"
             ],
             [
-                "fa3e1042a365fc551a7fc24f22b419166fa0e7aad71d8c12370b5ea919b2ad53",
-                "fa3e1042a365fc551a7fc24f22b419166fa0e7aad71d8c12370b5ea919b2ad53"
+                "0.128.0",
+                "0.128.0"
             ]
         ],
-        "repo_url": "89baff509dfc1f67d08e98bfc597c9df3ca8278d7d75096139904a74c87c2b39",
-        "git_repo": "a194918ed021bdefbd553a69a1d899b409e267d3c7fbed59a407da7b0fd39c49",
-        "website": "a7a2bae12d74723409d352386d4e43fe5605ab44ac45a86ddde0feb64023dda2",
+        "repo_url": "https://github.com/gohugoio/hugo",
+        "git_repo": "https://github.com/gohugoio/hugo.git",
+        "website": "https://gohugo.io/",
         "hashes": {
             "0.128.2,0.128.2": "0bbc6509876b1a975fcc44229dbb8b114cc4a1d87d619e6e6832af1a0a581808",
             "0.128.1,0.128.1": "ce2af67290c31309f3ebb7f1f2afefbb8374ac2fe879f62e21a2f4dd840abfb3",
@@ -1081,110 +1205,124 @@
         }
     },
     "Infracost": {
-        "name": "7dc5dbd110314187f683307e9e2e5ed7e8fbb46dcffe4b8f11d0647b9db675e5",
-        "url_pattern": "9fd895aa49577823c1d4da4a85ed828e3ed522842fcfa93df683f9e14d5b21c4",
-        "description": "7f6dcecd4f0b1a3477d7d632ff5e7bdd6a292813cd2cfb1a4482362f9ac0e3e1",
+        "name": "Infracost",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/infracost\\/infracost\\/master\\/scripts\\/install\\.sh",
+        "description": "Cloud cost estimates for Terraform in your CLI and pull requests.",
         "valid_versions": [
             []
         ],
-        "repo_url": "abe0c6bb4d93f3882fa6501027b8235e402b7e061cb27a839f2f6f61efb58ab0",
-        "git_repo": "a7b1a93487adf0d6455153a170c39705c88cd2accaee2993e81223b000d064d8",
-        "website": "816fce690cab2d850863094cdb22910c7411557d68c24119de9373e76b2c5554",
-        "hashes": {}
+        "repo_url": "https://github.com/infracost/infracost",
+        "git_repo": "https://github.com/infracost/infracost.git",
+        "website": "https://www.infracost.io/",
+        "hashes": {
+            "": "8cf6ead9abff2ef5cbf47f823397e1ba735254e702d77f366f1e332776ed35f4"
+        }
     },
     "istio": {
-        "name": "82d979a24d74d74fe91dbe2c0cae2f4d0cd9129a99ff7936d9bf12c8a3e2f9c4",
-        "url_pattern": "5f7e71d3b8d1ce8437de1ef645aa4923f77eaee480768ba8949e81ebe6c724fa",
-        "description": "a93a79e4a29016ccae5d24e03af7591fef52255b4727542b5b2f21f41ac43a5d",
+        "name": "istio",
+        "url_pattern": "https:\\/\\/istio\\.io\\/downloadIstio",
+        "description": "An open platform to connect, manage, and secure microservices.",
         "valid_versions": [
             []
         ],
-        "repo_url": "9b6484c9a526a3d267b9130af646140e4ceab5feb0644fe5a538e1f0d0362f56",
-        "git_repo": "090226f0829dc60ff3e45f758b8bc19a54726a3f407f0628ffba38dac8f4996b",
-        "website": "7f0f3338543e245713742c26764432aebfa321a5bae7eb273835814c11d39138",
-        "hashes": {}
+        "repo_url": "https://github.com/istio/istio",
+        "git_repo": "https://github.com/istio/istio.git",
+        "website": "https://istio.io/",
+        "hashes": {
+            "": "b78dd6d5c5068754e32ccaa733d8da799724b9c49533f7460ab07df68805d43d"
+        }
     },
     "Jellyfin": {
-        "name": "8e03b3c29d2bcb3d5dbeda88f4ff78386a650eae4f9ccaf6ce77fc14ee16855b",
-        "url_pattern": "70c9d546fb027f1e5911276199e13600c8dfad9c77f434dc36b550b67207da8e",
-        "description": "e7d206c11801d8d46b9c479a0c499173cd1ade5df190cdf3b88adc7a77c39de9",
+        "name": "Jellyfin",
+        "url_pattern": "https:\\/\\/repo\\.jellyfin\\.org\\/install-debuntu\\.sh",
+        "description": "The Free Software Media System.",
         "valid_versions": [
             []
         ],
-        "repo_url": "8fb43f191cc62af1f389faa1d339e1f72281644cc669f851282fca312ef704e1",
-        "git_repo": "20e457e64c7d33c7e469c50efd2d4e3f52982b5b5b2917a27eb4a856a4c7123a",
-        "website": "2671ce0498e8d333251e73cd6cf1c5d42d65aa4a59122167c012211708a4746f",
-        "hashes": {}
+        "repo_url": "https://github.com/jellyfin/jellyfin",
+        "git_repo": "https://github.com/jellyfin/jellyfin.git",
+        "website": "https://jellyfin.org/",
+        "hashes": {
+            "": "092d955c76594a26df6737af979ddb6d4b49d072ec48eb6e5e4b91adf2010c59"
+        }
     },
     "Linkerd": {
-        "name": "8b3b0998c2fc7ba97a1c70a464ad86da90af83da41a37308c61ffeca9bb7bd89",
-        "url_pattern": "dc1f0094f1f08fb51f3e7ad38d7d9166070d3cc6b8fcb969eea95a98981845a3",
-        "description": "2ba5ee18adf078661dbaeb91f9bc01b04f1e9e9a1a5168800cb8d65af89670af",
+        "name": "Linkerd",
+        "url_pattern": "https:\\/\\/run\\.linkerd\\.io\\/install",
+        "description": "Ultralight, security-first service mesh for Kubernetes.",
         "valid_versions": [
             []
         ],
-        "repo_url": "74aac5d0c127512e1949fed17a27fc0cb242924299f9e4ff1db2fd0a046ce3a0",
-        "git_repo": "f5f7e855c01e1854ed426209f81c2a6be08617c2621dea0df2f9cdda0b703c62",
-        "website": "b97ea89ddcaabd22a7131c6c52190c5684f7d4d496a27500bbde6c83f6b29473",
-        "hashes": {}
+        "repo_url": "https://github.com/linkerd/linkerd2",
+        "git_repo": "https://github.com/linkerd/linkerd2.git",
+        "website": "https://linkerd.io/",
+        "hashes": {
+            "": "e60033472a2ecf6e911868fb013bb6af6e22e4c1640d55d01b9762bcff0c80da"
+        }
     },
     "Mattermost": {
-        "name": "b1ff7bd17092d95ea7811719ce3df6d79b0c3a576695636fc411f2d95dc908b2",
-        "url_pattern": "320e8f19a7db6e43d6404661b8dc52ce3dbfd1ddb2858db7d6f09b59a6bf9e6d",
-        "description": "81c04b4f5fc45ceea3f76e704d5aafb1498adb1d20878866f3b4d3b470fd3796",
+        "name": "Mattermost",
+        "url_pattern": "https:\\/\\/deb\\.packages\\.mattermost\\.com\\/repo-setup\\.sh",
+        "description": "Open source platform for developer collaboration.",
         "valid_versions": [
             []
         ],
-        "repo_url": "9b84571b54ae6c6112a6d1cea36706182ac6a590dcaf010ef744c15bc90105b4",
-        "git_repo": "09874c630d8c9d57050dd530da06dc91321e38e39133d0b5a1bcc0be3c10d0ae",
-        "website": "458f3c54b00e63ea7395c90e36211f1cfd4a8a0b05a0fd86a7f073e9d3fb818b",
-        "hashes": {}
+        "repo_url": "https://github.com/mattermost/mattermost",
+        "git_repo": "https://github.com/mattermost/mattermost.git",
+        "website": "https://mattermost.com/",
+        "hashes": {
+            "": "9c38b0e6ee60f5302c5b388f6ecd1200decb3c2a1833f61b69f43a2797b09087"
+        }
     },
     "Netdata": {
-        "name": "0be5e3297df9bd4fb9f0a33d418185da8c05aade6b2c7492dec884bc95ee678a",
-        "url_pattern": "4c3a9cb55be31a7f94abda1eab3169cad6ae48a461aa5668e8ae2636f89370da",
-        "description": "ac26e6dd482aa0451fff3220125d1ed63b7a05e9d11f5f78308523d2a3d4a58b",
+        "name": "Netdata",
+        "url_pattern": "https:\\/\\/my-netdata\\.io\\/kickstart\\.sh",
+        "description": "Real-time performance monitoring, done right!",
         "valid_versions": [
             []
         ],
-        "repo_url": "046d80cd7ea6201621da9033e6c89cf22fec4def6b08b269103a8a2dc98559c8",
-        "git_repo": "75449865048afe045b80bda2d73ebc91aecb84225b3bdde284ce70e892871af8",
-        "website": "6b3ad194c01f9b67cfd808c9bd2f3e2c430a549d3dc62a8b0e13f55b12cc3be5",
-        "hashes": {}
+        "repo_url": "https://github.com/netdata/netdata",
+        "git_repo": "https://github.com/netdata/netdata.git",
+        "website": "https://www.netdata.cloud/",
+        "hashes": {
+            "": "c44a7ef36bafe5730576be379f2661d3da3440c639495d6009a521b4fdb71122"
+        }
     },
     "Portainer Agent": {
-        "name": "21273db9340a147206ae3692052c6d4e789146d05d01850bec708263900e4e18",
-        "url_pattern": "30459243fcc3cee568091657397a40b70bef9a1fbe6d56ee38816597004e011b",
-        "description": "50cd319caac476999d8f89240f64c26db119893ef85d26da2066abb23ac2ebb8",
+        "name": "Portainer Agent",
+        "url_pattern": "https:\\/\\/downloads\\.portainer\\.io\\/portainer-agent-stack\\.yml",
+        "description": "Agent for the Portainer container management UI.",
         "valid_versions": [
             []
         ],
-        "repo_url": "2f41c785ba653dfe347aef304b9c78ab3d6411247c59451b585a8d4aa34f4f87",
-        "git_repo": "51ba72c53d126b833b2988df5aa6c495205410aef9db84785ed9db5a52cddc57",
-        "website": "014ec52098648049247d6f5e75009a9178e5aaa638dced8806fd648268522b1a",
-        "hashes": {}
+        "repo_url": "https://github.com/portainer/portainer",
+        "git_repo": "https://github.com/portainer/portainer.git",
+        "website": "https://www.portainer.io/",
+        "hashes": {
+            "": "65131ffc7f748f1f3459e881ac0733cb4183de6530c87ae3c574f66958741bb3"
+        }
     },
     "Prometheus": {
-        "name": "bfa97cfb590b2093ee41d9e44a906fbe19c3f809130727a37895afe9bad12756",
-        "url_pattern": "0be482027a77c28d3fe325103da15e80da0963924be5c5bf1cb99c17783cf443",
-        "description": "7ec7dd99bdde8c136eb0777fe3efc5e8886f028ea9c2e581acad0bc70d2716cd",
+        "name": "Prometheus",
+        "url_pattern": "https:\\/\\/github\\.com\\/prometheus\\/prometheus\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/prometheus-([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux-amd64\\.tar\\.gz",
+        "description": "The Prometheus monitoring system and time series database.",
         "valid_versions": [
             [
-                "30ec95e48e041bdbb9e0f4dadfce67a45f227cf676ad86352dbca9e6b9c654bc",
-                "30ec95e48e041bdbb9e0f4dadfce67a45f227cf676ad86352dbca9e6b9c654bc"
+                "2.53.0",
+                "2.53.0"
             ],
             [
-                "0b8324dec1abfb33488b5470362dd1917641ef487441b7506967c8137d21108a",
-                "0b8324dec1abfb33488b5470362dd1917641ef487441b7506967c8137d21108a"
+                "2.52.0",
+                "2.52.0"
             ],
             [
-                "573679f71910f48f29ee0d9bb353121f267e2cf8b230cd1d844288bd8912e177",
-                "573679f71910f48f29ee0d9bb353121f267e2cf8b230cd1d844288bd8912e177"
+                "2.51.2",
+                "2.51.2"
             ]
         ],
-        "repo_url": "f95ed07ac3c66e6dd8072075d95c05c7f820fc87377f9e050c9ab1ddbdd43b09",
-        "git_repo": "394eb9d1bdef544041d76e515317537a1051eea5654170e0a44875b87fadddc2",
-        "website": "3e869ea7ed0f50e0da56e9277d20bb6f35647488a5a0ad9b19b7cb14cf4aba3f",
+        "repo_url": "https://github.com/prometheus/prometheus",
+        "git_repo": "https://github.com/prometheus/prometheus.git",
+        "website": "https://prometheus.io/",
         "hashes": {
             "2.53.0,2.53.0": "6b88bf782435d94797e8659bf14f59063b729c47d81e42f2326fb1e03262ebb8",
             "2.52.0,2.52.0": "23ca8983dcf75f3f58b8a9648ab0bfd4d5695ba4c50ee6ed6876d2c75b236da7",
@@ -1192,140 +1330,148 @@
         }
     },
     "RabbitMQ": {
-        "name": "694032b7ede90d08b6d0ebba2aa83fa9529ef4a113d0897bb7445984ad4cccbd",
-        "url_pattern": "092c53ee98d9a202bf2ff6277f72d9140eaa47f774cd0121f212b995f56aad87",
-        "description": "159b8421500edbba42bd7a71e881bbbd3ceabc2af19049797791e68c563bd290",
+        "name": "RabbitMQ",
+        "url_pattern": "https:\\/\\/github\\.com\\/rabbitmq\\/rabbitmq-server\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/rabbitmq-server-generic-unix-([0-9]+\\.[0-9]+\\.[0-9]+)\\.tar\\.xz",
+        "description": "Open source multi-protocol message broker.",
         "valid_versions": [
             [
-                "c538c15a88e2c4263235bf24ea8d5d2544735f62862b654ff1e1eb3c5df21ad1",
-                "c538c15a88e2c4263235bf24ea8d5d2544735f62862b654ff1e1eb3c5df21ad1"
+                "3.13.3",
+                "3.13.3"
             ],
             [
-                "653c3b6e2958330202c603e1aa945e0d80e885d7bac6f24bdae53d74d7110c52",
-                "653c3b6e2958330202c603e1aa945e0d80e885d7bac6f24bdae53d74d7110c52"
+                "3.12.14",
+                "3.12.14"
             ]
         ],
-        "repo_url": "2d8197f999d4279add45ae9ffa1f885bb866c7f0898cb27161b5ef2f299819ee",
-        "git_repo": "80b6e09754c04275e2377475be10616c239746be19e01e9fdb0109151e22f5cb",
-        "website": "274b83a4c890389605c776ea31cf50bd113889950ec008926878effd7bfaf749",
+        "repo_url": "https://github.com/rabbitmq/rabbitmq-server",
+        "git_repo": "https://github.com/rabbitmq/rabbitmq-server.git",
+        "website": "https://www.rabbitmq.com/",
         "hashes": {
             "3.13.3,3.13.3": "f019c4f8ec9600b246568084ea766852d134a83574bc74d1a7489f1dedd90bf8",
             "3.12.14,3.12.14": "a4c42536c629f8dec7585c23bbc93c817f65291f3a777efc34f74d0a7aead47f"
         }
     },
     "RKE": {
-        "name": "8c0cb0048fbc3d232660ea51ae8431d3e459dc4ef129dfdebb8604efdbfe4f5c",
-        "url_pattern": "a3d02817e6230fb521662c18cfd7ede620e441676b9d5c2a5bfb86c596f9f2e4",
-        "description": "2c6af9f8c7cc46212d30957fc0cc21513ec84596dde0551593581717a9ca89f0",
+        "name": "RKE",
+        "url_pattern": "https:\\/\\/github\\.com\\/rancher\\/rke\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/rke_linux-amd64",
+        "description": "Rancher Kubernetes Engine, a CNCF-certified Kubernetes distribution.",
         "valid_versions": [
             [
-                "eb829ffa063e3926b1fb713c8f0d54e871dadcf96d2d313cccd6116fdd6e5d7f",
-                "eb829ffa063e3926b1fb713c8f0d54e871dadcf96d2d313cccd6116fdd6e5d7f"
+                "1.5.12",
+                "1.5.12"
             ],
             [
-                "d6665e20344620849a9f0ecd09acef64db4e145a318f112c2d9998705011f20e",
-                "d6665e20344620849a9f0ecd09acef64db4e145a318f112c2d9998705011f20e"
+                "1.4.16",
+                "1.4.16"
             ]
         ],
-        "repo_url": "779bfa92d4609c5db5914af02b012cbb0a6877da0e3c9cca00ce36378cb2c33d",
-        "git_repo": "a6a35d92940d3a6a9f473dffea59fcbd02d7f2606a45bb0593504bbc49cff6a3",
-        "website": "4d5c6689827e04b0168a522558b6ab54e39e5ffdf04fc53e33941b536f7f9f6b",
+        "repo_url": "https://github.com/rancher/rke",
+        "git_repo": "https://github.com/rancher/rke.git",
+        "website": "https://rancher.com/products/rke",
         "hashes": {
             "1.5.12,1.5.12": "a015e3d10cc1207cfc5b3da1d8d33d70859a9ee673d30b66305f632e4c14e52a",
             "1.4.16,1.4.16": "ef832ae5016d5516670c70fe514b26fa0dba4737e3af1680aad292fd7db1d94d"
         }
     },
     "Rocket.Chat": {
-        "name": "65626778a209c6bcc4fac2f903a8b128b23cf1fe5ac8af61f09d5ea69e536a77",
-        "url_pattern": "b83fa7e02269b94f1d0dd257b3e671dd7f7dec47957a9c27998e5a3e1b57f3d6",
-        "description": "b793e34a5da2318911027b8526dc373654e0f0dacbce3d51928dcf7f9aedf3d5",
+        "name": "Rocket.Chat",
+        "url_pattern": "https:\\/\\/go\\.rocket\\.chat\\/i\\/docker",
+        "description": "The ultimate Free, Open Source, and Self-Hosted Communication Platform.",
         "valid_versions": [
             []
         ],
-        "repo_url": "5ab90859a2a27924e357ad6580e9ab45ad392e391c35c1eab426d797bf2ff338",
-        "git_repo": "6035a655c264e137e34b6edfe25becf9bf137c4efc22d9c571447be1fac73cfc",
-        "website": "fadf94f587c107ae1044f3734fcf477a000d66e5546c890d8824582c1680a86a",
-        "hashes": {}
+        "repo_url": "https://github.com/RocketChat/Rocket.Chat",
+        "git_repo": "https://github.com/RocketChat/Rocket.Chat.git",
+        "website": "https://www.rocket.chat/",
+        "hashes": {
+            "": "068a83b89feeff1d184476276b17169a322dbd80514bf6b3928f45fa8c46443e"
+        }
     },
     "Salt": {
-        "name": "150fe5514030b1434a5deaf491ece92c0e6497447d6de7bd6ba85e8cae1e00a3",
-        "url_pattern": "d867959b0eab00fc9800aed127c0f295959257cf1c3c7c6f8b17045e3e6a7450",
-        "description": "dd8e3da5c07d6d6d3631cf7e05687f3e381c97dd7b46923ddd9af6eaf36d8e1b",
+        "name": "Salt",
+        "url_pattern": "https:\\/\\/bootstrap\\.saltstack\\.com",
+        "description": "Software to automate the management and configuration of any infrastructure or application at scale.",
         "valid_versions": [
             []
         ],
-        "repo_url": "47bcb416f661d141e5c984df157a7dd0370578b9b5d9b7d7e3d3a752cff5be14",
-        "git_repo": "a9a03388ac1b1c69c2f9330eb4b3c7a712b33c0afef1f5328ae6f5c4c6321df9",
-        "website": "7072a24e4174033c6cecb3628ce3dd3e15556e9625034ed96a8c13f40ed82d07",
-        "hashes": {}
+        "repo_url": "https://github.com/saltstack/salt",
+        "git_repo": "https://github.com/saltstack/salt.git",
+        "website": "https://saltproject.io/",
+        "hashes": {
+            "": "807391546126af669208376f9dce05f1327074838d4ba3e765a80ad63363c7bd"
+        }
     },
     "Sentry CLI": {
-        "name": "b3728129d28690808cf38116dcc16ce033be69eea0b3d21012aec2f74a019f97",
-        "url_pattern": "5ba5f7b81e56415aa7b495368aff5c0bc69509cb81a5f3e122cfa5afdff6ed53",
-        "description": "74de60086a841838177e3715ab9710df5e0a166d61d28df7ae2a7078d4eedb17",
+        "name": "Sentry CLI",
+        "url_pattern": "https:\\/\\/sentry\\.io\\/get-cli\\/",
+        "description": "A command-line interface to Sentry.",
         "valid_versions": [
             []
         ],
-        "repo_url": "d7812b5b6f5b9867790b55500158c502e215d9ec020fd747168c23fbd0800880",
-        "git_repo": "b62a2f36e459e64e9870129e9f3ad1cedeb99a9db608ef3bfb741734fb35c86d",
-        "website": "5fef696626434b5472790b0b33e26821769cc0c9b5e022d68d1c1ffa19d9c584",
-        "hashes": {}
+        "repo_url": "https://github.com/getsentry/sentry-cli",
+        "git_repo": "https://github.com/getsentry/sentry-cli.git",
+        "website": "https://sentry.io/",
+        "hashes": {
+            "": "526cc0111370d37fda6c8c16b338ae3d341028adb6cebd8e9e0c1077a8421ba0"
+        }
     },
     "ShellCheck": {
-        "name": "bbf53d8e53b7b14d58c94104c1dc821a5b93da9ffce1cf8709afe3a7a8c00950",
-        "url_pattern": "cb0eb7142dab3d83f1d7be5cf975cc4e9a7a9ca499709bf52856590c92245ed7",
-        "description": "e37f2e5703aa52bba10d7045aa25c6bb40d68394bf67e83739a85da771a001df",
+        "name": "ShellCheck",
+        "url_pattern": "https:\\/\\/github\\.com\\/koalaman\\/shellcheck\\/releases\\/download\\/v([0-9]+\\.[0-9]+\\.[0-9]+)\\/shellcheck-v([0-9]+\\.[0-9]+\\.[0-9]+)\\.linux\\.x86_64\\.tar\\.xz",
+        "description": "A static analysis tool for shell scripts.",
         "valid_versions": [
             [
-                "11279ee50f52ad3f9b60d1e9debaa973a08dfa476fb0cddcf87868ffc6475354",
-                "11279ee50f52ad3f9b60d1e9debaa973a08dfa476fb0cddcf87868ffc6475354"
+                "0.10.0",
+                "0.10.0"
             ],
             [
-                "30c99e8b103eacbe6f6d6e1b54b06ca6d5f3164b4f50094334a517ae95ca8fba",
-                "30c99e8b103eacbe6f6d6e1b54b06ca6d5f3164b4f50094334a517ae95ca8fba"
+                "0.9.0",
+                "0.9.0"
             ]
         ],
-        "repo_url": "25c21cf5edda05ffc8426529b89a6639c1960a82ebbe275945c43f5281bcaac1",
-        "git_repo": "f9df9960b5525a8ec5259c125e45b31f84524eea929dd2e0c600d3ad78c56c9c",
-        "website": "16ab57befb64064f0d793cf514c8b1d4e5099746e32c98ace2f45c3df94d335a",
+        "repo_url": "https://github.com/koalaman/shellcheck",
+        "git_repo": "https://github.com/koalaman/shellcheck.git",
+        "website": "https://www.shellcheck.net/",
         "hashes": {
             "0.10.0,0.10.0": "9c76f3c3c6ef0a4bf325eeb763d7eb9c64b44e2f4f763be7165c979148f5722d",
             "0.9.0,0.9.0": "2aca0bfd6ab9a94d0ba203277f463a73f41bbfdca45c909dbb0fd45ea613855c"
         }
     },
     "Syncthing": {
-        "name": "9744de5953a8e5fd0365d2a58e7664ef2571bc494ad178212684bec91408e084",
-        "url_pattern": "b5463e0367ba64cd40d4a4277d5b3cfbb7ba1bdd12ca8070db84ba413b0d8dd3",
-        "description": "2157b61a97771f6d37409caa093e73d74ccd28fe37afc087e71a6e2a840ba04f",
+        "name": "Syncthing",
+        "url_pattern": "https:\\/\\/syncthing\\.net\\/release-key\\.gpg",
+        "description": "Open Source Continuous File Synchronization.",
         "valid_versions": [
             []
         ],
-        "repo_url": "e935914e6df86e3853974f0e21dcc34a1c6ec9de878ea1ccbf098658818dd6f3",
-        "git_repo": "2d3d3efb115c47894f35f486a1649661347e47ae08bd03b95ae4405b626b2608",
-        "website": "8b39515aa6bc5811af2bace0eed5a596b26b6ff11e549033c66db7e6d49e9d73",
-        "hashes": {}
+        "repo_url": "https://github.com/syncthing/syncthing",
+        "git_repo": "https://github.com/syncthing/syncthing.git",
+        "website": "https://syncthing.net/",
+        "hashes": {
+            "": "dbffb7d92c272457509922dd74ee519ae65a2e30ee53a6afe982cbed10690b15"
+        }
     },
     "Terraform": {
-        "name": "05b073bd5e46bbede792d1e77a68c71801b7bac2dd8e0236299dede9a3a1909d",
-        "url_pattern": "c520fa88f9eae8e04cc599bda90bbcb5a834a969d8970aa9c2bab3db41e9e05b",
-        "description": "c13c215d1ffcb5faaf64ce3490438a876ab07ad7a432844322562654b6eca30f",
+        "name": "Terraform",
+        "url_pattern": "https:\\/\\/releases\\.hashicorp\\.com\\/terraform\\/([0-9]+\\.[0-9]+\\.[0-9]+)\\/terraform_([0-9]+\\.[0-9]+\\.[0-9]+)_linux_amd64\\.zip",
+        "description": "Infrastructure as Code software tool.",
         "valid_versions": [
             [
-                "b6150cfd60718dd0816591cf9a6c7f3db4461d05c125ceb14d75d095aaad882a",
-                "b6150cfd60718dd0816591cf9a6c7f3db4461d05c125ceb14d75d095aaad882a"
+                "1.9.1",
+                "1.9.1"
             ],
             [
-                "7717cbf90c63a3b096008763a02066239916fa9916f98254d1aa3b2470830fcd",
-                "7717cbf90c63a3b096008763a02066239916fa9916f98254d1aa3b2470830fcd"
+                "1.9.0",
+                "1.9.0"
             ],
             [
-                "bc13ef7bfba558f68c3feb2dc374e37db3f2924d2dd1a4a5b9841a5669f46490",
-                "bc13ef7bfba558f68c3feb2dc374e37db3f2924d2dd1a4a5b9841a5669f46490"
+                "1.8.5",
+                "1.8.5"
             ]
         ],
-        "repo_url": "75267d807e2f909de2293660be916cd8cfa03f8eba7b0542aefb13e381aa62eb",
-        "git_repo": "2849ba16ec306294db2f15b1e92ccc6f256ad14e6fa0649a346aba5c60695f09",
-        "website": "235f831231d9eff285cac22586e3d1f3f521cd2c07224cd7158ff92943fa3c9a",
+        "repo_url": "https://github.com/hashicorp/terraform",
+        "git_repo": "https://github.com/hashicorp/terraform.git",
+        "website": "https://www.terraform.io/",
         "hashes": {
             "1.9.1,1.9.1": "ea80c531b3965045a25d5fc3627982da8f17a1d2ab3ad1bd71f765ae9688e54d",
             "1.9.0,1.9.0": "2317ceef15463057dbfe3b63d5194234c39e796d4fc1d1326f01da22ca8433ca",
@@ -1333,267 +1479,311 @@
         }
     },
     "Vercel CLI": {
-        "name": "37b291ed8f7bc5bfc86fd0d8fd59304ccd343ca505f560d3eb84257387702bca",
-        "url_pattern": "1598c383702be19da9b05e6ccd105365c64e843206f8b1bd4cd9b86b959cf0e8",
-        "description": "1f0376daa746eac02adda86cb81c915592d64c97f87296fe0db3b25864ac7caa",
+        "name": "Vercel CLI",
+        "url_pattern": "https:\\/\\/vercel\\.com\\/install",
+        "description": "Command-line interface for Vercel.",
         "valid_versions": [
             []
         ],
-        "repo_url": "8d82b5abc50784f12e76ac3e0f5906921397fd08587783f61460462bb061bfee",
-        "git_repo": "6198ee6de6467ba6dee08b0c769a25e31cb322b934f20e7fdb37a4911359b0a2",
-        "website": "843a793e92e9847ea8924cfa4215c455471458a017a1210d95cbb52f3a99fe5a",
-        "hashes": {}
+        "repo_url": "https://github.com/vercel/vercel",
+        "git_repo": "https://github.com/vercel/vercel.git",
+        "website": "https://vercel.com/",
+        "hashes": {
+            "": "621a9653f706d866a14639c7a74d5b022d5f589e45f2ce4015a18c43008e4bb3"
+        }
     },
     "pnpm": {
-        "name": "2e5aa0361aaffd9121d965204bff293f4a12be1e71208fea0cb44739a4356999",
-        "url_pattern": "fe6531a5403c937216df8d7abccd973eec0de2baac5900fe13518d5409e19858",
-        "description": "13540fb58484624fe453534a423aa919f8b98967a749287dcc9edbb5e89d7a60",
+        "name": "pnpm",
+        "url_pattern": "https:\\/\\/get\\.pnpm\\.io\\/install\\.sh",
+        "description": "Fast, disk space efficient package manager for Node.js.",
         "valid_versions": [
             []
         ],
-        "repo_url": "b399aaf67c8c753fb3f1557847a5230479b527074f8fe4f5281fd7cfec754b00",
-        "git_repo": "484d8f65f3150d14fbb08f6da295ef97ce1d5eb119ad40f0aaec3fa0dc2fd7f6",
-        "website": "272f73dd47b52a168a269893971a19ef0ba9535e31f79bdb168ac19952c128de",
-        "hashes": {}
+        "repo_url": "https://github.com/pnpm/pnpm",
+        "git_repo": "https://github.com/pnpm/pnpm.git",
+        "website": "https://pnpm.io/",
+        "hashes": {
+            "": "4f9717b041ea25392f415002e2641c917e122ce1e752117188ee8867ac859aa5"
+        }
     },
     "Wasmer": {
-        "name": "4592dbc3bcfcd37cefb2d5aa98e826a25924123fe84d5aec949719ea8192f5a8",
-        "url_pattern": "9aa25d5bc84bbf1a62a088d77405705614b483fefe29f7f7fc8a2db7d6ab2d4c",
-        "description": "199fc56e914f9fbcaa98926bca738328c3835d5572bd5fbea8d8ac4357b127c0",
+        "name": "Wasmer",
+        "url_pattern": "https:\\/\\/get\\.wasmer\\.io",
+        "description": "The leading WebAssembly runtime supporting WASI and Emscripten.",
         "valid_versions": [
             []
         ],
-        "repo_url": "1f6ac1c949fea418b17cd4e9401d77847b4d44b3caad312cf4b58180db5370b7",
-        "git_repo": "049cdf8df5d4b84fb9fc83c35426d9caf96d8cc10cf380ac57cd1ae3df5e7bb7",
-        "website": "ef267705dd1ede45e7237b94dd9c0d0a2fa5ecee7098b429c19cdc75518991e6",
-        "hashes": {}
+        "repo_url": "https://github.com/wasmerio/wasmer",
+        "git_repo": "https://github.com/wasmerio/wasmer.git",
+        "website": "https://wasmer.io/",
+        "hashes": {
+            "": "1a469034289f0588b2b1be65eba8b0f4ea5eb0d65069eeab1448419d9e10cd74"
+        }
     },
     "Julia": {
-        "name": "e89fe62ec86347c2b50f4a874bf6cc5e67b1cd579a9989a8bf7cb956045d40d7",
-        "url_pattern": "7577bcf23bfee66599ecaed1f7ea6babae14369f76c3ffdc7e30b763c1f80e27",
-        "description": "5ed72e2ebff30454a04dfcceee9ce2df29ebe8aaabf6c80411897e15d23a011e",
+        "name": "Julia",
+        "url_pattern": "https:\\/\\/install\\.julialang\\.org",
+        "description": "Official installer for the Julia programming language.",
         "valid_versions": [
             []
         ],
-        "repo_url": "42e133474ea0bbd186b34adf9f2850b735d01130cd8b125a0171f06757a02625",
-        "git_repo": "f17c1321b4ec820adda6502113265b37984c49781ae453fc89b2a39a1565181e",
-        "website": "0251df46a986efa2af3105ff98cd81950116d6ad757f0bb538826612a7857d01",
-        "hashes": {}
+        "repo_url": "https://github.com/JuliaLang/julia",
+        "git_repo": "https://github.com/JuliaLang/julia.git",
+        "website": "https://julialang.org/",
+        "hashes": {
+            "": "4745ba321c36501e8bd9691ace71a3f86e84a0b4483d653d35036b34e305bedb"
+        }
     },
     "arkade": {
-        "name": "d14e8d4e98d8595daa74872ef0ad21abf7b175743ab55ba56cb31a584a35a5cb",
-        "url_pattern": "97ae4fba6c45b8ff9def9675179cfc90397c832cae8f257202d0cad339ad25e5",
-        "description": "5cd7b49f95e8358e681c2ef03665d3f80882fd12ea7c626e2a4ba41f0b6ff987",
+        "name": "arkade",
+        "url_pattern": "https:\\/\\/get\\.arkade\\.dev",
+        "description": "The Kubernetes app installer and CLI tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6f459d354d9f136d0c2773c8501c7ecfb0dbc707c179db09986c6cde5e35e3d3",
-        "git_repo": "45a0c0db411f0fc34233869b04a8c3f8c14413bfaac79c8d81fd57688a0b1893",
-        "website": "735b92f612279417dbad0c52569230c9e5eebcba46c3bbfce09557935fafd166",
-        "hashes": {}
+        "repo_url": "https://github.com/alexellis/arkade",
+        "git_repo": "https://github.com/alexellis/arkade.git",
+        "website": "https://arkade.dev/",
+        "hashes": {
+            "": "d21cd08a83a1d9ed36e706b0e00c9838da15175c864796304426b6585c4a98d8"
+        }
     },
     "croc": {
-        "name": "a9f2a7587d7c05747c2a6c0fb25a45bf608b3dd7182b8f5b44867f4963214be6",
-        "url_pattern": "0e3e488844eb8aedff711c5627777b76884d79fb94a828b1db2dd64ff281f0e1",
-        "description": "657e009312ee30329d768fe744e62ec10f0928857f8c98423b3b165b2a67a851",
+        "name": "croc",
+        "url_pattern": "https:\\/\\/getcroc\\.schollz\\.com",
+        "description": "Easily and securely send things from one computer to another.",
         "valid_versions": [
             []
         ],
-        "repo_url": "7e885add675803354a183513c0be9eee822d38baad58ee7eb1d56728b1b04617",
-        "git_repo": "bddaa63677901558f43ada4edbadeea100f75747c81f5aa311ae34e57990ea99",
-        "website": "7e885add675803354a183513c0be9eee822d38baad58ee7eb1d56728b1b04617",
-        "hashes": {}
+        "repo_url": "https://github.com/schollz/croc",
+        "git_repo": "https://github.com/schollz/croc.git",
+        "website": "https://github.com/schollz/croc",
+        "hashes": {
+            "": "c385fa6e9930a5391c57990d3cd58ad79688b179508fb02eb238d9e83cd99c04"
+        }
     },
     "Pulumi": {
-        "name": "899ba5f0b96873bb4d045c3b01fd3f942048ae1507dcf367dfb3cc7af1067678",
-        "url_pattern": "e353767825a6ba8bf28d47bfac3811fa8a7004a676a34e850e8f741371db1b68",
-        "description": "632bf2abe90a337b26404bc38a3faeca0daeaaca8277455c6bc8450c84f45a4a",
+        "name": "Pulumi",
+        "url_pattern": "https:\\/\\/get\\.pulumi\\.com",
+        "description": "Modern Infrastructure as Code using real programming languages.",
         "valid_versions": [
             []
         ],
-        "repo_url": "c42484d07af7996758e52e8f1b75a5d01b619af23e3ba6741c2b0717b26a103d",
-        "git_repo": "048cd2fb8eb6545a493ea111f234716dc03083df81d3b9d99657ed451395d855",
-        "website": "accfadc3aafe132f26dbdb50fb2d2ff01fde9b78e413937facb06d76223ce478",
-        "hashes": {}
+        "repo_url": "https://github.com/pulumi/pulumi",
+        "git_repo": "https://github.com/pulumi/pulumi.git",
+        "website": "https://www.pulumi.com/",
+        "hashes": {
+            "": "b0ec6ac9922d2353fad74f621f7ec4f4c08fcabf5b9c6c2ca06c4392e31458de"
+        }
     },
     "Rancher": {
-        "name": "2f6b66ef40ae33792f18b845440609d8c1df4b866b280039e8721c950ce6f48a",
-        "url_pattern": "ac3155413ca09f58f1376e6ef7b6069d98bfa7457f675721885d0a853d98ce5b",
-        "description": "1b72985a1edb6f9d3e88ddc9e02889f728f8b373ea0ca6c3266078f57328e499",
+        "name": "Rancher",
+        "url_pattern": "https:\\/\\/get\\.rancher\\.io",
+        "description": "Complete Kubernetes management platform.",
         "valid_versions": [
             []
         ],
-        "repo_url": "f6766eed5d836e0165a51733b69ecd56d250ade831a292abdc0c47097adbc9b8",
-        "git_repo": "c99f6be3ed4be359945f1bf98874fbc136d456f32bb2b59911563f3a62a13994",
-        "website": "00921fe851268ef0397dc28dbf59f9e48c6997bce4474aeb4345f4c1153a92e8",
-        "hashes": {}
+        "repo_url": "https://github.com/rancher/rancher",
+        "git_repo": "https://github.com/rancher/rancher.git",
+        "website": "https://rancher.com/",
+        "hashes": {
+            "": "6366ce3b45b5299c1c8d367d0d99299d5530d7e7f27b56386a289072ad4418d9"
+        }
     },
     "Composer": {
-        "name": "9cb2832ca2366f088a8eab3657dd395794381c3a0c238bb224d7a730ca8a96d4",
-        "url_pattern": "e1286652d19461f5e290627fb32cbd4e6b2064a18c00efa17c111da3a3cf29ab",
-        "description": "2670e5270e6f24d7f35ffc6fa9cfe360f4299ad60f223b0cf5550c8ed706d1ad",
+        "name": "Composer",
+        "url_pattern": "https:\\/\\/getcomposer\\.org\\/installer",
+        "description": "Dependency Manager for PHP.",
         "valid_versions": [
             []
         ],
-        "repo_url": "47b2b40eeb529b48626634e66799a13ff5f85ad53164b76d9db98a1d4c116d13",
-        "git_repo": "401721b5606f7ecb7f31ea8078c5f3f288e9d02f51328b064d710bee3dd1df25",
-        "website": "fb5ddbe1fdc5974531a868c243c1d6d60532db4b160d1ee5f4e9db0abbf4f1e5",
-        "hashes": {}
+        "repo_url": "https://github.com/composer/composer",
+        "git_repo": "https://github.com/composer/composer.git",
+        "website": "https://getcomposer.org/",
+        "hashes": {
+            "": "084c2335a5f067184811ff393e459218f21c8a9ae940b0fc0f935f022f78f136"
+        }
     },
     "Replicated": {
-        "name": "13fab71deaa55f3d69ec026e3d95398dcab539bdfb9c25a46242de890deec01e",
-        "url_pattern": "dfbc0002f7ad6a6caf938c3d7170a6e6f1a9f64511b97e8a9a7160656d8aa250",
-        "description": "8da11fdb4be14ec1675a3562739418e1a20d424abcb3b0c5e102c0575223de9e",
+        "name": "Replicated",
+        "url_pattern": "https:\\/\\/get\\.replicated\\.com\\/docker",
+        "description": "Platform for deploying and managing third-party software.",
         "valid_versions": [
             []
         ],
-        "repo_url": "388d589eb79a83321849641d350a1e7062a46b3d0251eaade6662bb1c576ca8b",
-        "git_repo": "83dfb8aaa9864c832fc4dcb8c20d8710bbdeb8fa093a34d34aaa4635b7435151",
-        "website": "41f2fcca0449510e490f677734478c920a7bdd3f52268e8a5fdf2d955756aacb",
-        "hashes": {}
+        "repo_url": "https://github.com/replicatedhq/replicated",
+        "git_repo": "https://github.com/replicatedhq/replicated.git",
+        "website": "https://www.replicated.com/",
+        "hashes": {
+            "": "fa5ba041d6a5f8bf9e169eefaa4b2883f36b7b5a49f84076ffcce0cd13489dd4"
+        }
     },
     "Mail-in-a-Box": {
-        "name": "e779aee5c93fb01ee708a7427e0ae8d1379a2b4cd62d81a1157e89a9ea6710a0",
-        "url_pattern": "170975f5ea416822e41ae145fe97ad5cd9fb09aa5592c759ea22a8cbc99438c2",
-        "description": "6346ab2c0fc8e547b4733dbe0850691614b5140a490c04283c4a32c9bad965bb",
+        "name": "Mail-in-a-Box",
+        "url_pattern": "https:\\/\\/mailinabox\\.email\\/setup\\.sh",
+        "description": "Easy-to-deploy mail server package for cloud computers.",
         "valid_versions": [
             []
         ],
-        "repo_url": "9ed23d67f5d3e6b0d60adedb03a81d12ded7c92d01a471ca2b1fe6f2197cb31f",
-        "git_repo": "afb74ad96c450a67f87d0f00a2ae6c6abb193d6a9362266ad2eea05863dc2c28",
-        "website": "86fd029865529023529d247e781989660f13b369abfefb6dc7aa74f6d75b4687",
-        "hashes": {}
+        "repo_url": "https://github.com/mail-in-a-box/mailinabox",
+        "git_repo": "https://github.com/mail-in-a-box/mailinabox.git",
+        "website": "https://mailinabox.email/",
+        "hashes": {
+            "": "874574c2a9e354e900fb776f66b927e527be8b7b6283ca0b5bff6f2b1645c9a1"
+        }
     },
     "ugit": {
-        "name": "ad8ed658e0e1f43065d37718fc468bd1f605504fc6926109f87b38a0cad03b26",
-        "url_pattern": "3016bd407aaf80356d58a893ca0b394a29be2dbbd54de6e9a4ed4a960bd8d460",
-        "description": "e26007ce1b72b1e4b4c800d51a023638709c8d4451007c15d5d19f408387fe49",
+        "name": "ugit",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Bhupesh-V\\/ugit\\/master\\/install",
+        "description": "Undo git commands with ease. A git helper tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "232acdd80fee0ed0fa8c089ccd5bab4a6be8c4f8717047afdb6f602a42f2beb7",
-        "git_repo": "fdf4b5a96aaa99d773290cc77bea00fa7e1397ab9c9f0678e59c8fffc89bef01",
-        "website": "232acdd80fee0ed0fa8c089ccd5bab4a6be8c4f8717047afdb6f602a42f2beb7",
-        "hashes": {}
+        "repo_url": "https://github.com/Bhupesh-V/ugit",
+        "git_repo": "https://github.com/Bhupesh-V/ugit.git",
+        "website": "https://github.com/Bhupesh-V/ugit",
+        "hashes": {
+            "": "90a919e7a51fc46db3b33b411a2701ed6255ae5af6c91652870e14b7b275818f"
+        }
     },
     "Owncast": {
-        "name": "12e5ec9c26e6ee062d139b8ab3dd1fe00786c6e3c8fb9f8a4ca1f97c055e4518",
-        "url_pattern": "41ca24bb5b950cc3da7309041d8546713dbdfa803280d61568a11cf28cbbbc3d",
-        "description": "12deb8216cbac702dad68c00ff71f2941fd5606822cd4a2a0b702e36b58fd516",
+        "name": "Owncast",
+        "url_pattern": "https:\\/\\/owncast\\.online\\/install\\.sh",
+        "description": "Self-hosted live video streaming server.",
         "valid_versions": [
             []
         ],
-        "repo_url": "ba4f4d1a7b9e8da206712f6e589d52725c1fa80705cad88e9d3e40aeabcfc740",
-        "git_repo": "172b9ae35048e9eb3d4dd8b13dad9343d0e9156a86773b58e740e3b5363f6350",
-        "website": "662a14383473c168a0b70a6c6b4a5d2b20efedde8558f86b530d4582d5628856",
-        "hashes": {}
+        "repo_url": "https://github.com/owncast/owncast",
+        "git_repo": "https://github.com/owncast/owncast.git",
+        "website": "https://owncast.online/",
+        "hashes": {
+            "": "5a82ee229695a8fe687ecad8e0724dce8c7b1b8f431f8b40dc698f3799f7066f"
+        }
     },
     "Sandstorm": {
-        "name": "d6c21784fd20c6b29e48c8fbac663a4422d117e54b5f3721606b4ef63ce17b7e",
-        "url_pattern": "5ff32d05ebf3eebcc2222ee81597d083879918dc42fa194d46e98c5af3d88c29",
-        "description": "4164b2cef1cd364d067031a84684c19daed424f48cb7c830e5cf0ecd21594912",
+        "name": "Sandstorm",
+        "url_pattern": "https:\\/\\/install\\.sandstorm\\.io",
+        "description": "Personal cloud platform for running web apps.",
         "valid_versions": [
             []
         ],
-        "repo_url": "3de792199a1e07eff893ee64fe03f70376e7c7edcb6e7f8cc171cf4699cc475c",
-        "git_repo": "e5d655016cde59e64ff76ec5f1fc7f924a5d0a3e55c57eafb5eb8f9cbcf734fc",
-        "website": "c7154e8cd7c4e13b924fac56d011a1d1245bd5e91933bd58d15c864fc4a3a81e",
-        "hashes": {}
+        "repo_url": "https://github.com/sandstorm-io/sandstorm",
+        "git_repo": "https://github.com/sandstorm-io/sandstorm.git",
+        "website": "https://sandstorm.io/",
+        "hashes": {
+            "": "74a8dccbbcdc1f8b81cf6d21cd5d87d5c0266dd5cd7aa37f731b1ede67343f3e"
+        }
     },
     "ZeroTier": {
-        "name": "90e9757057a183fb721c7f9d7c26aca5833c78d0df52f33c4df616a6e6ac5937",
-        "url_pattern": "1cfb3c98028f3a707f2c21989dad4444aefdf7e6db013db48ee4f7678ee6015a",
-        "description": "fd68f4fc92eff4d25faae0253422c3af638a755546840caf0ca7a385939d8517",
+        "name": "ZeroTier",
+        "url_pattern": "https:\\/\\/install\\.zerotier\\.com",
+        "description": "A global area network for connecting devices everywhere.",
         "valid_versions": [
             []
         ],
-        "repo_url": "ce5a5d569b743ece43c6e7537f2580c0a1241bcb0ac1933cf06b1d65c42d9139",
-        "git_repo": "baff114d5005537e06e35bc63ca740331c9a557f234c7225db8cb08c06371ffb",
-        "website": "9a28f6a53cad755baa47545b5b34735aa902d45e40a063da0616ddb1081d3042",
-        "hashes": {}
+        "repo_url": "https://github.com/zerotier/ZeroTierOne",
+        "git_repo": "https://github.com/zerotier/ZeroTierOne.git",
+        "website": "https://www.zerotier.com/",
+        "hashes": {
+            "": "ca7b66cf85bf32a6727eae4690ad009fa1be9cffb5eede2af029efce017c029f"
+        }
     },
     "OpenFaaS CLI": {
-        "name": "b5c716a281c61fc49f708b45b82807b0ee43fefa587471c4d7d0a1d9845bd5e8",
-        "url_pattern": "3cf59ffad1c005615a0a8a2e32a8b1f125a5869c06b0053c956f88e86903a539",
-        "description": "2f0c231230ae3830e25b0c51176db0a78184581e0860414d7e34460a04a030be",
+        "name": "OpenFaaS CLI",
+        "url_pattern": "https:\\/\\/cli\\.openfaas\\.com\\/get\\.sh",
+        "description": "CLI for OpenFaaS - Serverless Functions Made Simple.",
         "valid_versions": [
             []
         ],
-        "repo_url": "ac04ba48d494106658c56e68b710ef54dd8e34ca9ee0780401dc32d03af19173",
-        "git_repo": "dd9a43f0fdb87051765231c6dcb1724f0a75efd3d4cd3b6ed12b2bf5105bbb1e",
-        "website": "4ba11994ccc17dd7791120fc6d84f6a80b71f133e5a908554bed9fa4da9f13f9",
-        "hashes": {}
+        "repo_url": "https://github.com/openfaas/faas-cli",
+        "git_repo": "https://github.com/openfaas/faas-cli.git",
+        "website": "https://www.openfaas.com/",
+        "hashes": {
+            "": "bd0533cd933a0ace9937961ce4512627d9c5e3e47f68f2a7059243208c778a67"
+        }
     },
     "acme.sh": {
-        "name": "fa7257dd71a86f5ff7ef038e113cc6805e916286786dabe7213070945a46e737",
-        "url_pattern": "b92c5530726020c9c948fd8c3317a19cbccb0525baf83821442eb375143bb4c7",
-        "description": "d1b0ba0d134e82f9681fd2168aab4f3d45e9c76286e2db93b1d21c81c9dfe789",
+        "name": "acme.sh",
+        "url_pattern": "https:\\/\\/get\\.acme\\.sh",
+        "description": "A pure shell script ACME client for Let's Encrypt certificates.",
         "valid_versions": [
             []
         ],
-        "repo_url": "a635c50fc1f9afa23603dccb7873412c4eb172d8a9135166c207feee2978179f",
-        "git_repo": "b52f343b5fd6fe1bf6fd83649338e5c9a8094b9b7830961e4a1aa7277907b1e4",
-        "website": "990d3bdeef3a3f5b83dff7cbb48b0d5b3f6f6d912f390eb59bd52191dc76b2e4",
-        "hashes": {}
+        "repo_url": "https://github.com/acmesh-official/acme.sh",
+        "git_repo": "https://github.com/acmesh-official/acme.sh.git",
+        "website": "https://acme.sh/",
+        "hashes": {
+            "": "8681df828f7765a351a4fc708a46fc3f7f383c0155fe4b19002d20e5c4ee5431"
+        }
     },
     "Calibre": {
-        "name": "1aef9304a8c240082addfcd4af483ad2e0515cc3d757298fc3cc4a135c69ff5d",
-        "url_pattern": "73ce3f8a7c305fcd0331bda9229f9e29a33561baaba8d247361e463bcf99b458",
-        "description": "21d2ba717eabd3c2dbf499b78a147d8346da74292eb67783c6df524c2ac0687e",
+        "name": "Calibre",
+        "url_pattern": "https:\\/\\/download\\.calibre-ebook\\.com\\/linux-installer\\.sh",
+        "description": "E-book management software for organizing and converting e-books.",
         "valid_versions": [
             []
         ],
-        "repo_url": "8ba13a36e56aac335df67080e4dbb865a34b43fee863c92c3db4ac7b895ac9d3",
-        "git_repo": "cab2f57f76148ba4511f232a0bc0b5672c3b7472b0941300ffe66541b9cafc46",
-        "website": "2bb4c3b6b003faaf810d846d0c5d17fbfa154ad0a2ef8f3130713a48b556f6f2",
-        "hashes": {}
+        "repo_url": "https://github.com/kovidgoyal/calibre",
+        "git_repo": "https://github.com/kovidgoyal/calibre.git",
+        "website": "https://calibre-ebook.com/",
+        "hashes": {
+            "": "5ae3933e8d0c484d8621ab8a169488e99735fe22a0cfc01536f260d2ce1a86e0"
+        }
     },
     "bpkg": {
-        "name": "26dad04cc940e5f4314970b7a8b85619ca66dcfac9476789a42798f4552607b8",
-        "url_pattern": "b0c67b38c6fe7c553c818f6231c51f915b30fbff91803f1241b709c703c7e965",
-        "description": "6f9975c50ed5c3be901258472472eb500586b0ef3789f924bd3af6af71906b04",
+        "name": "bpkg",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/bpkg\\/bpkg\\/master\\/setup\\.sh",
+        "description": "A lightweight bash package manager.",
         "valid_versions": [
             []
         ],
-        "repo_url": "6fb6f15428f670122a078454efc56c9045f9a908459f0d5bd3c6e9acf813f116",
-        "git_repo": "fa9709e9b9034caeb32c62e85ea0ebfc740d8c07b09c15e4fb41f89cc0254479",
-        "website": "613c4476686f4a01f4a55052d562990c2579101556efd65d8d0e670a89f4742d",
-        "hashes": {}
+        "repo_url": "https://github.com/bpkg/bpkg",
+        "git_repo": "https://github.com/bpkg/bpkg.git",
+        "website": "https://bpkg.sh/",
+        "hashes": {
+            "": "77da7ff460c721749b8493f60ba6ec4c967f1109a28dc53a2962a6e6f7d6cc15"
+        }
     },
     "basher": {
-        "name": "62643f85a5332af5464d07d122165e73a92259751b1faf1d205477707155ebfc",
-        "url_pattern": "722cfe004478b0bb1b6eee2cb717c4de3f8b12aad1acc217dbb420b47be336db",
-        "description": "58b81d64a02950d1e146ef7c8f92faa8054d4934a4838c99d5a0384d7c9075f1",
+        "name": "basher",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/basherpm\\/basher\\/master\\/install\\.sh",
+        "description": "A package manager for shell scripts and functions.",
         "valid_versions": [
             []
         ],
-        "repo_url": "faf4b7909ea2d5a657ee3a8d2b7747835296d1df3284c4de6187b600f4a59e53",
-        "git_repo": "cb4278be7da539aae67be622534ff32d34997ff8b30799a8b6a4de58bfc9f206",
-        "website": "faf4b7909ea2d5a657ee3a8d2b7747835296d1df3284c4de6187b600f4a59e53",
-        "hashes": {}
+        "repo_url": "https://github.com/basherpm/basher",
+        "git_repo": "https://github.com/basherpm/basher.git",
+        "website": "https://github.com/basherpm/basher",
+        "hashes": {
+            "": "bc3b04b8e0566f62583dfea4fafdde3c0e11e86a11c9eaa880f4bfae8dac15e1"
+        }
     },
     "Bashhub": {
-        "name": "d7ed3f9bc6b4d0bd853e95a545cb9f776049e8082ebdc83dbe7f57a4de3c8f84",
-        "url_pattern": "e234d3d651e98b8e5fb0b47d56b7fc3acd57c9b967f6fe0af1d67780259ecf16",
-        "description": "86b560ee984b32fee72b1b55c7d4eee4943ac224eaa4525a9e017ee69b6bc544",
+        "name": "Bashhub",
+        "url_pattern": "https:\\/\\/bashhub\\.com\\/setup",
+        "description": "Bash history synchronization and search tool.",
         "valid_versions": [
             []
         ],
-        "repo_url": "76146fc30378a4b18840f43b6f7e1f1a65e3231381b7de7a5b02421aa7289c26",
-        "git_repo": "c0bbc648d791ebf151e0113bc6b92dbbde24237741462476512f2de2577adcc8",
-        "website": "95c0c102862b911e4e4e9064971fc8de23e57991347e60a4e898ead72aa87998",
-        "hashes": {}
+        "repo_url": "https://github.com/rcaloras/bashhub-client",
+        "git_repo": "https://github.com/rcaloras/bashhub-client.git",
+        "website": "https://bashhub.com/",
+        "hashes": {
+            "": "4406ee18c40de7426e021aac2bd36d5681eec9ce235ef4005f5d8d59569bcdd0"
+        }
     },
     "Ollama": {
-        "name": "eb82ef89769382466eef9958817a8a28907e4a4c91d6ff8282af25cefdd1da58",
-        "url_pattern": "2988860cdbbcd26c52a5409b2951d449db1b81cb76f3b1aaf5aa380ed37a51a0",
-        "description": "d1ad3f0f7d1c011810a7a2552994889384974b9bb44feba55b43b9de0bbbdc3e",
+        "name": "Ollama",
+        "url_pattern": "https:\\/\\/ollama\\.com\\/install\\.sh",
+        "description": "Get up and running with large language models locally.",
         "valid_versions": [
             []
         ],
-        "repo_url": "77b4be38215d4c711f4039cc054b0821c8b73cfde4953d3ff640ca6fadf61d18",
-        "git_repo": "276e14089acad247232e230398ab24f9ec053620ba22d59ccf975b3fa17ebe3e",
-        "website": "1d9fc6d9882416d423457fc4a350b42611d8160f76a2aa2535009af9e159cdfa",
-        "hashes": {}
+        "repo_url": "https://github.com/ollama/ollama",
+        "git_repo": "https://github.com/ollama/ollama.git",
+        "website": "https://ollama.com/",
+        "hashes": {
+            "": "9f5f4c4ed21821ba9b847bf3607ae75452283276cd8f52d2f2b38ea9f27af344"
+        }
     }
 }
