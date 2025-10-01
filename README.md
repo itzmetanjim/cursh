@@ -15,6 +15,7 @@ sudo chmod +x cursh
 sudo cp ./cursh /usr/local/bin/
 sudo chmod +x /usr/local/bin/cursh
 ```
+
 > If you are installing a second time or updating, simply overwrite the previous cursh file.
 
 ## Uninstall
