@@ -1,7 +1,7 @@
 # cursh
 Protect your Linux PC from viruses using a safer alternative to `curl ... | sh` or `wget ... | sh`
 ## Installation
-`cursh` is only available on linux.
+`cursh` is only available on linux. The same instructions apply when updating.
 1) Download the binary:
 ```bash
 wget -O cursh https://github.com/itzmetanjim/cursh/raw/refs/heads/main/exec/cursh
@@ -14,6 +14,16 @@ sudo chmod +x cursh
 ```bash
 sudo cp ./cursh /usr/local/bin/
 sudo chmod +x /usr/local/bin/cursh
+```
+> If you are installing a second time or updating, overwrite the previous cursh file.
+## Uninstall
+Simply delete the executable.
+```bash
+sudo rm -f /usr/local/bin/cursh
+```
+Optionally, delete the config file:
+```bash
+rm ~/cursh.json
 ```
 ## How it works
 It will use multiple verification steps. At any of these steps, if HTTPS/TLS auth fails, it will immediately abort. Also, if it has root priveleges, it will ALWAYS ask the user before executing, even if it determined it as safe.
