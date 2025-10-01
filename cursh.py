@@ -9,7 +9,7 @@ import hashlib
 colorama.init(autoreset=True)
 argv=sys.argv
 parser=argparse.ArgumentParser(description="A safer alternative to curl ... | sh installers.\n Cursh checks the URL against a trusted list before downloading and executing the script.\nIf not found, it uses SHA256 hash, PGP/GPG signature, trusted domain, etc verification methods and prompts the user for confirmation if not confident enough.\nConfig file is stored at ~/.cursh.json")
-parser.add_argument("url", help="The URL of the installer script to download and execute.",required=True)
+parser.add_argument("url", help="The URL of the installer script to download and execute.")
 parser.add_argument("-f", "--force", action="store_true", help="Check for other heuristics even if the URL is not in the trusted list.")
 parser.add_argument("-T", "--trust_source",action="append", help="Path to a local trusted JSON file or an URL to one starting with https://. Can be specified multiple times.")
 parser.add_argument("--no_trust_default", action="store_true", help="Do not use the default trusted JSON URL list.")
@@ -145,12 +145,17 @@ If it shows a script, IT'S RECOMMENDED NOT TO RUN IT, as this is NOT the script 
 For more information, visit: https://github.com/itzmetanjim/cursh/wiki
 {colorama.Style.RESET_ALL}""")
         consistent_responses = False
+script_content = None
 for i in responses:
     if i.status_code == 200:
         script_content = i.text
         break
 with open(os.path.join(os.path.expanduser("~"), "cursh_last_script.sh"), "w", encoding="utf-8") as f:
-    f.write(script_content)
+    if script_content:
+        f.write(script_content)
+    else:
+        print(f"{colorama.Fore.RED}ERROR: Failed to fetch the script from {url}. No valid response received.{colorama.Style.RESET_ALL}")
+        sys.exit(1)
 # Check for sha256 sum url
 sha256_url = None
 m = re.search(r"SHA256\s?:\s?(.*)", script_content, re.IGNORECASE)
