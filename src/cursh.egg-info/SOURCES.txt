@@ -3,7 +3,10 @@ README.md
 pyproject.toml
 src/cursh/__init__.py
 src/cursh/__main__.py
+src/cursh/cli.py
 src/cursh.egg-info/PKG-INFO
 src/cursh.egg-info/SOURCES.txt
 src/cursh.egg-info/dependency_links.txt
+src/cursh.egg-info/entry_points.txt
+src/cursh.egg-info/requires.txt
 src/cursh.egg-info/top_level.txt

@@ -1,10 +1,14 @@
 def main():
-    import requests
+    try:
+        import requests
+        import colorama
+    except ImportError:
+        print("The requests and colorama libraries are required to run this script. Please install them using 'pip install requests colorama'")
+        return
     import argparse
     import os
     import sys
     import json
-    import colorama
     import re
     import hashlib
     colorama.init(autoreset=True)
