@@ -1,3 +1,4 @@
+"""Check the validity of apps in trusted.json by making HTTP requests to their URL patterns."""
 import json
 import requests
 import re
