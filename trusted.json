@@ -892,6 +892,195 @@
       "repo_url": "https://github.com/vercel/vercel",
       "git_repo": "https://github.com/vercel/vercel.git",
       "website": "https://vercel.com/"
+    },
+    {
+      "name": "pnpm",
+      "description": "Fast, disk space efficient package manager for Node.js.",
+      "url_pattern": "https:\\/\\/get\\.pnpm\\.io\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pnpm/pnpm",
+      "git_repo": "https://github.com/pnpm/pnpm.git",
+      "website": "https://pnpm.io/"
+    },
+    {
+      "name": "Wasmer",
+      "description": "The leading WebAssembly runtime supporting WASI and Emscripten.",
+      "url_pattern": "https:\\/\\/get\\.wasmer\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/wasmerio/wasmer",
+      "git_repo": "https://github.com/wasmerio/wasmer.git",
+      "website": "https://wasmer.io/"
+    },
+    {
+      "name": "Julia",
+      "description": "Official installer for the Julia programming language.",
+      "url_pattern": "https:\\/\\/install\\.julialang\\.org",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/JuliaLang/julia",
+      "git_repo": "https://github.com/JuliaLang/julia.git",
+      "website": "https://julialang.org/"
+    },
+    {
+      "name": "arkade",
+      "description": "The Kubernetes app installer and CLI tool.",
+      "url_pattern": "https:\\/\\/get\\.arkade\\.dev",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/alexellis/arkade",
+      "git_repo": "https://github.com/alexellis/arkade.git",
+      "website": "https://arkade.dev/"
+    },
+    {
+      "name": "croc",
+      "description": "Easily and securely send things from one computer to another.",
+      "url_pattern": "https:\\/\\/getcroc\\.schollz\\.com",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/schollz/croc",
+      "git_repo": "https://github.com/schollz/croc.git",
+      "website": "https://github.com/schollz/croc"
+    },
+    {
+      "name": "Pulumi",
+      "description": "Modern Infrastructure as Code using real programming languages.",
+      "url_pattern": "https:\\/\\/get\\.pulumi\\.com",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/pulumi/pulumi",
+      "git_repo": "https://github.com/pulumi/pulumi.git",
+      "website": "https://www.pulumi.com/"
+    },
+    {
+      "name": "Rancher",
+      "description": "Complete Kubernetes management platform.",
+      "url_pattern": "https:\\/\\/get\\.rancher\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rancher/rancher",
+      "git_repo": "https://github.com/rancher/rancher.git",
+      "website": "https://rancher.com/"
+    },
+    {
+      "name": "Composer",
+      "description": "Dependency Manager for PHP.",
+      "url_pattern": "https:\\/\\/getcomposer\\.org\\/installer",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/composer/composer",
+      "git_repo": "https://github.com/composer/composer.git",
+      "website": "https://getcomposer.org/"
+    },
+    {
+      "name": "Replicated",
+      "description": "Platform for deploying and managing third-party software.",
+      "url_pattern": "https:\\/\\/get\\.replicated\\.com\\/docker",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/replicatedhq/replicated",
+      "git_repo": "https://github.com/replicatedhq/replicated.git",
+      "website": "https://www.replicated.com/"
+    },
+    {
+      "name": "Mail-in-a-Box",
+      "description": "Easy-to-deploy mail server package for cloud computers.",
+      "url_pattern": "https:\\/\\/mailinabox\\.email\\/setup\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/mail-in-a-box/mailinabox",
+      "git_repo": "https://github.com/mail-in-a-box/mailinabox.git",
+      "website": "https://mailinabox.email/"
+    },
+    {
+      "name": "ugit",
+      "description": "Undo git commands with ease. A git helper tool.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Bhupesh-V\\/ugit\\/master\\/install",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Bhupesh-V/ugit",
+      "git_repo": "https://github.com/Bhupesh-V/ugit.git",
+      "website": "https://github.com/Bhupesh-V/ugit"
+    },
+    {
+      "name": "Owncast",
+      "description": "Self-hosted live video streaming server.",
+      "url_pattern": "https:\\/\\/owncast\\.online\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/owncast/owncast",
+      "git_repo": "https://github.com/owncast/owncast.git",
+      "website": "https://owncast.online/"
+    },
+    {
+      "name": "Sandstorm",
+      "description": "Personal cloud platform for running web apps.",
+      "url_pattern": "https:\\/\\/install\\.sandstorm\\.io",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/sandstorm-io/sandstorm",
+      "git_repo": "https://github.com/sandstorm-io/sandstorm.git",
+      "website": "https://sandstorm.io/"
+    },
+    {
+      "name": "ZeroTier",
+      "description": "A global area network for connecting devices everywhere.",
+      "url_pattern": "https:\\/\\/install\\.zerotier\\.com",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/zerotier/ZeroTierOne",
+      "git_repo": "https://github.com/zerotier/ZeroTierOne.git",
+      "website": "https://www.zerotier.com/"
+    },
+    {
+      "name": "OpenFaaS CLI",
+      "description": "CLI for OpenFaaS - Serverless Functions Made Simple.",
+      "url_pattern": "https:\\/\\/cli\\.openfaas\\.com\\/get\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/openfaas/faas-cli",
+      "git_repo": "https://github.com/openfaas/faas-cli.git",
+      "website": "https://www.openfaas.com/"
+    },
+    {
+      "name": "acme.sh",
+      "description": "A pure shell script ACME client for Let's Encrypt certificates.",
+      "url_pattern": "https:\\/\\/get\\.acme\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/acmesh-official/acme.sh",
+      "git_repo": "https://github.com/acmesh-official/acme.sh.git",
+      "website": "https://acme.sh/"
+    },
+    {
+      "name": "Calibre",
+      "description": "E-book management software for organizing and converting e-books.",
+      "url_pattern": "https:\\/\\/download\\.calibre-ebook\\.com\\/linux-installer\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/kovidgoyal/calibre",
+      "git_repo": "https://github.com/kovidgoyal/calibre.git",
+      "website": "https://calibre-ebook.com/"
+    },
+    {
+      "name": "bpkg",
+      "description": "A lightweight bash package manager.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/bpkg\\/bpkg\\/master\\/setup\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/bpkg/bpkg",
+      "git_repo": "https://github.com/bpkg/bpkg.git",
+      "website": "https://bpkg.sh/"
+    },
+    {
+      "name": "basher",
+      "description": "A package manager for shell scripts and functions.",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/basherpm\\/basher\\/master\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/basherpm/basher",
+      "git_repo": "https://github.com/basherpm/basher.git",
+      "website": "https://github.com/basherpm/basher"
+    },
+    {
+      "name": "Bashhub",
+      "description": "Bash history synchronization and search tool.",
+      "url_pattern": "https:\\/\\/bashhub\\.com\\/setup",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/rcaloras/bashhub-client",
+      "git_repo": "https://github.com/rcaloras/bashhub-client.git",
+      "website": "https://bashhub.com/"
+    },
+    {
+      "name": "Ollama",
+      "description": "Get up and running with large language models locally.",
+      "url_pattern": "https:\\/\\/ollama\\.com\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/ollama/ollama",
+      "git_repo": "https://github.com/ollama/ollama.git",
+      "website": "https://ollama.com/"
     }
   ]
 }
