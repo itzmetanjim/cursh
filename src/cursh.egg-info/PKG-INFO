@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: cursh
-Version: 1.0.4
+Version: 1.0.6
 Summary: Protect your Linux PC from viruses using a safer alternative to `curl ... | sh` or `wget ... | sh`
 Author-email: Tanjim Kamal <tanjimkamal1@gmail.com>
 License-Expression: MIT
@@ -19,8 +19,22 @@ Dynamic: license-file
 
 # cursh
 Protect your Linux PC from viruses using a safer alternative to `curl ... | sh` or `wget ... | sh`
-
-## How it will work
+## Installation
+`cursh` is only available on linux.
+1) Download the binary:
+```bash
+wget -O cursh https://github.com/itzmetanjim/cursh/raw/refs/heads/main/exec/cursh
+```
+2) Make it executable
+```bash
+sudo chmod +x cursh
+```
+3) Copy it to `/usr/bin/local/`:
+```bash
+sudo cp ./cursh /usr/local/bin/
+sudo chmod +x /usr/local/bin/cursh
+```
+## How it works
 It will use multiple verification steps. At any of these steps, if HTTPS/TLS auth fails, it will immediately abort. Also, if it has root priveleges, it will ALWAYS ask the user before executing, even if it determined it as safe.
 When asking the user, these are the options the user has:
 - Check the script, maybe edit it, then run it.

@@ -1,4 +1,4 @@
-def main():
+def main_unhandled():
     try:
         import requests
         import colorama
@@ -34,7 +34,7 @@ def main():
     except FileNotFoundError:
         # Create an empty config file if it doesn't exist
         with open(config_path, "w", encoding="utf-8") as f:
-            json.dump({"__comment":"Config for cursh. Available keys: default_trusted_url (string, default https://raw.githubusercontent.com/itzmetanjim/cursh/refs/heads/main/trusted.json), cache (bool, default true), default_custom_sources (list, default []). See https://github.com/itzmetanjim/cursh/wiki"}, f)
+            json.dump({"__comment":"Config for cursh. Available keys: default_trusted_url (string, default https://raw.githubusercontent.com/itzmetanjim/cursh/refs/heads/main/trusted.json), cache (bool, default true), default_custom_sources (list, default []), default_external_hashes(string, default https://raw.githubusercontent.com/itzmetanjim/cursh/refs/heads/main/hashes.json). See https://github.com/itzmetanjim/cursh/wiki"}, f)
     except Exception as e:
         pass # Ignore other errors
 
@@ -44,6 +44,7 @@ def main():
         trust_sources.extend(config.get("default_custom_sources", []))
 
     default_trusted_url = config.get("default_trusted_url", "https://raw.githubusercontent.com/itzmetanjim/cursh/refs/heads/main/trusted.json")
+    default_external_hashes = config.get("default_external_hashes", "https://raw.githubusercontent.com/itzmetanjim/cursh/refs/heads/main/hashes.json")
     if not no_trust_default:
         try:
             trustlist = requests.get(default_trusted_url,allow_redirects=True, timeout=10,verify=True)
@@ -112,6 +113,7 @@ def main():
 
     consistent_responses = True
     sha256sum_pass = False
+    external_sha256_pass = False
     pgp_pass = False
     trusted_list_match = False
     trusted_list_version_match = False
@@ -190,6 +192,9 @@ def main():
     Someone could be intercepting your connection, or your source may not support HTTPS.
     For more information, visit: https://github.com/itzmetanjim/cursh/wiki
     {colorama.Style.RESET_ALL}""")
+    # Check for external hashes file
+
+
     # Check for PGP/GPG signature
     if os.WEXITSTATUS(os.system("gpg --version > /dev/null 2>&1")) == 0:
         pgp_url = None
@@ -222,6 +227,8 @@ def main():
     else:
         print(f"{colorama.Fore.YELLOW}WARN: GPG is not installed or not found in PATH. Skipping PGP/GPG signature verification.{colorama.Style.RESET_ALL}")
     # Check if URL is in trusted list
+    app_name=""
+    app_version=[]
     for app in trusted_data:
         url_pattern = app.get("url_pattern")
         match = re.fullmatch(url_pattern, url)
@@ -229,25 +236,60 @@ def main():
             continue
         if url_pattern:
             trusted_list_match = True
+            app_name=app.get("name","")
         
         groups= list(match.groups())
         for i in app.get("valid_versions", [[]]):
             if groups == i:
                 trusted_list_version_match = True
+                app_version=i
                 break
         if trusted_list_match:
             break
+    # Check external hashes if available
+    if trusted_list_version_match: # If we don't have a version match, we can't check external hashes
+        external_hashes = {}
+        try:
+            external_hashes_response = requests.get(default_external_hashes, timeout=10, allow_redirects=True, verify=True)
+            external_hashes = external_hashes_response.json()
+        except Exception as e:
+            if isinstance(e, requests.exceptions.SSLError):
+                print(f"""{colorama.Fore.RED}
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        @             WARNING: SSL CERTIFICATE ERROR!             @
+        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+        IT'S POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+        There was an SSL certificate error while trying to fetch the external hashes from {default_external_hashes}.
+        Someone could be intercepting your connection, or your source may not support HTTPS.
+        For more information, visit: https://github.com/itzmetanjim/cursh/wiki
+        """)
+                print(f"{colorama.Style.RESET_ALL}")
+            print(f"{colorama.Fore.YELLOW}WARN: Failed to fetch external hashes from {default_external_hashes}.\n {e}{colorama.Style.RESET_ALL}")
+        if external_hashes:
+            script_sha256 = hashlib.sha256(script_content.encode('utf-8')).hexdigest()
+            app_hashes = external_hashes.get(app_name, {}).get("hashes", {})
+            version_key = ",".join(app_version) if app_version != [] else ""
+            expected_hash = app_hashes.get(version_key)
+            if expected_hash:
+                if script_sha256 == expected_hash:
+                    external_sha256_pass = True
+                else:
+                    print(f"{colorama.Fore.RED}ERROR: External SHA256 hash mismatch for app {app_name} version {version_key}. The script's SHA256 is {script_sha256} but the expected SHA256 is {expected_hash}.{colorama.Style.RESET_ALL}")
+                    external_sha256_pass = False
+        
 
     ############### DECISION MAKING ################
     # First, check if we are root or not
     is_root = (os.geteuid() == 0)
-    if trusted_list_version_match and not is_root:
+    if trusted_list_version_match and not is_root and external_sha256_pass:
         os.execv("/bin/sh", ["/bin/sh", os.path.join(os.path.expanduser("~"), "cursh_last_script.sh")])
         # If execv fails
         print(f"{colorama.Fore.RED}ERROR: Failed to execute the script. It has been verified safe, you can run it yourself using sh ~/cursh_last_script.sh{colorama.Style.RESET_ALL}")
         sys.exit(1)
-    if trusted_list_version_match:
-        print(f"{colorama.Fore.GREEN}SAFE: The URL {url} is in the trusted list with a matching version..{colorama.Style.RESET_ALL}")
+    if trusted_list_version_match and external_sha256_pass:
+        print(f"{colorama.Fore.GREEN}PERFECT: The URL {url} is in the trusted list with a matching version and the external SHA256 hash matches.{colorama.Style.RESET_ALL}")
+    elif trusted_list_version_match:
+        print(f"{colorama.Fore.GREEN}SAFE: The URL {url} is in the trusted list with a matching version. However, the hash does not match, which means the script may have changed.{colorama.Style.RESET_ALL}")
     elif trusted_list_match:
         print(f"{colorama.Fore.GREEN}PROBABLY SAFE: The URL {url} is in the trusted list, but this is an older/newer version than the one in the list.{colorama.Style.RESET_ALL}")
     if sha256sum_pass:
@@ -268,9 +310,11 @@ def main():
         sys.exit(1)
     # Now, make a decision based on the checks
     print("-------------------------------------")
-    if trusted_list_version_match:
-        print(f"{colorama.Fore.GREEN}The script is from a trusted source and the version matches. You can run it safely.")
+    if trusted_list_version_match and external_sha256_pass:
+        print(f"{colorama.Fore.GREEN}The script is from a trusted source and the version matches. The SHA256 hash also matches. You can run it safely.")
         print("However, since the command is being run as root, the command was not executed automatically.")
+    elif trusted_list_version_match:
+        print(f"{colorama.Fore.GREEN}The script is from a trusted source and the version matches. However, the SHA256 hash does not match, which may mean the script has changed.{colorama.Style.RESET_ALL}")
     elif trusted_list_match:
         print(f"{colorama.Fore.GREEN}The script is from a trusted source but the version is newer/older than expected")
         print("It's probably safe to run it, but you can verify the changes in the script before running it."+colorama.Style.RESET_ALL)
@@ -304,3 +348,13 @@ def main():
             print("Invalid choice. Please enter 1, 2, or 3.")
             continue
         
+def main():
+    try:
+        main_unhandled()
+    except KeyboardInterrupt:
+        exit(0)
+    except EOFError:
+        exit(0)
+    except Exception as e:
+        raise e
+        exit(0)
