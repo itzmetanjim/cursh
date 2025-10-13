@@ -1081,6 +1081,25 @@
       "repo_url": "https://github.com/ollama/ollama",
       "git_repo": "https://github.com/ollama/ollama.git",
       "website": "https://ollama.com/"
+    },
+    {
+      "name": "Homebrew",
+      "description": "The Missing Package Manager for macOS (or Linux)",
+      "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Homebrew\\/install\\/HEAD\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/Homebrew/brew",
+      "git_repo": "https://github.com/Homebrew/brew.git",
+      "website": "https://brew.sh/"
+    },
+    {
+      "name":"Kitty",
+      "description":"The Kitty terminal emulator",
+      "url_pattern":"https:\\/\\/sw\\.kovidgoyal\\.net\\/kitty\\/installer\\.sh",
+      "valid_versions":[[]],
+      "repo_url":"https://github.com/kovidgoyal/kitty",
+      "git_repo":"https://github.com/kovidgoyal/kitty.git",
+      "website":"https://sw.kovidgoyal.net/kitty/"
     }
+  
   ]
 }
