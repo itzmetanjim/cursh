@@ -1,0 +1,34 @@
+name: run hashgen.py on GH actions
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    name: whole thingy to run hashgen.py
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: pip install --upgrade pip then pip install requests tqdm
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests tqdm
+
+      - name:  python hashgen.py # fail the job if hashgen.py exits non-zero
+        run: |
+          python hashgen.py
+
+      - name: upload as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hashes.json
+          path: hashes.json
