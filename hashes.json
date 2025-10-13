@@ -138,7 +138,7 @@
         "git_repo": "https://github.com/asdf-vm/asdf.git",
         "website": "https://asdf-vm.com/",
         "hashes": {
-            "": "8fbe972a725ddb8cf48b9b94b0cbb38d2fe62f9654f1d98ff91862086a872692"
+            "": "8b3883a2583a5c435ebfe0158ebe02be534277e73f6e19ff3146494350373eee"
         }
     },
     "ghcup": {
@@ -194,7 +194,7 @@
         "git_repo": "https://github.com/docker/docker-install.git",
         "website": "https://www.docker.com/",
         "hashes": {
-            "": "6964c5d5696a4f991707882d4675d61c9b071a3709d7bcb859ffa21800819597"
+            "": "a9b3b89e2060b55e1f741043f7636c884d6bbb2cccb3fe050edf47116c9e35a5"
         }
     },
     "k3s": {
@@ -208,7 +208,7 @@
         "git_repo": "https://github.com/k3s-io/k3s.git",
         "website": "https://k3s.io/",
         "hashes": {
-            "": "08ffd92c47a886edd56ce97734f3d67e7f6115f07295dcdcdc6df7ea2c0bee1a"
+            "": "8598e002e61d658fed7b7542fc6d2c66d8da6eae69e088830105d2ee1ffb6d91"
         }
     },
     "k3d": {
@@ -348,7 +348,7 @@
         "git_repo": "https://github.com/tfutils/tfenv.git",
         "website": "https://github.com/tfutils/tfenv",
         "hashes": {
-            "": "4c654e7a3f1750fa65cdac1845fea52695a5c63752b7a3932e55ed883656cbf3"
+            "": "6e69c44f9ae4095302ae3345716a1eac31aa16616e0960c24da435ed575af56a"
         }
     },
     "Starship": {
@@ -392,7 +392,7 @@
         "git_repo": "https://github.com/zsh-users/zsh-autosuggestions.git",
         "website": "https://github.com/zsh-users/zsh-autosuggestions",
         "hashes": {
-            "": "f897c94b5bc8492a47eaaf19abeec5013e8df9757ce7b601b3e85c786999b5a4"
+            "": "8a35b3e4f9498577dec7e9a5685502b0717f07a11202504ad13751ae72ea25fb"
         }
     },
     "zsh-syntax-highlighting": {
@@ -406,7 +406,7 @@
         "git_repo": "https://github.com/zsh-users/zsh-syntax-highlighting.git",
         "website": "https://github.com/zsh-users/zsh-syntax-highlighting",
         "hashes": {
-            "": "f4d68374e638dac5cfe8e500b8e2a737142b38263a6b86760657042c716e2287"
+            "": "b2ef504336f81aea1c99d8d1070e9e035ef4b9e387c23236252954750aa503bd"
         }
     },
     "Fisher": {
@@ -476,7 +476,7 @@
         "git_repo": "https://github.com/home-assistant/supervised-installer.git",
         "website": "https://www.home-assistant.io/",
         "hashes": {
-            "": "4708f76e683700b6b793a3813747c97fb687f9bc2bde4b320c24e406ceb0d685"
+            "": "1959e82c7c6cd3d8d59d05d6f39d9c28d0e2def7137f84c6f1214ef4f8508c94"
         }
     },
     "Pterodactyl Panel": {
@@ -518,7 +518,7 @@
         "git_repo": "https://github.com/NixOS/nix.git",
         "website": "https://nixos.org/",
         "hashes": {
-            "": "078e2ffeddf6a9c1f22adf41458ccc46a58bb26911a9e01579645314f9982994"
+            "": "8e886d56d170aaac416cf2727d14e25e39bff92b7e0a2f6d12eee058f30717a9"
         }
     },
     "Poetry": {
@@ -546,7 +546,7 @@
         "git_repo": "https://github.com/pypa/pipx.git",
         "website": "https://pypa.github.io/pipx/",
         "hashes": {
-            "": "f25151209f10c8ff0f9aa8e0803a96f2ba2003bedad56e7d06cd8b4c33e6531f"
+            "": "a2625fd5d06f397d551dd3f11cf598fec870e3c0cac0defd80597694e9e70276"
         }
     },
     "Tailscale": {
@@ -690,7 +690,7 @@
         "git_repo": "https://github.com/tilt-dev/tilt.git",
         "website": "https://tilt.dev/",
         "hashes": {
-            "": "edc67d8bc7ce6aa57294942ef01f6a7cf1735d7aa86debb59a555c92c54b01bf"
+            "": "e62c8b6f1d6d075601951991f872839331538f010a4e818ce86be3276ab07db4"
         }
     },
     "zoxide": {
@@ -746,7 +746,7 @@
         "git_repo": "https://github.com/Bash-it/bash-it.git",
         "website": "https://bash-it.github.io/bash-it/",
         "hashes": {
-            "": "1c71fc85b09c625a0f3b0ad218b0a3216150dbc34e84222b0dc69f99d6b7578f"
+            "": "76a5fd2d1b691df12195180b1bb8044448ccc688cb19bd2796c4b547041897f9"
         }
     },
     "Umbrel": {
@@ -802,7 +802,7 @@
         "git_repo": "https://github.com/mailcow/mailcow-dockerized.git",
         "website": "https://mailcow.email/",
         "hashes": {
-            "": "d0aeb4205f10112e1f9438ed94a508b5abd6a2b0380ac6f3c1bb85ea81c1bbb5"
+            "": "7fccaf44583cca8706c1508774690e5e02df39d81c7eed4f55f15905f34ce330"
         }
     },
     "Hestia Control Panel": {
@@ -936,7 +936,7 @@
         "git_repo": "https://github.com/junegunn/fzf.git",
         "website": "https://github.com/junegunn/fzf",
         "hashes": {
-            "": "357b3f83e5c87bbd8eedbd82946f150e9354b7ed309f481e0c1c663e58a8b9ab"
+            "": "cb7df0eada69b09200b2d6da028290d76cc7e85f93d450f0f75c6109e89148d5"
         }
     },
     "neofetch": {
@@ -950,7 +950,7 @@
         "git_repo": "https://github.com/dylanaraps/neofetch.git",
         "website": "https://github.com/dylanaraps/neofetch",
         "hashes": {
-            "": "ea86694f457d2699e37b8d3a46d4758730d1fd1466870757e1b118c4b8e75b7f"
+            "": "1189ff744efba9540ed58f5f0bf8c2f9808d67362c855b567832c5c420d4aef9"
         }
     },
     "btop": {
@@ -1039,7 +1039,7 @@
         "git_repo": "https://github.com/rbenv/rbenv.git",
         "website": "https://github.com/rbenv/rbenv",
         "hashes": {
-            "": "4c324769a17107c3b6ad6f4e2ebbc92c45aeb51ad95e32f567882099eb018e01"
+            "": "75cd67218517e76ecca491c5ad64f98e97a4692989aaed925af6f03d5d47749d"
         }
     },
     "Yunohost": {
@@ -1053,7 +1053,7 @@
         "git_repo": "https://github.com/YunoHost/yunohost.git",
         "website": "https://yunohost.org/",
         "hashes": {
-            "": "656e56d33d6e03e36628ba4c23deea6e0570f99567806fdb4453bc11daf6387c"
+            "": "a27e14d7d2a47b80fa574b0e8605b2ad462d33033dc4311f45dd6e367e045a0a"
         }
     },
     "1Password CLI": {
@@ -1081,7 +1081,7 @@
         "git_repo": "https://github.com/appwrite/appwrite.git",
         "website": "https://appwrite.io/",
         "hashes": {
-            "": "03a3050f790a8dc5ed6a56e0d64100c715c61ec59d18211d76ed171c7db1a38d"
+            "": "ba3925257b62bdfb71ddfa3f5498c9139844d70aa1efaa9d53df19d6250ec2ee"
         }
     },
     "Brave Browser": {
@@ -1257,7 +1257,7 @@
         "git_repo": "https://github.com/linkerd/linkerd2.git",
         "website": "https://linkerd.io/",
         "hashes": {
-            "": "e60033472a2ecf6e911868fb013bb6af6e22e4c1640d55d01b9762bcff0c80da"
+            "": "e75b7d0659459cb1e50b320d9ab44bbe051f4e993a542e16499e0fd674a215af"
         }
     },
     "Mattermost": {
@@ -1384,7 +1384,7 @@
         "git_repo": "https://github.com/RocketChat/Rocket.Chat.git",
         "website": "https://www.rocket.chat/",
         "hashes": {
-            "": "068a83b89feeff1d184476276b17169a322dbd80514bf6b3928f45fa8c46443e"
+            "": "a604e52d0fd74951bc6289622938767241a6e29fb60cd83190ff770d3c86c894"
         }
     },
     "Salt": {
@@ -1489,7 +1489,7 @@
         "git_repo": "https://github.com/vercel/vercel.git",
         "website": "https://vercel.com/",
         "hashes": {
-            "": "621a9653f706d866a14639c7a74d5b022d5f589e45f2ce4015a18c43008e4bb3"
+            "": "5877443c1efc722c1c7545c5d5ee36a79a7bff729e6ce758fe662520c79bfa91"
         }
     },
     "pnpm": {
@@ -1531,7 +1531,7 @@
         "git_repo": "https://github.com/JuliaLang/julia.git",
         "website": "https://julialang.org/",
         "hashes": {
-            "": "4745ba321c36501e8bd9691ace71a3f86e84a0b4483d653d35036b34e305bedb"
+            "": "78a7e4fdffaf69277f8b4f135bb2995017ece80fbcd5ec29c188ab53ccc93db5"
         }
     },
     "arkade": {
@@ -1784,6 +1784,48 @@
         "website": "https://ollama.com/",
         "hashes": {
             "": "9f5f4c4ed21821ba9b847bf3607ae75452283276cd8f52d2f2b38ea9f27af344"
+        }
+    },
+    "Homebrew": {
+        "name": "Homebrew",
+        "url_pattern": "https:\\/\\/raw\\.githubusercontent\\.com\\/Homebrew\\/install\\/HEAD\\/install\\.sh",
+        "description": "The Missing Package Manager for macOS (or Linux)",
+        "valid_versions": [
+            []
+        ],
+        "repo_url": "https://github.com/Homebrew/brew",
+        "git_repo": "https://github.com/Homebrew/brew.git",
+        "website": "https://brew.sh/",
+        "hashes": {
+            "": "2a7bfdb2a2e747ea60fc15cc7f128b4a9c3e2333f414c367abb6d6ebb45d3f4e"
+        }
+    },
+    "Kitty": {
+        "name": "Kitty",
+        "url_pattern": "https:\\/\\/sw\\.kovidgoyal\\.net\\/kitty\\/installer\\.sh",
+        "description": "The Kitty terminal emulator",
+        "valid_versions": [
+            []
+        ],
+        "repo_url": "https://github.com/kovidgoyal/kitty",
+        "git_repo": "https://github.com/kovidgoyal/kitty.git",
+        "website": "https://sw.kovidgoyal.net/kitty/",
+        "hashes": {
+            "": "339346cf3811a77a47588b7bd7ca608f10e09470faea259b6a32c7e7c9ee3e9e"
+        }
+    },
+    "Tectonic": {
+        "name": "Tectonic",
+        "url_pattern": "https:\\/\\/drop-sh\\.fullyjustified\\.net",
+        "description": "A modernized TeX/LaTeX engine and toolchain. Installer script hosted on drop-sh.fullyjustified.net.",
+        "valid_versions": [
+            []
+        ],
+        "repo_url": "https://github.com/tectonic-typesetting/tectonic",
+        "git_repo": "https://github.com/tectonic-typesetting/tectonic.git",
+        "website": "https://tectonic-typesetting.github.io/en-US/",
+        "hashes": {
+            "": "1a06e96a54924f746468552c60d5b6f2a8127feb0b7b2b2140fc0bfa05056282"
         }
     }
 }
