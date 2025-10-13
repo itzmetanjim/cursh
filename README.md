@@ -1,6 +1,9 @@
 # cursh
 [Download/View Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/02f8a8b7bebee93e3a847d4e6e9fe97569bb1a20_2025-10-02_12-42-47.mp4)
 Protect your Linux PC from viruses using a safer alternative to `curl ... | sh` or `wget ... | sh`
+
+**NOTE:** For scripts that require custom commands (eg `/bin/bash -c "$(curl -fsSL ...)"` for Homebrew), you can run the `cursh` command, then replace the `curl` part with `cat ~/cursh_last_script.sh`.
+
 ## Installation
 `cursh` is only available on linux. The same instructions apply when updating.
 1) Download the binary:
