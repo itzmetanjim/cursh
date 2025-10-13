@@ -1103,7 +1103,7 @@
     {
       "name": "Tectonic",
       "description": "A modernized TeX/LaTeX engine and toolchain. Installer script hosted on drop-sh.fullyjustified.net.",
-      "url_pattern": "https:\\/\\/drop-sh\\.fullyjustified\\.net(?:\\/.*)?",
+      "url_pattern": "https:\\/\\/drop-sh\\.fullyjustified\\.net",
       "valid_versions": [[]],
       "repo_url": "https://github.com/tectonic-typesetting/tectonic",
       "git_repo": "https://github.com/tectonic-typesetting/tectonic.git",
