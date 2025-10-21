@@ -1108,6 +1108,15 @@
       "repo_url": "https://github.com/tectonic-typesetting/tectonic",
       "git_repo": "https://github.com/tectonic-typesetting/tectonic.git",
       "website": "https://tectonic-typesetting.github.io/en-US/"
+    },
+    {
+      "name": "Zed Editor",
+      "description": "Installer script for Zed, a high-performance code editor.",
+      "url_pattern": "https:\\/\\/zed\\.dev\\/install\\.sh",
+      "valid_versions": [[]],
+      "repo_url": "https://github.com/zed-industries/zed",
+      "git_repo": "https://github.com/zed-industries/zed.git",
+      "website": "https://zed.dev/"
     }
   
   ]
