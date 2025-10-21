@@ -138,7 +138,7 @@
         "git_repo": "https://github.com/asdf-vm/asdf.git",
         "website": "https://asdf-vm.com/",
         "hashes": {
-            "": "8b3883a2583a5c435ebfe0158ebe02be534277e73f6e19ff3146494350373eee"
+            "": "8ca07303a885ab8a20b6172d79c688edc5befc51d06e7c84a1ba172b125b1746"
         }
     },
     "ghcup": {
@@ -166,7 +166,7 @@
         "git_repo": "https://github.com/dotnet/install-scripts.git",
         "website": "https://dotnet.microsoft.com/",
         "hashes": {
-            "": "16142ad5999ffdb168a578f5f74d7c76dd72f13ce2e914e8e9eb87f5fcc63629"
+            "": "9d310fe9c949b9635f27c2d59c4c742101ebad52a16db5265ecc0fdb29ec7f45"
         }
     },
     "Volta": {
@@ -194,7 +194,7 @@
         "git_repo": "https://github.com/docker/docker-install.git",
         "website": "https://www.docker.com/",
         "hashes": {
-            "": "a9b3b89e2060b55e1f741043f7636c884d6bbb2cccb3fe050edf47116c9e35a5"
+            "": "8f2eae8097b281cac4f4f7362b690c393016d62a960403f751f7d0fac238e964"
         }
     },
     "k3s": {
@@ -348,7 +348,7 @@
         "git_repo": "https://github.com/tfutils/tfenv.git",
         "website": "https://github.com/tfutils/tfenv",
         "hashes": {
-            "": "6e69c44f9ae4095302ae3345716a1eac31aa16616e0960c24da435ed575af56a"
+            "": "f5054679011a18e0f27251b3ef103cd07ce2ba4546a365c5c2128e078b1d4632"
         }
     },
     "Starship": {
@@ -392,7 +392,7 @@
         "git_repo": "https://github.com/zsh-users/zsh-autosuggestions.git",
         "website": "https://github.com/zsh-users/zsh-autosuggestions",
         "hashes": {
-            "": "8a35b3e4f9498577dec7e9a5685502b0717f07a11202504ad13751ae72ea25fb"
+            "": "05cdba1d2d2d2420f62d51e75959aee348e9d2de21dbc1eff7db64160edf377b"
         }
     },
     "zsh-syntax-highlighting": {
@@ -406,7 +406,7 @@
         "git_repo": "https://github.com/zsh-users/zsh-syntax-highlighting.git",
         "website": "https://github.com/zsh-users/zsh-syntax-highlighting",
         "hashes": {
-            "": "b2ef504336f81aea1c99d8d1070e9e035ef4b9e387c23236252954750aa503bd"
+            "": "807276d02f43b57e79521302089490b913d002290e82d4694a0e2f8d5b2291a4"
         }
     },
     "Fisher": {
@@ -476,7 +476,7 @@
         "git_repo": "https://github.com/home-assistant/supervised-installer.git",
         "website": "https://www.home-assistant.io/",
         "hashes": {
-            "": "1959e82c7c6cd3d8d59d05d6f39d9c28d0e2def7137f84c6f1214ef4f8508c94"
+            "": "235a77df54c3a167f995ec87a85bb520f672ab52f98c1184c92d4ce00922501a"
         }
     },
     "Pterodactyl Panel": {
@@ -518,7 +518,7 @@
         "git_repo": "https://github.com/NixOS/nix.git",
         "website": "https://nixos.org/",
         "hashes": {
-            "": "8e886d56d170aaac416cf2727d14e25e39bff92b7e0a2f6d12eee058f30717a9"
+            "": "81722b9b3f5f5e08e6fcbae775196c68b7d7787d15b9bd16e2e22ed085555453"
         }
     },
     "Poetry": {
@@ -546,7 +546,7 @@
         "git_repo": "https://github.com/pypa/pipx.git",
         "website": "https://pypa.github.io/pipx/",
         "hashes": {
-            "": "a2625fd5d06f397d551dd3f11cf598fec870e3c0cac0defd80597694e9e70276"
+            "": "c9ab4506af4061b482858782c29cb796fe063ba02c6c6ecf5db3f5a7f59ff8ab"
         }
     },
     "Tailscale": {
@@ -746,7 +746,7 @@
         "git_repo": "https://github.com/Bash-it/bash-it.git",
         "website": "https://bash-it.github.io/bash-it/",
         "hashes": {
-            "": "76a5fd2d1b691df12195180b1bb8044448ccc688cb19bd2796c4b547041897f9"
+            "": "0d758755a9ba441567617e2e0495fe5c2b1393fb490a64c124dd6ea5c0400a6d"
         }
     },
     "Umbrel": {
@@ -802,7 +802,7 @@
         "git_repo": "https://github.com/mailcow/mailcow-dockerized.git",
         "website": "https://mailcow.email/",
         "hashes": {
-            "": "7fccaf44583cca8706c1508774690e5e02df39d81c7eed4f55f15905f34ce330"
+            "": "019cd5eead9b3264a6f9f05362fa49e23cb0a974b8eb2c8fdd67c3bcc6eb693e"
         }
     },
     "Hestia Control Panel": {
@@ -936,7 +936,7 @@
         "git_repo": "https://github.com/junegunn/fzf.git",
         "website": "https://github.com/junegunn/fzf",
         "hashes": {
-            "": "cb7df0eada69b09200b2d6da028290d76cc7e85f93d450f0f75c6109e89148d5"
+            "": "9c79db2ab8ecdb0c9a385c0d3c4e5e3b76ab0007e9cd0a1b00c759feda4cd384"
         }
     },
     "neofetch": {
@@ -950,7 +950,7 @@
         "git_repo": "https://github.com/dylanaraps/neofetch.git",
         "website": "https://github.com/dylanaraps/neofetch",
         "hashes": {
-            "": "1189ff744efba9540ed58f5f0bf8c2f9808d67362c855b567832c5c420d4aef9"
+            "": "823bd001372afe592eeb6100fd356d5c2f4ba98b4d594c7eafb6f11db430a290"
         }
     },
     "btop": {
@@ -1039,7 +1039,7 @@
         "git_repo": "https://github.com/rbenv/rbenv.git",
         "website": "https://github.com/rbenv/rbenv",
         "hashes": {
-            "": "75cd67218517e76ecca491c5ad64f98e97a4692989aaed925af6f03d5d47749d"
+            "": "632f20dfa3e1de571141452e5420d481e2b8731f48542f6da9b7d6aaaf6bc59b"
         }
     },
     "Yunohost": {
@@ -1243,7 +1243,7 @@
         "git_repo": "https://github.com/jellyfin/jellyfin.git",
         "website": "https://jellyfin.org/",
         "hashes": {
-            "": "092d955c76594a26df6737af979ddb6d4b49d072ec48eb6e5e4b91adf2010c59"
+            "": "2f3add69200f263bfc367df009183845477bd0bffd6cdc26c0e5b07cd056881a"
         }
     },
     "Linkerd": {
@@ -1257,7 +1257,7 @@
         "git_repo": "https://github.com/linkerd/linkerd2.git",
         "website": "https://linkerd.io/",
         "hashes": {
-            "": "e75b7d0659459cb1e50b320d9ab44bbe051f4e993a542e16499e0fd674a215af"
+            "": "87c63a19bdcb3c651db58be37f2ae13f263bf3643b8ffc7116b3d374b513a8ab"
         }
     },
     "Mattermost": {
@@ -1384,7 +1384,7 @@
         "git_repo": "https://github.com/RocketChat/Rocket.Chat.git",
         "website": "https://www.rocket.chat/",
         "hashes": {
-            "": "a604e52d0fd74951bc6289622938767241a6e29fb60cd83190ff770d3c86c894"
+            "": "f0bd27141f0b236b9c527c98637be6497767ff3442c17d282f11d396e6917234"
         }
     },
     "Salt": {
@@ -1489,7 +1489,7 @@
         "git_repo": "https://github.com/vercel/vercel.git",
         "website": "https://vercel.com/",
         "hashes": {
-            "": "5877443c1efc722c1c7545c5d5ee36a79a7bff729e6ce758fe662520c79bfa91"
+            "": "c5702678ef26a72ee3cc057bb29eee4901b4e2c520e266d4ca198a6a844b5dcb"
         }
     },
     "pnpm": {
@@ -1559,7 +1559,7 @@
         "git_repo": "https://github.com/schollz/croc.git",
         "website": "https://github.com/schollz/croc",
         "hashes": {
-            "": "c385fa6e9930a5391c57990d3cd58ad79688b179508fb02eb238d9e83cd99c04"
+            "": "4c53fa743f469002e5b633e73d218f7504d5ed35b25048b01e71e5da8bc06389"
         }
     },
     "Pulumi": {
@@ -1826,6 +1826,20 @@
         "website": "https://tectonic-typesetting.github.io/en-US/",
         "hashes": {
             "": "1a06e96a54924f746468552c60d5b6f2a8127feb0b7b2b2140fc0bfa05056282"
+        }
+    },
+    "Zed Editor": {
+        "name": "Zed Editor",
+        "url_pattern": "https:\\/\\/zed\\.dev\\/install\\.sh",
+        "description": "Installer script for Zed, a high-performance code editor.",
+        "valid_versions": [
+            []
+        ],
+        "repo_url": "https://github.com/zed-industries/zed",
+        "git_repo": "https://github.com/zed-industries/zed.git",
+        "website": "https://zed.dev/",
+        "hashes": {
+            "": "49ec4218c4adf67bda7d2d48dc21379f4865dce6bf43cf3b42974b17848387ad"
         }
     }
 }
